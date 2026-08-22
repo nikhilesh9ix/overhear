@@ -149,7 +149,7 @@ async def run_voice_one(ws_url: str, wav: pathlib.Path) -> dict:
     return rec
 
 
-async def run_voice(base: str) -> list[dict]:
+async def run_voice(base: str, pace_s: float = 0.0) -> list[dict]:
     wavs = sorted(AUDIO_DIR.glob("*.wav"))
     if not wavs:
         raise SystemExit(
@@ -159,6 +159,8 @@ async def run_voice(base: str) -> list[dict]:
     ws_url = base.replace("http://", "ws://").replace("https://", "wss://") + "/ws"
     out = []
     for i, wav in enumerate(wavs, 1):
+        if pace_s and i > 1:
+            await asyncio.sleep(pace_s)
         rec = await run_voice_one(ws_url, wav)
         print(f"  [{i}/{len(wavs)}] T-STT={rec.get('t_stt_ms','—')} T1={rec.get('t1_ms','—')} "
               f"T2={rec.get('t2_ms','—')} {rec.get('refused') or rec.get('error') or 'ok'} "
@@ -235,7 +237,7 @@ async def main() -> int:
         records = await run_text(args.base, queries, pace_s=args.pace)
     else:
         print(f"voice mode: streaming WAVs from {AUDIO_DIR}", flush=True)
-        records = await run_voice(args.base)
+        records = await run_voice(args.base, pace_s=args.pace)
 
     s = summarize(records, args.mode)
     print_table(s)

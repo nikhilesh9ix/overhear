@@ -68,22 +68,27 @@ wall-clock pace, so T-STT and speculation are genuine.
 | Groq network RTT | 135.9ms | — | — |
 | HNSW search alone | 0.067ms | — | — |
 
-### Voice mode — 6 spoken queries through the full WebSocket path
+### Voice mode — 22 spoken queries through the full WebSocket path
+
+22/22 completed, 0 failed, 4 refused by guardrails. Speculation hit rate **0.318**.
 
 | Metric | P50 | P70 | P100 |
 |---|---|---|---|
-| **T1** first token | **490.0ms** | 514.0ms | 592.8ms |
-| **T2** complete answer | 492.7ms | 516.6ms | 594.3ms |
-| **T-STT** (Sarvam) | 1749.1ms | 1947.0ms | 2826.0ms |
-| Retrieval on critical path | 77.9ms | 87.4ms | 113.4ms |
+| **T1** first token | **447.6ms** | 497.4ms | 1287.2ms |
+| **T2** complete answer | 449.4ms | 499.2ms | 1288.5ms |
+| **T-STT** (Sarvam) | 1693.5ms | 1934.2ms | 2877.1ms |
+| Retrieval on critical path | 46.9ms | 49.7ms | 84.3ms |
 | Groq network RTT | 120.2ms | — | — |
+
+One of the four refusals was `stt_low_confidence` — gate 1 firing on genuinely
+degraded ASR rather than on a synthetic test case.
 
 **T-STT deserves a note:** it is measured from the *first audio byte*, so it
 necessarily contains the entire duration of speech. These clips are 1.5–2.7s long,
 so a T-STT of 1749ms means Sarvam finalized roughly **100–200ms after the speaker
 stopped**. That is the number to judge the STT on, and it is good.
 
-**T1 P50 is 316ms text / 490ms voice. Both are over the 200ms target.** Where it goes:
+**T1 P50 is 316ms text / 448ms voice. Both are over the 200ms target.** Where it goes:
 
 - **~120–136ms is network RTT** from India to Groq's US endpoint — a floor set by
   hosting, not by our code.
@@ -135,8 +140,8 @@ HIT   final 'How fast does an eagle travel?'  spec 'how fast does an eagle trave
 
 Prefix logic cannot catch a revision, and detecting one would require embedding the
 final text — which is exactly the 41ms speculation exists to avoid. So the honest
-measured hit rate is **0.333** on this set, not the ~1.0 the architecture diagram
-implies.
+measured hit rate is **0.318** over 22 spoken queries, not the ~1.0 the architecture
+diagram implies.
 
 **Speculation is still worth it**, because the miss path is not a penalty: a miss is
 just an ordinary retrieval, and the wasted speculative embed happens off the critical
@@ -308,12 +313,12 @@ Stated plainly rather than buried.
 - **Groq free tier caps 8000 tokens/min**, which is ~9 queries/minute. Generation
   sends the top 3 chunks trimmed to 420 chars to stay inside it; retrieval still
   returns and displays the full top-k.
-- **Voice benchmark uses 6 TTS-synthesized clips, not 20-30 human recordings.** The
+- **Voice benchmark uses 22 TTS-synthesized clips, not human recordings.** The
   audio is real and goes through the real STT path, but Sarvam TTS output is clean:
   no accents, background noise or disfluency. Voice-mode T-STT and the speculation
   hit rate are therefore a best case. Human recordings dropped into `bench/audio/`
   are picked up by the same command and are strictly better evidence.
-- **Speculation hit rate is 0.333**, not the ~1.0 the architecture implies, because
+- **Speculation hit rate is 0.318** over 22 clips, not the ~1.0 the architecture implies, because
   interim transcripts are revised rather than merely extended. Analysed above.
 
 ## Cut to fit the clock
