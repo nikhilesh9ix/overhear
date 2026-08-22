@@ -31,7 +31,7 @@ COPY data/golden_queries.json ./data/golden_queries.json
 # cold start pays a ~67MB download, which is exactly when a judge is watching.
 RUN python -c "from fastembed import TextEmbedding; \
     TextEmbedding(model_name='BAAI/bge-small-en-v1.5').embed(['warm'])" \
-    && python -c "import hnswlib, fastembed, fastapi; print('imports ok')"
+    && python -c "import numpy as np, hnswlib, fastembed, fastapi; i = hnswlib.Index(space='cosine', dim=8); i.init_index(max_elements=4, ef_construction=8, M=4); i.add_items(np.random.rand(4, 8).astype('float32'), np.arange(4)); i.knn_query(np.random.rand(1, 8).astype('float32'), k=2); print('imports ok, hnswlib executes')"
 
 EXPOSE 8000
 
