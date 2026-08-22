@@ -52,8 +52,11 @@ class SpeculativeRetriever:
         self.embedder = embedder
         self.top_k = top_k or settings.top_k
         self.debounce_s = settings.speculation_debounce_ms / 1000
+        self.prefix_coverage = settings.speculation_prefix_coverage
+        self.min_prefix_words = settings.speculation_min_prefix_words
 
         self._task: asyncio.Task | None = None
+        self._pending_key: str | None = None
         self._cached_key: str | None = None
         self._cached: RetrievalOut | None = None
         self._last_partial_at = 0.0
@@ -106,6 +109,7 @@ class SpeculativeRetriever:
             self.cancelled += 1
 
         self._last_partial_at = time.perf_counter()
+        self._pending_key = key
         self._task = asyncio.create_task(self._speculate(key, text))
 
     async def _speculate(self, key: str, text: str) -> None:
@@ -122,27 +126,59 @@ class SpeculativeRetriever:
         except Exception as e:  # a failed speculation must never break the session
             log.warning("speculation failed: %s: %s", type(e).__name__, e)
 
+    def _key_accepts(self, cached: str | None, final_key: str) -> bool:
+        if not cached:
+            return False
+        if cached == final_key:
+            return True
+        fw, cw = final_key.split(), cached.split()
+        if len(cw) < self.min_prefix_words or len(cw) > len(fw):
+            return False
+        if fw[: len(cw)] != cw:
+            return False
+        return len(cw) / len(fw) >= self.prefix_coverage
+
+    def _accepts(self, final_key: str) -> bool:
+        """Is the cached speculation good enough to answer `final_key`?
+
+        Exact match is far too strict. Sarvam's last interim before end-of-speech is
+        usually a prefix of the final ("how many women did frank" vs "how many women
+        did frank gifford marry"), and a prefix that already carries most of the
+        query's content words retrieves the same neighbourhood. Requiring equality
+        threw away 5 of 6 usable speculations in the first voice benchmark.
+
+        We accept when the cached text is a word-prefix of the final and covers at
+        least PREFIX_COVERAGE of its words. Whether that actually returns the same
+        top-k is not assumed -- scripts/bench_speculation.py measures the agreement
+        and the README reports it.
+        """
+        if self._cached is None:
+            return False
+        return self._key_accepts(self._cached_key, final_key)
+
     async def on_final(self, text: str) -> RetrievalOut:
         """The critical path. Returns immediately on a speculation hit."""
         key = _normalize(text)
 
-        # A speculation may be mid-flight for exactly this text; wait briefly for it
-        # rather than starting a duplicate embed.
-        if self._task is not None and not self._task.done() and key == _normalize(
-            self._cached_key or ""
-        ):
+        # Wait for an in-flight speculation only if it could actually satisfy this
+        # final. Waiting unconditionally cost ~120ms on every miss -- we blocked on a
+        # result we were then going to throw away.
+        if (self._task is not None and not self._task.done()
+                and self._key_accepts(self._pending_key, key)):
             try:
-                await asyncio.wait_for(asyncio.shield(self._task), timeout=0.15)
+                await asyncio.wait_for(asyncio.shield(self._task), timeout=0.12)
             except (asyncio.TimeoutError, Exception):
                 pass
 
-        if self._cached is not None and self._cached_key == key:
+        if self._accepts(key):
             self.hits += 1
             out = self._cached.model_copy(deep=True)
             out.cache_hit = True
             out.speculative = True
             out.elapsed_ms = 0.0  # already paid for, before end of speech
-            log.info("speculation HIT on %r", text[:50])
+            exact = self._cached_key == key
+            log.info("speculation HIT (%s) on %r  [spec: %r]",
+                     "exact" if exact else "prefix", text[:50], (self._cached_key or "")[:50])
             return out
 
         self.misses += 1
@@ -158,6 +194,7 @@ class SpeculativeRetriever:
         if self._task is not None and not self._task.done():
             self._task.cancel()
         self._task = None
+        self._pending_key = None
         self._cached = None
         self._cached_key = None
 

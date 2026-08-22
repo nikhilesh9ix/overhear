@@ -1,0 +1,51 @@
+{
+  "k": 5,
+  "n_queries": 74,
+  "rows": [
+    {
+      "coverage": 0.5,
+      "n": 74,
+      "top1_agreement": 0.2162,
+      "top5_overlap": 0.5108,
+      "prefix_gold_recall@5": 0.6486,
+      "full_gold_recall@5": 0.9595,
+      "recall_delta": -0.3108
+    },
+    {
+      "coverage": 0.6,
+      "n": 74,
+      "top1_agreement": 0.2703,
+      "top5_overlap": 0.5973,
+      "prefix_gold_recall@5": 0.7297,
+      "full_gold_recall@5": 0.9595,
+      "recall_delta": -0.2297
+    },
+    {
+      "coverage": 0.7,
+      "n": 74,
+      "top1_agreement": 0.4459,
+      "top5_overlap": 0.727,
+      "prefix_gold_recall@5": 0.8649,
+      "full_gold_recall@5": 0.9595,
+      "recall_delta": -0.0946
+    },
+    {
+      "coverage": 0.8,
+      "n": 74,
+      "top1_agreement": 0.5811,
+      "top5_overlap": 0.8189,
+      "prefix_gold_recall@5": 0.9189,
+      "full_gold_recall@5": 0.9595,
+      "recall_delta": -0.0405
+    },
+    {
+      "coverage": 0.9,
+      "n": 74,
+      "top1_agreement": 0.6351,
+      "top5_overlap": 0.8459,
+      "prefix_gold_recall@5": 0.9189,
+      "full_gold_recall@5": 0.9595,
+      "recall_delta": -0.0405
+    }
+  ]
+}

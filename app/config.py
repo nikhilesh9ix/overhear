@@ -21,6 +21,13 @@ class Settings(BaseSettings):
     cerebras_model: str = "gpt-oss-120b"
 
     speculation_debounce_ms: int = 120
+    # A speculation on a prefix is accepted when it covers this fraction of the
+    # final query's words. Set from bench_speculation.py, not by guess: at 0.6 the
+    # gold recall@5 falls 0.960 -> 0.730, which trades away a quarter of answer
+    # quality for latency. At 0.8 it is 0.960 -> 0.919. Do not lower this without
+    # re-running that benchmark.
+    speculation_prefix_coverage: float = 0.8
+    speculation_min_prefix_words: int = 3
     top_k: int = 5
     request_deadline_ms: int = 8000
 

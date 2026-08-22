@@ -27,3 +27,15 @@ dev:
 
 health:
 	curl -s http://localhost:8000/health
+
+bench-latency-voice:
+	$(PY) scripts/bench_latency.py --mode voice --out data/latency_voice.json
+
+bench-speculation:
+	$(PY) scripts/bench_speculation.py
+
+bench-audio:
+	$(PY) scripts/make_bench_audio.py
+
+fetch:
+	$(PY) scripts/fetch_parquet.py $(LANG) validation

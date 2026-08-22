@@ -1,0 +1,127 @@
+{
+  "summary": {
+    "mode": "voice",
+    "n_total": 6,
+    "n_ok": 6,
+    "n_failed": 0,
+    "n_refused": 0,
+    "speculation_hit_rate": 0.333,
+    "stats": {
+      "t1_ms": {
+        "n": 6,
+        "p50": 490.0,
+        "p70": 514.0,
+        "p100": 592.8,
+        "mean": 494.2
+      },
+      "t2_ms": {
+        "n": 6,
+        "p50": 492.7,
+        "p70": 516.6,
+        "p100": 594.3,
+        "mean": 497.1
+      },
+      "t_stt_ms": {
+        "n": 6,
+        "p50": 1749.1,
+        "p70": 1947.0,
+        "p100": 2826.0,
+        "mean": 1913.3
+      },
+      "t_retrieval_ms": {
+        "n": 6,
+        "p50": 77.9,
+        "p70": 87.4,
+        "p100": 113.4,
+        "mean": 61.0
+      },
+      "provider_rtt_ms": {
+        "n": 6,
+        "p50": 120.2,
+        "p70": 120.2,
+        "p100": 120.2,
+        "mean": 120.2
+      }
+    }
+  },
+  "records": [
+    {
+      "file": "q00_1102432.wav",
+      "ok": true,
+      "text": "What is a corporation?",
+      "t_stt_ms": 1601.721600000019,
+      "cache_hit": true,
+      "top_score": 0.8399,
+      "t1_ms": 380.17609999951674,
+      "grounded": true,
+      "t_retrieval_ms": 0.0,
+      "t2_ms": 383.856299999934,
+      "provider_rtt_ms": 120.24830000063957
+    },
+    {
+      "file": "q01_1102431.wav",
+      "ok": true,
+      "text": "Why did Rachel Carson write An Obligation to Endure?",
+      "t_stt_ms": 2825.9688999996797,
+      "cache_hit": false,
+      "top_score": 0.8231,
+      "t1_ms": 533.1595999996352,
+      "grounded": true,
+      "t_retrieval_ms": 113.43289999967965,
+      "t2_ms": 535.6252999999924,
+      "provider_rtt_ms": 120.24830000063957
+    },
+    {
+      "file": "q02_205107.wav",
+      "ok": true,
+      "text": "Honesty and integrity definition.",
+      "t_stt_ms": 1997.512099999767,
+      "cache_hit": false,
+      "top_score": 0.8586,
+      "t1_ms": 592.7510999999868,
+      "grounded": true,
+      "t_retrieval_ms": 77.87809999990714,
+      "t2_ms": 594.2851999998311,
+      "provider_rtt_ms": 120.24830000063957
+    },
+    {
+      "file": "q03_300122.wav",
+      "ok": true,
+      "text": "How many women did Frank Gifford marry?",
+      "t_stt_ms": 1896.4264999995066,
+      "cache_hit": false,
+      "top_score": 0.7129,
+      "t1_ms": 479.2821000000913,
+      "grounded": true,
+      "t_retrieval_ms": 96.76560000025347,
+      "t2_ms": 483.63050000079966,
+      "provider_rtt_ms": 120.24830000063957
+    },
+    {
+      "file": "q04_233826.wav",
+      "ok": true,
+      "text": "How fast does an eagle travel?",
+      "t_stt_ms": 1569.0505999991728,
+      "cache_hit": true,
+      "top_score": 0.8327,
+      "t1_ms": 485.3050000001531,
+      "grounded": true,
+      "t_retrieval_ms": 0.0,
+      "t2_ms": 487.7289000005476,
+      "provider_rtt_ms": 120.24830000063957
+    },
+    {
+      "file": "q05_1090355.wav",
+      "ok": true,
+      "text": "StubHub toll-free number.",
+      "t_stt_ms": 1588.975599999685,
+      "cache_hit": false,
+      "top_score": 0.8661,
+      "t1_ms": 494.74819999977626,
+      "grounded": true,
+      "t_retrieval_ms": 78.01010000002861,
+      "t2_ms": 497.66640000052575,
+      "provider_rtt_ms": 120.24830000063957
+    }
+  ]
+}

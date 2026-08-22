@@ -1,0 +1,3 @@
+Synthesized with Sarvam TTS from MSMARCO-XI golden queries.
+Real audio through the real STT path, but TTS-clean: no accent variation,
+background noise or disfluency. Voice-mode T-STT from these is a best case.
