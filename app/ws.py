@@ -29,6 +29,13 @@ async def voice_ws(ws: WebSocket) -> None:
     await ws.accept()
     app = ws.app.state
 
+    if not getattr(app, "ready", False):
+        await ws.send_json({"type": "error", "code": "warming_up",
+                            "message": app.warmup_error
+                            or "Server is still loading the model and index. Retry in a moment."})
+        await ws.close()
+        return
+
     if app.index is None:
         await ws.send_json({"type": "error", "code": "index_missing",
                             "message": "No index built. Run: make ingest"})
