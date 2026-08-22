@@ -57,8 +57,20 @@ def build_providers() -> list[Provider]:
     return out
 
 
+# Groq's free tier allows 8000 tokens/minute on qwen3.6-27b. A full top-5 of
+# 512-char chunks is ~900 tokens per request, which throttles us to ~9 queries a
+# minute and slows time-to-first-token. Trimming what reaches the model is the
+# highest-leverage lever on T1 we have; retrieval still returns the full top-k,
+# and the extra chunks remain visible in the trace and the UI.
+PROMPT_CHUNKS = 3
+PROMPT_CHUNK_CHARS = 420
+
+
 def build_prompt(query: str, chunks: list[RetrievedChunk]) -> list[dict]:
-    ctx = "\n\n".join(f"[{i}] {c.text}" for i, c in enumerate(chunks, start=1))
+    used = chunks[:PROMPT_CHUNKS]
+    ctx = "\n\n".join(
+        f"[{i}] {c.text[:PROMPT_CHUNK_CHARS]}" for i, c in enumerate(used, start=1)
+    )
     return [
         {"role": "system", "content": SYSTEM},
         {"role": "user", "content": f"Passages:\n{ctx}\n\nQuestion: {query}"},
@@ -206,13 +218,14 @@ def _parse(text: str, chunks: list[RetrievedChunk], provider: str, model: str) -
         )
 
     cites: list[Citation] = []
+    used = chunks[:PROMPT_CHUNKS]
     for c in d.get("citations") or []:
         try:
             i = int(c)
         except (TypeError, ValueError):
             continue
-        if 1 <= i <= len(chunks):
-            ch = chunks[i - 1]
+        if 1 <= i <= len(used):
+            ch = used[i - 1]
             cites.append(Citation(chunk_id=ch.chunk_id, doc_id=ch.doc_id))
 
     return AnswerOut(

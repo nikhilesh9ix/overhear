@@ -1,0 +1,4032 @@
+[
+  {
+    "query_id": 1102432,
+    "eng_query": ". what is a corporation?",
+    "native_query": "कॉर्पोरेशन क्या है?",
+    "eng_answer": "A corporation is a company or group of people authorized to act as a single entity and recognized as such in law.",
+    "native_answer": "निगम एक कंपनी या लोगों का समूह होता है जो एक एकल इकाई के रूप में कार्य करने के लिए अधिकृत होता है और कानून में इस प्रकार से मान्यता प्राप्त होती है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 1102431,
+    "eng_query": "why did rachel carson write an obligation to endure",
+    "native_query": "रेचल कार्सन ने क्यों एक दायित्व बर्दाश्त करने के लिए लिखा",
+    "eng_answer": "Rachel Carson writes The Obligation to Endure because believes that as man tries to eliminate unwanted insects and weeds, however he is actually causing more problems by polluting the environment.",
+    "native_answer": "रेचल कार्सन ने लिखा है कि \"द ओब्लिगेशन टू एंड्योर\" क्योंकि उनका मानना है कि जैसे-जैसे आदमी अवांछित कीड़ों और खरपतवारों को खत्म करने की कोशिश करता है, वैसे-वैसे वह वास्तव में पर्यावरण को प्रदूषित करके और अधिक समस्याएं पैदा कर रहा है।",
+    "gold_passage_idxs": [
+      4,
+      5
+    ]
+  },
+  {
+    "query_id": 205107,
+    "eng_query": "honesty or integrity definition",
+    "native_query": "ईमानदारी या सच्चाई की परिभाषा",
+    "eng_answer": "Honesty: The condition of being honest. \nIntegrity: The value and morals of a individual in relation or in addition to honesty.",
+    "native_answer": "ईमानदारी: ईमानदार होने की स्थिति। \nनिष्ठा: ईमानदारी के संबंध में या उसके अतिरिक्त व्यक्ति का मूल्य और नैतिकता।",
+    "gold_passage_idxs": [
+      2,
+      4
+    ]
+  },
+  {
+    "query_id": 300122,
+    "eng_query": "how many women did frank gifford marry",
+    "native_query": "फ्रैंक गिफोर्ड ने कितनी महिलाओं से शादी की",
+    "eng_answer": "Frank Gifford married to three women.",
+    "native_answer": "फ्रैंक गिफोर्ड ने तीन महिलाओं से शादी की।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 233826,
+    "eng_query": "how fast does an eagle travel",
+    "native_query": "बाज़ कितनी तेजी से यात्रा करता है",
+    "eng_answer": "30 to 55 mph",
+    "native_answer": "30 से 55 मील प्रति घंटा की रफ्तार से",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1090355,
+    "eng_query": "stubhub toll free number",
+    "native_query": "स्टबहब टोल फ्री नंबर",
+    "eng_answer": "The toll free number of Stubhub is 866-788-2482.",
+    "native_answer": "स्टबहब का टोल मुक्त नंबर 866-788-2482 है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 165349,
+    "eng_query": "does delta fly to bangalore",
+    "native_query": "क्या डेल्टा बैंगलोर के लिए उड़ान भरता है?",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 260880,
+    "eng_query": "how long for cantaloupe to mature",
+    "native_query": "कैंटालूप को कितने समय तक परिपक्व होना है",
+    "eng_answer": "90 days.",
+    "native_answer": "90 दिनों का समय।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 116898,
+    "eng_query": "defination arbitrary",
+    "native_query": "परिभाषा मनमानी है",
+    "eng_answer": "A course of action or a decision that is not based on reason or judgment but on personal will or discretion without regard to rules or standards.",
+    "native_answer": "कोई कार्रवाई या निर्णय जो तर्क या निर्णय पर आधारित नहीं है, बल्कि नियमों या मानकों की परवाह किए बिना व्यक्तिगत इच्छा या विवेक पर आधारित है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1060361,
+    "eng_query": "what is barter system and its problems",
+    "native_query": "किन्ना पारस्परिक आदान-प्रदान होता है और इसकी समस्याएं क्या हैं",
+    "eng_answer": "Barter is a type of trade where goods or services are exchanged for a certain amount of other goods or services; no money is involved in the transaction. And the biggest problem of the barter system in economics is that primitive barter requires those whom you wish to trade with must have something YOU want.",
+    "native_answer": "बार्टर एक प्रकार का व्यापार है जहां वस्तुओं या सेवाओं का आदान-प्रदान अन्य वस्तुओं या सेवाओं की एक निश्चित मात्रा के लिए किया जाता है; लेन-देन में कोई पैसा शामिल नहीं होता है। और अर्थशास्त्र में बार्टर प्रणाली की सबसे बड़ी समस्या यह है कि आदिम बार्टर के लिए जिनके साथ आप व्यापार करना चाहते हैं उनमें से किसी के पास आपकी आवश्यकता की कुछ वस्तु होनी चाहिए।",
+    "gold_passage_idxs": [
+      1,
+      9
+    ]
+  },
+  {
+    "query_id": 1090353,
+    "eng_query": "study of climate weather",
+    "native_query": "जलवायु मौसम का अध्ययन",
+    "eng_answer": "Weather is the day-to-day state of the atmosphere in a region and its short-term variations, whereas climate is defined as statistical weather information that describes the variation of weather at a given place for a specified interval.",
+    "native_answer": "मौसम किसी क्षेत्र में वायुमंडल की दैनिक स्थिति और इसकी अल्पकालिक भिन्नताएँ हैं, जबकि जलवायु को सांख्यिकीय मौसम सूचना के रूप में परिभाषित किया गया है जो एक निर्दिष्ट अंतराल के लिए किसी दिए गए स्थान पर मौसम की भिन्नता का वर्णन करती है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 113570,
+    "eng_query": "culture of sociology definition",
+    "native_query": "समाजशास्त्र की परिभाषा की संस्कृति",
+    "eng_answer": "The systematic analysis of culture, usually understood as the ensemble of symbolic codes used by a members of a society, as it is manifested in the society.",
+    "native_answer": "संस्कृति का व्यवस्थित विश्लेषण, जिसे आमतौर पर समाज के सदस्यों द्वारा उपयोग किए जाने वाले प्रतीकात्मक संकेतों के समूह के रूप में समझा जाता है, जैसा कि यह समाज में प्रकट होता है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 126172,
+    "eng_query": "define radical neck",
+    "native_query": "मूलगामी गर्दन को परिभाषित करें",
+    "eng_answer": "It is a surgical procedure that is used to remove cancerous tissues or growths in the head or neck.",
+    "native_answer": "यह एक शल्य चिकित्सा प्रक्रिया है जिसका उपयोग सिर या गर्दन में कैंसरयुक्त ऊतकों या वृद्धि को हटाने के लिए किया जाता है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 331047,
+    "eng_query": "how much xbox games cost",
+    "native_query": "कितने खर्च होते हैं यू.एस.एक्स. गेम्स?",
+    "eng_answer": "$80 to $250",
+    "native_answer": "80 डॉलर से 250 डॉलर तक",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1060359,
+    "eng_query": "what is basal in dna",
+    "native_query": "आधारभूत क्या है जीने में?",
+    "eng_answer": "Bind to cis-acting DNA sequences RNA Polymerase and the group of protein that directly interact with it are called the basal transcription apparatus.",
+    "native_answer": "सिस-अभिनय डी.एन.ए. अनुक्रम आर.एन.ए. पोलीमरेज़ और प्रोटीन के समूह से जुड़ने वाले जो सीधे इस पर परस्पर क्रिया करते हैं, उन्हें बेसल ट्रांसक्रिप्शन उपकरण कहा जाता है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 267380,
+    "eng_query": "how long should you carb cycle",
+    "native_query": "आपको कितने समय तक कार्ब चक्र लगाना चाहिए",
+    "eng_answer": "Two and eight weeks",
+    "native_answer": "दो और आठ सप्ताह",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1090352,
+    "eng_query": "sty causes",
+    "native_query": "स्टाई कारण होता है",
+    "eng_answer": "Styes are caused by infections of the oil glands in the eyelid, or staphylococcus bacteria.",
+    "native_answer": "गुहांजनी पलक में तेल की ग्रंथियों के संक्रमण या स्टैफिलोकोकस जीवाणु के कारण होती है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 202891,
+    "eng_query": "highest record temperature for redding ca",
+    "native_query": "रेडिंग का उच्चतम रिकॉर्ड तापमान",
+    "eng_answer": "118 F",
+    "native_answer": "118 फ़ॉर्मations, 118 फ़ॉर्मations, 118 फ़ॉर्मations.",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 317450,
+    "eng_query": "how much does matt lauer make a year",
+    "native_query": "मैट लॉयर एक साल में कितना कमाता है",
+    "eng_answer": "$20 million",
+    "native_answer": "20 मिलियन डॉलर",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 373460,
+    "eng_query": "how to print an excel sheet",
+    "native_query": "एक 'एक्सेल शीट' कैसे प्रिंट करें",
+    "eng_answer": "Step 1. Go into Print form of Microsoft Excel by clicking on FILE tab in the Ribbon bar. Step 2. Then do left mouse click on Print in the FILE menu. Step 3. On the Print form, you can see that our excel sheet spread on three pages. Click on Page Setup. Step 4. The Page Setup dialog will show up. Click on Page tab and look at Scaling section. There is one option named Fit to, Click to select that option.",
+    "native_answer": "चरण 1. रिबन बार में FILE टैब पर क्लिक करके माइक्रोसॉफ्ट एक्सेल के प्रिंट फॉर्म में जाएं। चरण 2. फिर FILE मेनू में प्रिंट पर बाएं माउस क्लिक करें। चरण 3. प्रिंट फॉर्म पर, आप देख सकते हैं कि हमारी एक्सेल शीट तीन पृष्ठों पर फैली हुई है। पेज सेटअप पर क्लिक करें। चरण 4. पेज सेटअप संवाद दिखाई देगा। पेज टैब पर क्लिक करें और स्केलिंग अनुभाग देखें। फिट टू नामक एक विकल्प है, उस विकल्प को चुनने के लिए क्लिक करें।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 116095,
+    "eng_query": "death head units definition",
+    "native_query": "डेथ हेड यूनिट्स की परिभाषा",
+    "eng_answer": "Death's Head unit which eventually made up the guards of all the concentration camps. On their caps, they wore a silver emblem of a skull, the same emblem that was worn by the Waffen-SS.The death's head was supposed to signify that they were loyal to the death, not that they were murderers.",
+    "native_answer": "डेथ्स हेड यूनिट जो अंततः सभी यातना शिविरों के संतरियों को बनाता था। अपने टोपी पर, वे खोपड़ी का एक चांदी का प्रतीक पहनते थे, वही प्रतीक जो वाफेन-एस.एस. द्वारा पहना जाता था। डेथ्स हेड का मतलब यह था कि वे मृत्यु के प्रति वफादार थे, न कि वे हत्यारे थे।",
+    "gold_passage_idxs": [
+      5,
+      6
+    ]
+  },
+  {
+    "query_id": 21860,
+    "eng_query": "are corn meal and corn flour the same",
+    "native_query": "मक्का का भोजन और मक्का का आटा एक जैसा ही है।",
+    "eng_answer": "Yes, Corn flour and corn meal are the same.",
+    "native_answer": "हाँ, मक्का का आटा और मक्का का भोजन एक जैसा होता है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 1060348,
+    "eng_query": "what is basic? uni",
+    "native_query": "क्या बुनियादी है?",
+    "eng_answer": "BASIC is a family of general-purpose, high-level programming languages whose design philosophy emphasizes ease of use.",
+    "native_answer": "बेसिक सामान्य-उद्देश्य वाली, उच्च-स्तरीय प्रोग्रामिंग भाषाओं का एक परिवार है जिसका डिजाइन दर्शन उपयोग में आसानी पर जोर देता है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 158720,
+    "eng_query": "do red delicious apples make good applesauce",
+    "native_query": "क्या लाल स्वादिष्ट सेब अच्छी सेब की चटनी बनाते हैं?",
+    "eng_answer": "No",
+    "native_answer": "कोई नहीं",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 330463,
+    "eng_query": "how much weight does a stamp cover",
+    "native_query": "एक टिकट कवर कितना वजन करता है",
+    "eng_answer": "13 ounces",
+    "native_answer": "13 औंस",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1090350,
+    "eng_query": "borderline personality disorder symptoms in adults displacement",
+    "native_query": "वयस्कों में विस्थापन में सीमावर्ती व्यक्तित्व विकार के लक्षण",
+    "eng_answer": "The symptoms of borderline personality disorder include a recurring pattern of instability in relationships, efforts to avoid abandonment, identity disturbance, impulsivity, emotional instability, and chronic feelings of emptiness, among other symptoms.",
+    "native_answer": "सीमावर्ती व्यक्तित्व विकार के लक्षणों में अन्य लक्षणों के अलावा रिश्तों में अस्थिरता की पुनरावृत्ति होना, परित्याग से बचने के प्रयास, पहचान में गड़बड़ी, आवेगशीलता, भावनात्मक अस्थिरता और पुरानी खालीपन की भावनाएँ शामिल हैं।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 190327,
+    "eng_query": "foods to help vitamin d",
+    "native_query": "विटामिन डी की मदद करने वाले खाद्य पदार्थ",
+    "eng_answer": "The flesh of fatty fish, fish liver oils, beef liver, cheese, and egg yolks.",
+    "native_answer": "वसायुक्त मछली का मांस, मछली के यकृत का तेल, गोमांस का यकृत, पनीर और अंडे की जर्दी।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 44760,
+    "eng_query": "average temp in the caribbean december",
+    "native_query": "कैरेबियन में दिसंबर का औसत तापमान",
+    "eng_answer": "Average low of 73.3 degrees to an average high of 82.9 degrees.",
+    "native_answer": "औसत न्यूनतम 73.3 डिग्री से लेकर औसत अधिकतम 82.9 डिग्री तक।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 271597,
+    "eng_query": "how long to microwave an ear of corn?",
+    "native_query": "मकई के एक कण को माइक्रोवेव में कितने समय तक पकाना है?",
+    "eng_answer": "More than 4 ears of corn 3 to 5 minutes. For just 1 or 2 ears of corn, 3 minutes. For 3 or 4 ears, 4 minutes.",
+    "native_answer": "4 से 5 मिनट के लिए 3-5 मिनट के लिए केवल 1 या 2 मिनट के लिए, 3 या 4 मिनट के लिए 4 मिनट।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 131336,
+    "eng_query": "definition local disk",
+    "native_query": "स्थानीय डिस्क की परिभाषा",
+    "eng_answer": "A data storage device inside a computer that holds the operating system; software; and files, such as images, music, movies and documents.",
+    "native_answer": "कंप्यूटर के अंदर एक डेटा संग्रहण उपकरण जो ऑपरेटिंग सिस्टम; सॉफ्टवेयर; और फाइलें, जैसे कि छवियाँ, संगीत, फिल्में और दस्तावेज़ रखता है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 264507,
+    "eng_query": "how long is shoulder recovery",
+    "native_query": "कंधे की रिकवरी कितने समय तक चलती है",
+    "eng_answer": "Six weeks",
+    "native_answer": "छह सप्ताह",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 1101287,
+    "eng_query": "do indians eat rice",
+    "native_query": "क्या भारतीय लोग चावल खाते हैं?",
+    "eng_answer": "Yes, indians eat rice",
+    "native_answer": "हाँ, भारतीय लोग चावल खाते हैं।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 1090349,
+    "eng_query": "sub slab definition",
+    "native_query": "सब स्लैब परिभाषा",
+    "eng_answer": "Sub-slab depressurization or sub-slab suction is probably the most reliable and effective radon mitigation technique.",
+    "native_answer": "उप-स्लैब अवदाबन या उप-स्लैब निचोड़ शायद सबसे विश्वसनीय और प्रभावी रेडॉन शमन तकनीक है।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 232017,
+    "eng_query": "how far is philadelphia from lancaster pa",
+    "native_query": "फिलाडेल्फिया लैंकेस्टर से कितनी दूर है",
+    "eng_answer": "80 Miles or 129 Km.",
+    "native_answer": "80 मील या 129 कि.मी.",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 328321,
+    "eng_query": "how much supervisor pay rate for cvs warehouse",
+    "native_query": "कवनसोलॉपर के गोदाम के लिए पर्यवेक्षक की वेतन दर कितनी है",
+    "eng_answer": "$91,520 to $135,200.",
+    "native_answer": "91,520 डॉलर से 135,200 डॉलर तक।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 59804,
+    "eng_query": "calories in a small cucumber",
+    "native_query": "छोटे खीरे में कैलोरी की मात्रा",
+    "eng_answer": "19 calories (Peeled).",
+    "native_answer": "19 कैलोरी (पील्ड)।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 1060342,
+    "eng_query": "what is battery life f",
+    "native_query": "बैटरी का जीवन क्या है",
+    "eng_answer": "“Battery life” is the amount of time your device runs before it needs to be recharged.",
+    "native_answer": "बैटरी के चार्ज होने से पहले आपके उपकरण कितने समय तक चलता है, यह \"बैटरी लाइफ\" है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 81945,
+    "eng_query": "cannot connect to citrix xenapp server",
+    "native_query": "साइट्रिक्स ज़ेनैप सर्वर से कनेक्ट नहीं कर सकता है",
+    "eng_answer": "Open the Microsoft Management Console Terminal Services Configuration, right-click the ICA-tcp listener, and click Delete, Click Yes, Expand the Action menu and click Create New Connection.",
+    "native_answer": "माइक्रोसॉफ्ट मैनेजमेंट कंसोल टर्मिनल सेवा विन्यास खोलें, आई.सी.ए.-टी.सी.पी. श्रोत पर दाएं क्लिक करें और डिलीट पर क्लिक करें, हां पर क्लिक करें, एक्शन मेनू का विस्तार करें और क्रिएट न्यू कनेक्शन पर क्लिक करें।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 113649,
+    "eng_query": "curb event center",
+    "native_query": "कर्ब इवेंट सेंटर",
+    "eng_answer": "It is affirms Belmont's status as one of the southeast's strongest comprehensive universities.",
+    "native_answer": "यह बेलमोंट की दक्षिण-पूर्व के सबसे मजबूत व्यापक विश्वविद्यालयों में से एक के रूप में स्थिति की पुष्टि करता है।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 129807,
+    "eng_query": "define: throughput",
+    "native_query": "परिभाषित करें: थ्रूपुट",
+    "eng_answer": "It is a measure of how many units of information a system can process in a given amount of time.",
+    "native_answer": "यह एक माप है कि कोई प्रणाली एक निश्चित समय में कितनी इकाइयों की जानकारी का संसाधन कर सकती है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 92849,
+    "eng_query": "city of scottsdale recycling schedule",
+    "native_query": "स्कॉट्सडेल रीसाइक्लिंग कार्यक्रम का शहर",
+    "eng_answer": "City of Scottsdale Electronics Recycling Event on: 2016-October 8th 7:30 AM - 2:00 PM. Gather your unwanted electronics for the city’s Electronics Recycling Collection Day Saturday, Oct. 8th. Scottsdale residents can drop off items from 7:30 a.m. to 2 p.m. at the city’s Corporation Yard, 9191 E. San Salvador Drive.",
+    "native_answer": "स्कॉट्सडेल इलेक्ट्रॉनिक्स रीसाइक्लिंग इवेंट पर: 8 अक्टूबर 2016 - 7:30 बजे से 2:00 बजे तक अपने अवांछित इलेक्ट्रॉनिक्स को शहर के इलेक्ट्रॉनिक्स रीसाइक्लिंग कलेक्शन डे शनिवार, 8 अक्टूबर के लिए इकट्ठा करें। स्कॉट्सडेल निवासी शहर के कॉर्पोरेशन यार्ड, 9191 ई. सैन सल्वाडोर ड्राइव पर सुबह 7:30 बजे से दोपहर 2 बजे तक वस्तुओं को छोड़ सकते हैं।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 1100338,
+    "eng_query": "galantine definition",
+    "native_query": "गैलेंटाइन परिभाषा",
+    "eng_answer": "A galantine is a French dish of de-boned stuffed meat.",
+    "native_answer": "गलैंटाइन एक फ्रांसीसी व्यंजन है जिसमें हड्डियाँ नहीं होती और मांस भरा होता है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 81586,
+    "eng_query": "canceled check definition",
+    "native_query": "रद्द की गई जाँच की परिभाषा",
+    "eng_answer": "A canceled check is a check that has cleared the depositor's account and has been marked canceled by the bank.",
+    "native_answer": "रद्द किया गया चेक वह चेक है जो जमाकर्ता के खाते से साफ हो गया है और बैंक द्वारा रद्द कर दिया गया है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 229215,
+    "eng_query": "how effective are sassy water",
+    "native_query": "सुगंधित पानी कितना प्रभावी है",
+    "eng_answer": "This magical water has amazing effect on the digestive system and significantly relieves bloating.",
+    "native_answer": "इस जादुई पानी का पाचन तंत्र पर अद्भुत प्रभाव पड़ता है और यह सूजन को काफी हद तक कम करता है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 211441,
+    "eng_query": "how can your checking account affect your credit score",
+    "native_query": "आपका चेकिंग खाता आपके क्रेडिट अंक को कैसे प्रभावित कर सकता है",
+    "eng_answer": "A hard inquiry is used; while this can negatively affect your score, it is usually by no more than five points.",
+    "native_answer": "एक कठोर जाँच का उपयोग किया जाता है; हालाँकि यह आपके स्कोर को नकारात्मक रूप से प्रभावित कर सकता है, लेकिन यह आम तौर पर पाँच अंकों से अधिक नहीं होता है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 265717,
+    "eng_query": "how long keep IRS records",
+    "native_query": "कितने समय तक आई.आर.एस. रिकॉर्ड रखें",
+    "eng_answer": "Three years",
+    "native_answer": "तीन साल",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 185914,
+    "eng_query": "federal contractor definition",
+    "native_query": "संघीय ठेकेदार की परिभाषा",
+    "eng_answer": "They are individuals or employers who enter into a contract with the United States to perform a specific job, supply labor and materials, or for the sale of products and services.",
+    "native_answer": "वे व्यक्ति या नियोक्ता हैं जो एक विशिष्ट कार्य करने, श्रम और सामग्री की आपूर्ति करने, या उत्पादों और सेवाओं की बिक्री के लिए संयुक्त राज्य अमेरिका के साथ अनुबंध में प्रवेश करते हैं।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 1060341,
+    "eng_query": "what is batti",
+    "native_query": "बट्टी क्या है",
+    "eng_answer": "Cheer batti is a ghost light reported in the Banni grasslands.",
+    "native_answer": "चीर बट्टी एक प्रकार की भूतिया रोशनी है जिसकी रिपोर्ट बन्नी घास के मैदानों में की गई है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 126636,
+    "eng_query": "define routine activity",
+    "native_query": "नियमित गतिविधि को परिभाषित करें।",
+    "eng_answer": "A sub-field of crime opportunity theory that focuses on situations of crimes.",
+    "native_answer": "अपराध के अवसर सिद्धांत का एक उपक्षेत्र जो अपराध की स्थितियों पर केंद्रित है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 53335,
+    "eng_query": "biggest origami in the world",
+    "native_query": "दुनिया की सबसे बड़ी ओरिगामी",
+    "eng_answer": "Ninja Star Camden Scobey Camden S.",
+    "native_answer": "निंजा स्टार कैमडेन स्कोबे: कैमडेन एस",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 160108,
+    "eng_query": "do you chill wine",
+    "native_query": "क्या आप ठंडी शराब पी रहे हैं?",
+    "eng_answer": "Yes, chill wine in the refrigerator for 40–150 minutes, for better results.",
+    "native_answer": "हाँ, बेहतर परिणामों के लिए 40-150 मिनट के लिए रेफ्रिजरेटर में ठंडी वाइन रखें।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 157359,
+    "eng_query": "do it yourself grout cleaning",
+    "native_query": "इसे खुद से साफ करें।",
+    "eng_answer": "Apply a solution of water and chlorine bleach for grout cleaning.",
+    "native_answer": "ग्राउट की सफाई के लिए पानी और क्लोरीन ब्लीच का घोल लगाएँ।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 43115,
+    "eng_query": "average salary of a office manager mortgage lending",
+    "native_query": "कार्यालय प्रबंधक का औसत वेतन बंधक ऋण",
+    "eng_answer": "$115,776",
+    "native_answer": "115,776 डॉलर",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 1060335,
+    "eng_query": "what is bay crest partners",
+    "native_query": "बे क्रेस्ट पार्टनर्स क्या हैं",
+    "eng_answer": "Bay Crest Partners, LLC is an agency-only broker dealer providing expertise in trade execution, and market strategy insight.",
+    "native_answer": "बे क्रेस्ट पार्टनर्स, एल.एल.सी. केवल एक एजेंसी दलाल है जो व्यापार निष्पादन और बाजार रणनीति में विशेषज्ञता प्रदान करता है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 322201,
+    "eng_query": "how much is it per day when locked up in county jail",
+    "native_query": "काउंटी जेल में बंद रहते हुए प्रतिदिन कितना खर्च आता है?",
+    "eng_answer": "$28.00 a day.",
+    "native_answer": "28.00 डॉलर प्रति दिन।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 252638,
+    "eng_query": "how long does it take cracked ribs to heal",
+    "native_query": "दरार वाली पसलियों को ठीक होने में कितना समय लगता है",
+    "eng_answer": "Three to six weeks.",
+    "native_answer": "तीन से छह सप्ताह।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 167532,
+    "eng_query": "does inflatable neck traction work",
+    "native_query": "क्या फुलाने योग्य गर्दन का कर्षण काम करता है",
+    "eng_answer": "Yes, it is helpful with all sorts of upper body pain, including neck pain.",
+    "native_answer": "हाँ, यह गर्दन दर्द सहित सभी प्रकार के ऊपरी शरीर के दर्द के लिए सहायक है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 137339,
+    "eng_query": "definition of primary care american academy of family physicians",
+    "native_query": "प्राथमिक देखभाल की परिभाषा अमेरिकी परिवार चिकित्सकों की अकादमी",
+    "eng_answer": "It is a professional society for American family doctors.It states that: The American Academy of Family Physicians is the national association of family doctors.",
+    "native_answer": "यह अमेरिकी परिवार के डॉक्टरों के लिए एक पेशेवर समाज है। यह कहता है कि: अमेरिकन एकेडमी ऑफ फैमिली फिजिशियन परिवार के डॉक्टरों का राष्ट्रीय संघ है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 218882,
+    "eng_query": "how do i pit cherries",
+    "native_query": "मैं चेरी की कैसे गिरविट करूँ।",
+    "eng_answer": "1. Find a straw of the appropriate size. 2. Wash and inspect the cherry. 3. Grip the cherry between your first two fingers and thumb, but do not squeeze it. 4. Push the straw down around the stem until it reaches the 1 cherry. 5. Discard the stem and 2 pit. 6. Finished.",
+    "native_answer": "1. उपयुक्त आकार का एक तृण ढूंढें। 2. चेरी को धो लें और उसका निरीक्षण करें। 3. अपनी पहली दो उंगलियों और अंगूठे के बीच चेरी को पकड़ें, लेकिन उसे निचोड़ें नहीं। 4. तृण को तने के चारों ओर नीचे तक धकेलें जब तक कि वह 1 चेरी तक न पहुंच जाए। 5. तने और 2 गड्ढे को त्यागें। 6. तैयार हो गया।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1060323,
+    "eng_query": "what is bayern munich",
+    "native_query": "बेयर्न म्यूनिख क्या है",
+    "eng_answer": "FC Bayern Munich is a German sports club based in Munich, Bavaria. It is best known for its professional football team.",
+    "native_answer": "एफ.सी. बायर्न म्यूनिख, म्यूनिख, बवेरिया में स्थित एक जर्मन खेल क्लब है। यह अपनी पेशेवर फुटबॉल टीम के लिए सबसे ज्यादा जाना जाता है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 114458,
+    "eng_query": "curtain hooks types",
+    "native_query": "पर्दा हुक प्रकार",
+    "eng_answer": "Flower curtain hook, unique curtain hook, bronze curtain hook, magnetic curtain hook, american curtain hook, fitting curtain hooks, stainless curtain hook, beautiful curtain hook are types of curtain hooks.",
+    "native_answer": "फूल पर्दा हुक, अनोखा पर्दा हुक, कांस्य पर्दा हुक, चुंबकीय पर्दा हुक, अमेरिकी पर्दा हुक, फिटिंग पर्दा हुक, स्टेनलेस पर्दा हुक, सुंदर पर्दा हुक पर्दा हुक के प्रकार हैं।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 211952,
+    "eng_query": "how common is bleeding during pregnancy",
+    "native_query": "गर्भावस्था के दौरान रक्तस्राव कितना आम है",
+    "eng_answer": "Bleeding can occur in early pregnancy due to the following factors: Implantation bleeding can occur anywhere from 6-12 days after possible conception.",
+    "native_answer": "प्रारंभिक गर्भावस्था में निम्नलिखित कारकों के कारण रक्तस्राव हो सकता हैः प्रत्यारोपण रक्तस्राव संभावित गर्भधारण के 6-12 दिनों के बाद कहीं भी हो सकता है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 188714,
+    "eng_query": "foods and supplements to lower blood sugar",
+    "native_query": "खाद्य पदार्थ और रक्त शर्करा को कम करने के लिए पूरक आहार",
+    "eng_answer": "Cinnamon, Sprinkle, Prickly Pear/ Nopal, Grapefruit, carbohydrates, certain vitamins.",
+    "native_answer": "दालचीनी, स्प्रिंकल, प्रिकली पर्ल / नोपल, अंगूर, कार्बोहाइड्रेट, कुछ विटामिन।",
+    "gold_passage_idxs": [
+      1,
+      6,
+      9
+    ]
+  },
+  {
+    "query_id": 14449,
+    "eng_query": "age when teeth fall out",
+    "native_query": "जब दांत गिरते हैं तब",
+    "eng_answer": "Six to seven years old.",
+    "native_answer": "छह से सात साल की उम्र।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 194890,
+    "eng_query": "giDa delauran net worth",
+    "native_query": "जी.आई.डी.ए. डेलॉरन की कुल संपत्ति",
+    "eng_answer": "$15 million",
+    "native_answer": "15 मिलियन डॉलर",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 66881,
+    "eng_query": "can ear infections cause seizures in cats?",
+    "native_query": "क्या कान के संक्रमण से बिल्लियों में दौरे पड़ सकते हैं?",
+    "eng_answer": "No, Ear infections do not cause seizures in cats.",
+    "native_answer": "नहीं, कान के संक्रमण से बिल्लियों में दौरे नहीं पड़ते।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 1060308,
+    "eng_query": "what is bbs in safety",
+    "native_query": "सुरक्षा में बी.बी.एस. क्या है",
+    "eng_answer": "Behavior-Based Safety is the application of science of behavior change to real world problems.",
+    "native_answer": "व्यवहार-आधारित सुरक्षा वास्तविक दुनिया की समस्याओं में व्यवहार परिवर्तन के विज्ञान का अनुप्रयोग है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 291248,
+    "eng_query": "how many ounces of liquid is in one gallon",
+    "native_query": "एक गैलन में कितना तरल होता है",
+    "eng_answer": "128 fluid ounces in 1 US gallon and 160 fluid ounces in 1 UK gallon.",
+    "native_answer": "1 अमेरिकी गैलन में 128 तरल औंस और 1 यूके गैलन में 160 तरल औंस।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 183155,
+    "eng_query": "excited define",
+    "native_query": "उत्साहित परिभाषित करें",
+    "eng_answer": "The definition of excited is someone or something that has enthusiasm or is emotionally aroused.",
+    "native_answer": "उत्तेजित की परिभाषा किसी ऐसे व्यक्ति या वस्तु से है जिसमें उत्साह है या भावनात्मक रूप से उत्तेजित है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 294479,
+    "eng_query": "how many requests per second does amazon get",
+    "native_query": "अमेज़न को प्रति सेकंड कितने अनुरोध मिलते हैं",
+    "eng_answer": "1.1 Million.",
+    "native_answer": "1.1 मिलियन",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 337365,
+    "eng_query": "how old was chet atkins when he died?",
+    "native_query": "चेटकिंस की मृत्यु के समय उनकी उम्र क्या थी?",
+    "eng_answer": "77",
+    "native_answer": "कृपया दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयालु दयालुता के प्रति दयाल",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 174278,
+    "eng_query": "does yoga build muscle",
+    "native_query": "क्या योग से मांसपेशियां बनती हैं?",
+    "eng_answer": "Yes, yoga poses build muscular strength.",
+    "native_answer": "हाँ, योग मुद्राएँ मांसपेशियों की ताकत बढ़ाती हैं।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 298113,
+    "eng_query": "how many time zones are in the world?",
+    "native_query": "दुनिया में कितने समय क्षेत्र हैं?",
+    "eng_answer": "24",
+    "native_answer": "24",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 154018,
+    "eng_query": "distance scottsdale to grand canyon",
+    "native_query": "दूरी स्कॉट्सडेल से ग्रैंड कैन्यन तक",
+    "eng_answer": "235 miles or 378 kilometers",
+    "native_answer": "235 मील या 378 किलोमीटर",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 165007,
+    "eng_query": "does conviction mean jail",
+    "native_query": "क्या दोषसिद्धि का मतलब जेल है?",
+    "eng_answer": "Yes, conviction means you were found guilty in court the punishment is a separate issue, and can include community service, fines, etc., or time in jail or prison.",
+    "native_answer": "हाँ, दोषसिद्धि का मतलब है कि आप अदालत में दोषी पाए गए हैं, सजा एक अलग मुद्दा है, और इसमें सामुदायिक सेवा, जुर्माना, आदि, या जेल या जेल में समय शामिल हो सकता है।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 171571,
+    "eng_query": "does soy have anything to do with constipation",
+    "native_query": "क्या सोया का कब्ज से कोई लेना-देना है?",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 33306,
+    "eng_query": "average cost of college in 1980",
+    "native_query": "1980 में कॉलेज की औसत लागत",
+    "eng_answer": "$9,438.",
+    "native_answer": "9,438 डॉलर।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 1060256,
+    "eng_query": "what is bcp mode",
+    "native_query": "बी.सी.पी. मोड क्या है",
+    "eng_answer": "The Business Continuity Plan (BCP) is a commercial term oriented towards businesses.",
+    "native_answer": "व्यवसाय निरंतरता योजना (बी.सी.पी.) व्यवसायों के लिए एक वाणिज्यिक शब्द है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 108946,
+    "eng_query": "cost to build a detached  garage",
+    "native_query": "एक अलग गैरेज बनाने की लागत",
+    "eng_answer": "$30 to $40 per square foot",
+    "native_answer": "प्रति वर्ग फुट 30 डॉलर से 40 डॉलर तक",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 205251,
+    "eng_query": "hopalong cassidy's horse's name",
+    "native_query": "कैसिडी के घोड़े का नाम",
+    "eng_answer": "Hopalong Cassidy's horse was named Topper.",
+    "native_answer": "होपलॉन्ग कैसिडी के घोड़े का नाम टॉपर रखा गया।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 138026,
+    "eng_query": "definition of scoff",
+    "native_query": "स्कॉफी की परिभाषा",
+    "eng_answer": "An expression of doubt or a mocking comment.",
+    "native_answer": "संदेह की अभिव्यक्ति या मजाकिया टिप्पणी।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 222240,
+    "eng_query": "how do you freeze fresh vegetables?",
+    "native_query": "आप ताजी सब्जियों को कैसे फ्रीज करते हैं?",
+    "eng_answer": "Frozen vegetables should be used within one year, always freeze fresh ripe produce, freeze your produce on the day that it was harvested if at all possible. if you can not freeze right away store your vegetables in a cool place.",
+    "native_answer": "ठंडी सब्जियों का उपयोग एक साल के भीतर किया जाना चाहिए, हमेशा ताजी पकी हुई सब्जियों को ठंडा करें, यदि संभव हो तो बाड्ढी के दिन अपनी सब्जियों को ठंडा करें, यदि आप तुरंत ठंडा नहीं कर सकते हैं तो अपनी सब्जियों को ठंडे स्थान पर रखें।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 204579,
+    "eng_query": "home remedies for pimples",
+    "native_query": "मुँहासों के घरेलू उपचार",
+    "eng_answer": "Apply baking soda to your pimples,Toothpaste, Use Australian tea tree oil, lemon juice on pimples, Experiment with honey, Mix up an apple cider vinegar 1 toner,Mix a turmeric treatment,  Rub tomatoes on your 1 acne, Make a sea salt mixture,Use an egg 1 white mask,  Apply a yogurt mask to your face, Cucumber pulp, Aloe vera.",
+    "native_answer": "अपने मुहांसों पर बेकिंग सोडा, टूथपेस्ट लगाएँ, ऑस्ट्रेलियाई चाय के पेड़ का तेल, मुहांसों पर नींबू का रस, शहद के साथ प्रयोग करें, एक टन सेब के सिरके का मिश्रण, हल्दी का उपचार मिलाएँ, अपने 1 मुहांसे पर टमाटर रगड़ें, समुद्री नमक का मिश्रण बनाएँ, 1 सफेद अंडे का मास्क, अपने चेहरे पर दही का मास्क लगाएँ, खीरे का गूदा, एलोवेरा।",
+    "gold_passage_idxs": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "query_id": 1060251,
+    "eng_query": "what is bdops",
+    "native_query": "बीडीओपीएस क्या है",
+    "eng_answer": "Bdops is the organization primarily operates in the Financial Services business or industry within the Business Services sector.",
+    "native_answer": "बीडॉप्स मुख्य रूप से वित्तीय सेवाओं के व्यवसाय या उद्योग के भीतर संचालित होने वाला संगठन है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 86437,
+    "eng_query": "causes of false negative pregnancy test",
+    "native_query": "गर्भावस्था परीक्षण के मिथ्या-परिणाम देने के कारण",
+    "eng_answer": "Testing To Early, not reading your urine pregnancy test correctly.",
+    "native_answer": "परीक्षण से पहले, अपने मूत्र की गर्भावस्था के परीक्षण को सही ढंग से न पढ़ें।",
+    "gold_passage_idxs": [
+      0,
+      9
+    ]
+  },
+  {
+    "query_id": 305650,
+    "eng_query": "how much do first responders make",
+    "native_query": "पहले उत्तरदाताओं ने कितना कमाया",
+    "eng_answer": "The first responder make $32,000.",
+    "native_answer": "पहला उत्तरदाता 32,000 डॉलर का भुगतान करता है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 127186,
+    "eng_query": "define slimy",
+    "native_query": "स्लिमी को परिभाषित करें",
+    "eng_answer": "Covered with or resembling slime.",
+    "native_answer": "कीचड़ से ढका हुआ या उसके समान।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 160694,
+    "eng_query": "do you need a degree to be a gym teacher",
+    "native_query": "क्या आपको जिम शिक्षक बनने के लिए डिग्री की आवश्यकता है?",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 205157,
+    "eng_query": "hongera meaning",
+    "native_query": "होंगेरा का अर्थ है",
+    "eng_answer": "Hongera means 'congratulations'.",
+    "native_answer": "होंगेरा का अर्थ है 'बधाई'।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 1090338,
+    "eng_query": "succulent plant meaning",
+    "native_query": "सकुंतालु पादप का अर्थ है",
+    "eng_answer": "Succulent plants are those with juicy leaves or stems for holding water through long periods of drought.",
+    "native_answer": "गूदेदार पौधे वे होते हैं जिनके पत्ते या तने लंबे समय तक पानी धारण करने के लिए रसीले होते हैं।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 132733,
+    "eng_query": "definition of bandwidth in ict",
+    "native_query": "बैंडविड्थ की परिभाषा इंटरनेट पर",
+    "eng_answer": "Bandwidth refers to the amount of information that something, like a connection to the internet, can handle in a given time.",
+    "native_answer": "बैंडविड्थ से तात्पर्य है कि कोई चीज़, जैसे इंटरनेट से जुड़ना, एक निश्चित समय में कितनी जानकारी संभाल सकती है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 206044,
+    "eng_query": "hotels in livingston, tx",
+    "native_query": "होटल लिविंगस्टन, टेक्सास में है।",
+    "eng_answer": "La Quinta Inn & Suites US 59 and US 190, Hampton Inn 1510 US Highway 59 South Loop, Holiday Inn Express Hotel & Suites 120 South Point Lane,28 miles Super 8 Hotel.",
+    "native_answer": "ला क्विंटा इन और सुइट्स यू.एस. 59 और यू.एस. 190, हैम्पटन इन 1510 यू.एस. हाईवे 59 साउथ लूप, हॉलिडे इन एक्सप्रेस होटल और सुइट्स 120 साउथ पॉइंट लेन, 28 मील सुपर 8 होटल।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 368117,
+    "eng_query": "how to make a trailer ramp",
+    "native_query": "ट्रेलर रैंप कैसे बनाएं",
+    "eng_answer": "Buy some heavy gauge metal plating or construction grade metal purlings for the trailer ramp. Do not buy thin sheet metal. The trailer ramp must be able to stand the weight of the vehicle plus more for safety. Cut the heavy gauge metal plating or construction grade metal purlings into two strips.Make each of them 4 feet long and 16 inches wide. This will accommodate more vehicle tire widths and trailer heights.",
+    "native_answer": "ट्रेलर रैंप के लिए कुछ भारी गेज धातु प्लेटिंग या निर्माण ग्रेड धातु पलिंग खरीदें। पतली शीट धातु न खरीदें। ट्रेलर रैंप वाहन के वजन के साथ-साथ सुरक्षा के लिए और भी अधिक का समर्थन करने में सक्षम होना चाहिए। भारी गेज धातु प्लेटिंग या निर्माण ग्रेड धातु पलिंग को दो पट्टियों में काट लें। प्रत्येक को 4 फीट लंबा और 16 इंच चौड़ा बनाएं। इससे वाहन के टायर की चौड़ाई और ट्रेलर की ऊंचाई के लिए जगह मिलेगी।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 279525,
+    "eng_query": "how many chromosomes do human offspring",
+    "native_query": "मानव संतानों में कितने गुणसूत्र होते हैं",
+    "eng_answer": "46 chromosomes",
+    "native_answer": "46 गुणसूत्र",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 26054,
+    "eng_query": "are vasectomies 100%",
+    "native_query": "100% वेक्टोमी होती हैं।",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 335367,
+    "eng_query": "how old is joe scarborough",
+    "native_query": "जो स्कारबोरो कितना पुराना है",
+    "eng_answer": "50",
+    "native_answer": "50",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 1060221,
+    "eng_query": "what is bear payne's middle name",
+    "native_query": "बियर पे का मध्य नाम क्या है",
+    "eng_answer": "The middle name of Bear Payne is Grey.",
+    "native_answer": "बियर पेन का मध्य नाम ग्रे है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 1101286,
+    "eng_query": "do ingrown toenails go away on their own",
+    "native_query": "क्या अंगूठे के अंदर के नाखून अपने आप निकल जाते हैं?",
+    "eng_answer": "Yes, in some cases, an ingrown toenail can go away on its own if you trim a small piece out of the corner.",
+    "native_answer": "हाँ, कुछ मामलों में, अगर आप कोने से एक छोटा सा टुकड़ा काट देते हैं तो एक अंतर्वर्धित पैर की उंगली अपने आप दूर हो सकती है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 1090337,
+    "eng_query": "such a sap meaning",
+    "native_query": "क्या अर्थ है ऐसे रस का?",
+    "eng_answer": "Sap is the juice or vital circulating fluid of a plant, especially of a woody plant.",
+    "native_answer": "रस पौधे का रस या महत्वपूर्ण परिसंचारी द्रव होता है, विशेष रूप से लकड़ी के पौधे का।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 134494,
+    "eng_query": "definition of excess land",
+    "native_query": "अतिरिक्त भूमि की परिभाषा",
+    "eng_answer": "It is defined as that which is larger than what is typical in the neighborhood AND capable of a separate use.",
+    "native_answer": "इसे परिभाषित किया गया है कि वह जो आस-पड़ोस में विशिष्ट से बड़ा है और अलग उपयोग के लिए सक्षम है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 25878,
+    "eng_query": "are tomatoes an inflammatory food",
+    "native_query": "टमाटर एक सूजन वाला खाद्य पदार्थ है।",
+    "eng_answer": "No it is anti-inflammatory food.",
+    "native_answer": "नहीं, यह शोथरोधी भोजन है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 1090336,
+    "eng_query": "sue desmond-hellmann salary",
+    "native_query": "सूज़ डेसमंड-हेलमैन वेतन",
+    "eng_answer": "Susan Desmond-Hellmann will receive an annual salary of $450,000.",
+    "native_answer": "सूज़न डेसमंड-हेलमैन को 450,000 डॉलर का वार्षिक वेतन मिलेगा।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 120451,
+    "eng_query": "define dissipation",
+    "native_query": "अपक्षय को परिभाषित करें",
+    "eng_answer": "It is the result of an irreversible process that takes place in inhomogeneous thermodynamic systems.",
+    "native_answer": "यह एक अपरिवर्तनीय प्रक्रिया का परिणाम है जो असमान रूप से व्यवहार करने वाली ऊष्मीय प्रणालियों में होती है।",
+    "gold_passage_idxs": [
+      3,
+      9
+    ]
+  },
+  {
+    "query_id": 100250,
+    "eng_query": "cosmology what is the dark ages",
+    "native_query": "ब्रह्मांड विज्ञान: काल क्या है अंधेरा युग",
+    "eng_answer": "The Dark Ages is a supercomputer simulation of the distribution of matter in the Universe produced by cosmologists at the University of Durham.",
+    "native_answer": "द डार्क एजेज़ डरहम विश्वविद्यालय में ब्रह्मांड विज्ञानियों द्वारा निर्मित ब्रह्मांड में पदार्थ के वितरण का एक सुपर कंप्यूटर अनुकरण है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 84841,
+    "eng_query": "causes for fingers to hurt",
+    "native_query": "उंगलियों में दर्द के कारण",
+    "eng_answer": "Trigger finger, hyperextension, long periods of keyboarding, diabetes, a neck, spinal cord injury, arthritis, inflammation, age-related wear and tear.",
+    "native_answer": "उत्प्रेरक उंगली, अतिविस्तार, लंबे समय तक कीबोर्ड पर काम करना, मधुमेह, गर्दन, रीढ़ की हड्डी में चोट, गठिया, सूजन, उम्र से संबंधित घिसाव।",
+    "gold_passage_idxs": [
+      1,
+      3
+    ]
+  },
+  {
+    "query_id": 199311,
+    "eng_query": "hawaii seasons with average weather",
+    "native_query": "औसत मौसम के साथ हवाई के मौसम",
+    "eng_answer": "Summer from May to October with average daytime summer temperature at sea level is 29.4 C and winter from November to April with average daytime winter temperature is 25.6º C. Temperatures at night are approximately -12º C lower.",
+    "native_answer": "मई से अक्टूबर तक गर्मी के मौसम में समुद्र तल पर औसत दिन का गर्मी का तापमान 29.4 डिग्री सेल्सियस रहता है और नवंबर से अप्रैल तक सर्दियों के मौसम में औसत दिन का तापमान 25.6 डिग्री सेल्सियस रहता है। रात का तापमान लगभग -12 डिग्री सेल्सियस कम होता है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 1060217,
+    "eng_query": "what is behavioral event interviewing method",
+    "native_query": "व्यवहार संबंधी साक्षात्कार की विधि क्या है",
+    "eng_answer": "Behavioral Event Interviewing method is a technique, that asks the candidate to describe a situation or an experience they had in a previous job.",
+    "native_answer": "व्यवहार संबंधी साक्षात्कार विधि एक तकनीक है जिसमें उम्मीदवार से किसी स्थिति या पिछली नौकरी में उनके अनुभव का वर्णन करने के लिए कहा जाता है।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 70491,
+    "eng_query": "can jaundice come back",
+    "native_query": "क्या पीलिया वापस आ सकती है?",
+    "eng_answer": "Yes, jaundice can come back.",
+    "native_answer": "हाँ, पीलिया वापस आ सकता है।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 100714,
+    "eng_query": "cost for a cap on a tooth",
+    "native_query": "दांत पर टोपी के लिए लागत",
+    "eng_answer": "$600 per tooth",
+    "native_answer": "600 डॉलर प्रति दांत",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 156499,
+    "eng_query": "do gop want trump to be impeached",
+    "native_query": "क्या गोप चाहते हैं कि ट्रम्प का महाभियोग हो?",
+    "eng_answer": "Yes, he want trump to be impeached.",
+    "native_answer": "हाँ, वह चाहते हैं कि ट्रम्प का महाभियोग हो।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 1090335,
+    "eng_query": "suit definition",
+    "native_query": "परिभाषा के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया गया है कि सूट के अनुसार परिभाषित किया",
+    "eng_answer": "Suit is a generic term for any filing of a complaint or petition asking for legal redress by judicial action, often called a lawsuit.",
+    "native_answer": "सूट किसी भी शिकायत या याचिका दायर करने के लिए एक सामान्य शब्द है जिसमें न्यायिक कार्रवाई द्वारा कानूनी उपाय की मांग की जाती है, जिसे अक्सर मुकदमा कहा जाता है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 297555,
+    "eng_query": "how many syllables are in the word fired",
+    "native_query": "फायर्ड शब्द में कितने अक्षर हैं",
+    "eng_answer": "There are 2 syllables in the word fire.",
+    "native_answer": "फायर शब्द में 2 अक्षर हैं।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 297440,
+    "eng_query": "how many subway franchises are in the us",
+    "native_query": "हमारे पास कितनी सबवे फ्रेंचाइजी हैं?",
+    "eng_answer": "There were 26,744 Subway restaurants in the United States.",
+    "native_answer": "संयुक्त राज्य अमेरिका में 26,744 सबवे रेस्तरां थे।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 327337,
+    "eng_query": "how much should a toyota prius headlight cost",
+    "native_query": "एक टॉयोटा प्रियस हेडलाइट की कीमत कितनी होनी चाहिए",
+    "eng_answer": "$10.99 for headlight bulb",
+    "native_answer": "10.99 डॉलर हेडलाइट बल्ब के लिए",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 1060215,
+    "eng_query": "what is bein",
+    "native_query": "क्या हो रहा है",
+    "eng_answer": "BeIN Sports is a global network of sports channels owned and operated by beIN Media Group, a spinoff of Al Jazeera Media Network.",
+    "native_answer": "बी.ई.आई.एन. स्पोर्ट्स अल जज़ीरा मीडिया नेटवर्क के एक स्पिनऑफ़, बी.ई.आई.एन. मीडिया समूह के स्वामित्व और संचालन वाले खेल चैनलों का एक वैश्विक नेटवर्क है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 260883,
+    "eng_query": "how long for cardio to burn fat",
+    "native_query": "कार्डियो को वसा जलाने में कितना समय लगता है",
+    "eng_answer": "100 calories in 20 minutes of low-intensity work compared to 160 calories in 10 minutes of high intensity.",
+    "native_answer": "20 मिनट के कम तीव्रता वाले काम में 100 कैलोरी की तुलना 10 मिनट के उच्च तीव्रता वाले काम में 160 कैलोरी से होती है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 178136,
+    "eng_query": "edward llewellyn largest black bass caught",
+    "native_query": "एडवर्ड लेलेवेलिन ने सबसे बड़ी काली बास पकड़ी",
+    "eng_answer": "Biggest black sea bass caught by Edward Llewellyn,alone,It Weighed in at 412lbs.",
+    "native_answer": "एडवर्ड लेवेलिन द्वारा पकड़ी गई सबसे बड़ी काली सी बास अकेले, जिसका वजन 412 पाउंड था।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1090334,
+    "eng_query": "sulci definition",
+    "native_query": "सुलसी परिभाषा",
+    "eng_answer": "Sulci is a furrow or groove in an organ or a tissue.",
+    "native_answer": "सुल्की किसी अंग या ऊतक में एक फरो या ग्रूव है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 130023,
+    "eng_query": "definition   disability insurance",
+    "native_query": "विकलांगता बीमा की परिभाषा",
+    "eng_answer": "It is a form of insurance that insures the beneficiary's earned income against the risk that a disability creates a barrier for a worker to complete the core functions of their work.",
+    "native_answer": "यह बीमा का एक रूप है जो लाभार्थी की अर्जित आय को उस जोखिम के विरुद्ध सुरक्षित करता है कि अक्षमता किसी श्रमिक के लिए अपने काम के मुख्य कार्यों को पूरा करने में बाधा उत्पन्न करती है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 144381,
+    "eng_query": "did latin come from greek",
+    "native_query": "क्या लैटिन यूनानी से आया है",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 159976,
+    "eng_query": "do women's periods sync",
+    "native_query": "क्या महिलाओं का मासिक धर्म सिंक होता है?",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 1060174,
+    "eng_query": "what is being made by gamma rays",
+    "native_query": "गामा किरणों द्वारा क्या बनाया जा रहा है",
+    "eng_answer": "Gamma rays are produced in the disintegration of radioactive atomic nuclei and in the decay of certain subatomic particles.",
+    "native_answer": "गामा किरणें रेडियोधर्मी परमाणु केंद्रकों के विघटन और कुछ उपपरमाण्विक कणों के क्षय में उत्पन्न होती हैं।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 58772,
+    "eng_query": "calendar stone definition",
+    "native_query": "कैलेंडर स्टोन की परिभाषा",
+    "eng_answer": "The Aztec calendar stone, also called the Sun Stone. The Aztec or Mexica calendar is the calendar system that was used by the Aztecs as well as other Pre-Columbian peoples of central Mexico. It is one of the Mesoamerican calendars, sharing the basic structure of calendars from throughout ancient Mesoamerica.",
+    "native_answer": "एज़्टेक कैलेंडर पत्थर, जिसे सूर्य पत्थर भी कहा जाता है, एज़्टेक या मेक्सिका कैलेंडर वह कैलेंडर प्रणाली है जिसका उपयोग एज़्टेक के साथ-साथ मध्य मेक्सिको के अन्य पूर्व-कोलंबियाई लोगों द्वारा किया जाता था। यह मेसोअमेरिकी कैलेंडरों में से एक है, जो प्राचीन मेसोअमेरिका के कैलेंडरों की मूल संरचना को साझा करता है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 65593,
+    "eng_query": "can chia seeds be planted in house",
+    "native_query": "क्या चिया के बीज घर में लगाए जा सकते हैं",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 1090333,
+    "eng_query": "sulfasalazine rheumatoid arthritis side effects",
+    "native_query": "सल्फासालाज़िन रूमेटाइड गठिया के दुष्प्रभाव",
+    "eng_answer": "Side Effects of sulfasalazine rheumatoid arthritis are kin rash, itching, or hives, Swelling, Sore throat, Fever, Muscle or joint aches, Pale or yellow skin, Bluish discoloration of the skin or nails.",
+    "native_answer": "सल्फासालाज़िन संधिवात के दुष्प्रभावों में किनारे के दाने, खुजली या पित्ती, सूजन, गले में खराश, बुखार, मांसपेशियों या जोड़ों में दर्द, पीली या पीली त्वचा, त्वचा या नाखूनों का नीला-सी रंग बदलना शामिल हैं।",
+    "gold_passage_idxs": [
+      6,
+      8
+    ]
+  },
+  {
+    "query_id": 175499,
+    "eng_query": "dr who, shirley bessie",
+    "native_query": "ड्रू, शेरली बेसी",
+    "eng_answer": "A Welsh singer best known for both her powerful operatic voice.",
+    "native_answer": "एक वेल्श गायिका जो अपनी शक्तिशाली ओपेरा आवाज़ दोनों के लिए सबसे ज्यादा जानी जाती है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 310404,
+    "eng_query": "how much does a mini skid steer cost",
+    "native_query": "एक मिनी स्किड स्टीयर की कीमत कितनी है",
+    "eng_answer": "$10,000 to $15,000",
+    "native_answer": "10,000 डॉलर से 15,000 डॉलर तक",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 44915,
+    "eng_query": "average temperature by month in payson, az",
+    "native_query": "औसत तापमान पायसन में महीने के अनुसार",
+    "eng_answer": "In Payson, the month of November is characterized by rapidly falling daily high temperatures, with daily highs decreasing by 11°F, from 67°F to 57°F over the course of the month, and rarely exceeding 77°F or dropping below 47°F.",
+    "native_answer": "पेसन में नवंबर महीने में तेजी से गिरते दैनिक उच्च तापमान की विशेषता है, जिसमें महीने के दौरान दैनिक उच्च तापमान 67 डिग्री फारेनहाइट से घटकर 57 डिग्री फारेनहाइट हो जाता है और शायद ही कभी 77 डिग्री फारेनहाइट से अधिक होता है या 47 डिग्री फारेनहाइट से नीचे गिरता है।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 1090332,
+    "eng_query": "sultry meaning",
+    "native_query": "सुल्तानी अर्थात्",
+    "eng_answer": "Sultry means sexually exciting or gratifying.",
+    "native_answer": "सुलभ का अर्थ है यौन रूप से उत्तेजक या संतोषजनक।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 159641,
+    "eng_query": "do unearned revenue go income statement",
+    "native_query": "अकमाई राजस्व आय विवरण में जाएँ।",
+    "eng_answer": "No, Unearned service revenue must be recorded, but it is not entered as revenue on the income statement.",
+    "native_answer": "नहीं, अवैध सेवा राजस्व दर्ज किया जाना चाहिए, लेकिन इसे आय विवरण में राजस्व के रूप में दर्ज नहीं किया जाता है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 50810,
+    "eng_query": "benefits of glucocil",
+    "native_query": "ग्लूकोसिल के लाभ",
+    "eng_answer": "Glucocil works by reducing glucose production in the liver, improves glucose uptake by the cells, and finally it helps us to absorb less glucose in the intestines.",
+    "native_answer": "ग्लूकोसिल यकृत में ग्लूकोज के उत्पादन को कम करके, कोशिकाओं द्वारा ग्लूकोज के अवशोषण में सुधार करके और अंत में आंतों में कम ग्लूकोज को अवशोषित करने में मदद करता है।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 71932,
+    "eng_query": "can obama run for president again",
+    "native_query": "क्या ओबामा फिर से राष्ट्रपति पद के लिए चुनाव लड़ सकते हैं?",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 1060165,
+    "eng_query": "what is bell's palsy related to",
+    "native_query": "क्या घंटी पक्षाघात से संबंधित है",
+    "eng_answer": "Bell's palsy is a weakness or paralysis of the facial muscles.",
+    "native_answer": "बेल्स पाल्ज़ी चेहरे की मांसपेशियों की कमजोरी या पक्षाघात है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 137728,
+    "eng_query": "definition of relay forms",
+    "native_query": "रिले फॉर्म की परिभाषा",
+    "eng_answer": "Relay forms are classified based on number of poles and throws. A Form C relay output is also known as a change-over, double-throw contact, or a transfer contact.",
+    "native_answer": "रिले फॉर्म को खंभों की संख्या और फेंकने के आधार पर वर्गीकृत किया जाता है। फॉर्म सी रिले के परिणाम को परिवर्तन-ओवर, दोहरी-फेंक संपर्क या स्थानांतरण संपर्क के रूप में भी जाना जाता है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 325643,
+    "eng_query": "how much nurse pay",
+    "native_query": "कितना नर्स वेतन देता है",
+    "eng_answer": "$52,330 a year.",
+    "native_answer": "52,330 डॉलर प्रति वर्ष।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 140746,
+    "eng_query": "delta iota sigma",
+    "native_query": "डेल्टा इओटा सिग्मा",
+    "eng_answer": "It is the Chapter of Phi Beta Sigma Fraternity.",
+    "native_answer": "यह फाई बीटा सिग्मा बिरादरी का अध्याय है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 1060160,
+    "eng_query": "what is benecalorie?",
+    "native_query": "क्या है बेनिकेलोरी?",
+    "eng_answer": "Benecalorie is a great way to enhance foods with more calories and protein.",
+    "native_answer": "बेनेकैलोरी अधिक कैलोरी और प्रोटीन वाले खाद्य पदार्थों को बढ़ाने का एक अच्छा तरीका है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 175854,
+    "eng_query": "drinking lots of water can help lose weight",
+    "native_query": "बहुत सारा पानी पीने से वजन कम करने में मदद मिल सकती है।",
+    "eng_answer": "Yes, it can help lose weight.",
+    "native_answer": "हाँ, यह वजन कम करने में मदद कर सकता है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 10945,
+    "eng_query": "actress who born at litrhuania",
+    "native_query": "लिट्रुहानिया में जन्मी अभिनेत्री",
+    "eng_answer": "Scintilla Aiste Gramantaite was born and raised in Siauliai, Lithuania and Simona Milinyte, singer & Actress, better known as “Simonna”, was born in Lithuania.",
+    "native_answer": "सिंटिला एस्टे ग्रामांटाइट का जन्म और पालन-पोषण लिथुआनिया के सिआउलियाई में हुआ था और गायिका और अभिनेत्री सिमोना मिलिन्यटे, जिन्हें \"सिमोना\" के नाम से बेहतर जाना जाता है, का जन्म लिथुआनिया में हुआ था।",
+    "gold_passage_idxs": [
+      0,
+      1
+    ]
+  },
+  {
+    "query_id": 332213,
+    "eng_query": "how often should change your transmission fluid",
+    "native_query": "आपको कितनी बार अपने संचरण द्रव को बदलना चाहिए",
+    "eng_answer": "Once every 2 to 4 years.",
+    "native_answer": "एक बार हर 2 से 4 साल में।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 1090329,
+    "eng_query": "summit define",
+    "native_query": "परिभाषित करें कि शिखर पर पहुँचने के लिए क्या आवश्यक है और क्या नहीं।",
+    "eng_answer": "The summit is the peak or highest point.",
+    "native_answer": "शिखर या सबसे ऊँचा बिंदु यह होता है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 82842,
+    "eng_query": "carnelian color meaning",
+    "native_query": "कार्नेलियन रंग का अर्थ है",
+    "eng_answer": "The name itself taken from the word Caro carnis from the Latin that means widening. The Widen meaning here was related to the color of the stone is going to change by itself if it has multiple colors in one.",
+    "native_answer": "यह नाम लैटिन से कैरो कार्निस शब्द से लिया गया है जिसका अर्थ है चौड़ा करना। वाइडन का अर्थ यहाँ पत्थर के रंग से संबंधित था कि अगर इसमें एक में कई रंग हैं तो यह अपने आप में बदल जाएगा।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 150315,
+    "eng_query": "different types of construction vehicles",
+    "native_query": "विभिन्न प्रकार के निर्माण वाहन",
+    "eng_answer": "Bulldozers, cranes, drilling machines, dump trucks, forklifts, harvesters, loaders, scrappers, skidders, yarders.",
+    "native_answer": "बुलडोज़र, क्रेन, ड्रिलिंग मशीन, डंप ट्रक, फोर्कलिफ़्ट, हार्वेस्टर, लोडर, स्क्रैपर, स्किडर, यार्डर।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 95014,
+    "eng_query": "combine supported files in acrobat free download",
+    "native_query": "एक्रोबेट फ्री डाउनलोड में समर्थित फाइलों को जोड़ें।",
+    "eng_answer": "The simplest way to create a single PDF or PDF Portfolio from multiple files is to use the Combine Files dialog.ome Tutorials Creating and combining files in Acrobat X.",
+    "native_answer": "एकाधिक फ़ाइलों से एक एकल पी.डी.एफ़. या पी.डी.एफ़. पोर्टफ़ोलियो बनाने का सबसे सरल तरीका फ़ाइलों को मिलाने के संवाद का उपयोग करना है।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 198691,
+    "eng_query": "harrison ford's son liam",
+    "native_query": "हैरिसन फोर्ड के बेटे लियाम",
+    "eng_answer": "Yes,harrison ford's son liam.",
+    "native_answer": "हैरिसन फोर्ड के बेटे लियाम।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 153034,
+    "eng_query": "distance between china and australia",
+    "native_query": "चीन और ऑस्ट्रेलिया के बीच की दूरी",
+    "eng_answer": "4,641 miles or 7469 kilometers",
+    "native_answer": "४,६४१ मील या ७४६९ किलोमीटर",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 57119,
+    "eng_query": "bund- definition",
+    "native_query": "बंडल परिभाषा",
+    "eng_answer": "A bund is a debt security issued by Germany's federal government, and it is the German equivalent of a United states Treasury bond.",
+    "native_answer": "बंडल जर्मनी की संघीय सरकार द्वारा जारी ऋण सुरक्षा है और यह संयुक्त राज्य अमेरिका के कोष बांड का जर्मन समकक्ष है।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 1090328,
+    "eng_query": "summit league commissioner",
+    "native_query": "शिखर सम्मेलन आयोग",
+    "eng_answer": "Tom Douple is the Summit League Commissioner.",
+    "native_answer": "टॉम डुपल समिट लीग आयुक्त हैं।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 1060134,
+    "eng_query": "what is benthos",
+    "native_query": "बेंथोस क्या है",
+    "eng_answer": "The Benthos is the seafloor and the organisms that live there.",
+    "native_answer": "बेंथोस समुद्र तल है और वहाँ रहने वाले जीव हैं।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 21872,
+    "eng_query": "are cosmos annuals",
+    "native_query": "कॉस्मॉस वार्षिक होते हैं।",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 24251,
+    "eng_query": "are phenobarb level blood test",
+    "native_query": "कोशिका-पात्र स्तर रक्त परीक्षण",
+    "eng_answer": "Pets requiring a phenobarbital level test need to have a blood sample drawn at the hospital.",
+    "native_answer": "जिन पालतू जानवरों को फेनोबार्बिटल स्तर परीक्षण की आवश्यकता होती है, उन्हें अस्पताल में रक्त का नमूना लेने की आवश्यकता होती है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 288139,
+    "eng_query": "how many mbs in a gig",
+    "native_query": "एक गिग में कितने एम.बी.एस. हैं",
+    "eng_answer": "1000",
+    "native_answer": "1000",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 206100,
+    "eng_query": "hotels in smithville, nj",
+    "native_query": "स्मिथविले, एन.जे. में होटल",
+    "eng_answer": "Colonial Inn",
+    "native_answer": "कोलोनियल इन",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 180887,
+    "eng_query": "enu protein shake",
+    "native_query": "एनू प्रोटीन शेक",
+    "eng_answer": "The best choice for extra calories and protein because it uses the best ingredients, such as whey protein isolate, quinoa, and coconut oil.",
+    "native_answer": "अतिरिक्त कैलोरी और प्रोटीन के लिए यह सबसे अच्छा विकल्प है क्योंकि यह व्हे प्रोटीन आइसोलेट, क्विनोआ और नारियल तेल जैसी सर्वोत्तम सामग्री का उपयोग करता है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 348815,
+    "eng_query": "how to change power level on microwave",
+    "native_query": "माइक्रोवेव पर पावर स्तर कैसे बदलें",
+    "eng_answer": "Press the Power Level button on the microwave control panel until the desired power appears on the display.",
+    "native_answer": "माइक्रोवेव नियंत्रण पैनल पर पावर लेवल बटन को तब तक दबाएं जब तक कि वांछित पावर डिस्प्ले पर न आ जाए।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 1101285,
+    "eng_query": "do interns get paid",
+    "native_query": "क्या इंटर्न लोगों को भुगतान मिलता है?",
+    "eng_answer": "On average, interns there are paid $5,800 monthly.",
+    "native_answer": "औसतन, प्रशिक्षुओं को मासिक 5,800 डॉलर का भुगतान किया जाता है।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 148037,
+    "eng_query": "difference between nation and state and nation state",
+    "native_query": "राष्ट्र और राज्य और राष्ट्र राज्य के बीच अंतर",
+    "eng_answer": "The difference between a state and a nation is that a state is an independent political entity with clear geographic boundaries, a state has the right to enter into agreements with other states, while a nation is a large population that shares the same culture, nations have a population that shares the same language, traditions and religion.",
+    "native_answer": "एक राज्य और एक राष्ट्र के बीच अंतर यह है कि एक राज्य स्पष्ट भौगोलिक सीमाओं के साथ एक स्वतंत्र राजनीतिक इकाई है, एक राज्य को अन्य राज्यों के साथ समझौतों में प्रवेश करने का अधिकार है, जबकि एक राष्ट्र एक बड़ी आबादी है जो समान संस्कृति साझा करती है, राष्ट्रों की आबादी समान भाषा, परंपराओं और धर्म को साझा करती है।",
+    "gold_passage_idxs": [
+      4,
+      8
+    ]
+  },
+  {
+    "query_id": 236362,
+    "eng_query": "how is caffeine metabolized",
+    "native_query": "कैफ़ीन का चयापचय कैसे होता है",
+    "eng_answer": "Caffeine has made its way to most commercial fat burning supplements, for good reason. It is one of the few substances that is known to help mobilize fats from the fat tissues and increase metabolism.",
+    "native_answer": "कैफीन ने अच्छे कारणों से अधिकांश व्यावसायिक वसा जलाने वाले पूरक आहारों तक पहुँच बनाई है। यह उन कुछ पदार्थों में से एक है जो वसा ऊतकों से वसा को गतिशील बनाने और चयापचय को बढ़ाने में मदद करने के लिए जाना जाता है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 154100,
+    "eng_query": "distance vision is called",
+    "native_query": "दूर दृष्टि को कहते हैं",
+    "eng_answer": "Blurred distance vision",
+    "native_answer": "धुंधली दूर दृष्टि",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 109718,
+    "eng_query": "cost to install basement and yurt mn",
+    "native_query": "तलघर और यूर्ट मिनी स्थापित करने की लागत",
+    "eng_answer": "Adding a basement to an existing house can cost $30,000-$70,000 or more depending on the size of the existing crawlspace or half-basement.",
+    "native_answer": "मौजूदा घर में एक तहखाना जोड़ने की लागत 30,000-70,000 डॉलर या उससे अधिक हो सकती है, जो मौजूदा क्रॉलस्पेस या आधे-बेसमेंट के आकार पर निर्भर करती है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 1100332,
+    "eng_query": "are bacteria prokaryotic",
+    "native_query": "जीवाणु प्रोकैरियोटिक हैं।",
+    "eng_answer": "Prokaryotes include the bacteria and archaea.",
+    "native_answer": "प्रोकैरियोट्स में बैक्टीरिया और आर्किया शामिल हैं।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 240779,
+    "eng_query": "how long before testosterone results",
+    "native_query": "कितने समय से पहले टेस्टोस्टेरोन परिणाम",
+    "eng_answer": "3 month period.",
+    "native_answer": "3 महीने की अवधि।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 190227,
+    "eng_query": "foods to eat when throwing up",
+    "native_query": "उल्टी होने पर क्या खाना है",
+    "eng_answer": "To eat foods that are easily digestible.",
+    "native_answer": "ऐसे खाद्य पदार्थ खाने के लिए जो आसानी से पच जाते हैं।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 127147,
+    "eng_query": "define skin fistula",
+    "native_query": "त्वचा फिस्टुला को परिभाषित करें",
+    "eng_answer": "It is an abnormal communication between the small or large bowel and the skin.",
+    "native_answer": "यह छोटी या बड़ी आंत और त्वचा के बीच एक असामान्य संचार है।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 329233,
+    "eng_query": "how much to open a renter's insurance",
+    "native_query": "किरायेदार बीमा खोलने के लिए कितना पैसा लगाना है",
+    "eng_answer": "$500 to $1000 is a renter's insurance.",
+    "native_answer": "500 डॉलर से 1000 डॉलर किरायेदार का बीमा है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 11390,
+    "eng_query": "adderall dose to body weight",
+    "native_query": "शरीर के वजन में एडरल खुराक जोड़ें।",
+    "eng_answer": "Total daily dose range would be from 30mg to 100mg if you weigh 100 kilos.",
+    "native_answer": "यदि आपका वजन 100 किलो है तो कुल दैनिक खुराक 30 मिलीग्राम से 100 मिलीग्राम तक होगी।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 240944,
+    "eng_query": "how long between coolsculpting treatments",
+    "native_query": "कूलस्कल्प्टिंग उपचारों के बीच कितना समय है",
+    "eng_answer": "Six weeks before repeating a second treatment.",
+    "native_answer": "दूसरा उपचार दोहराने से छह सप्ताह पहले।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 1060109,
+    "eng_query": "what is best oven temp to use to keep food warm",
+    "native_query": "भोजन को गर्म रखने के लिए उपयोग करने के लिए सबसे अच्छा ओवन तापमान क्या है",
+    "eng_answer": "200 degrees Fahrenheit is the best oven temp to use to keep food warm.",
+    "native_answer": "200 डिग्री फारेनहाइट भोजन को गर्म रखने के लिए उपयोग करने के लिए सबसे अच्छा ओवन तापमान है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1090324,
+    "eng_query": "superior gluteal nerve innervates what",
+    "native_query": "ऊर्ध्वाधर तंत्रिका अधःस्थापित करती है जो",
+    "eng_answer": "The superior gluteal nerve innervates the gluteus medius and sometimes provides innervation to the gluteus minimus.",
+    "native_answer": "ऊर्ध्वाधर तंत्रिका अधरांग में तंत्रिका को उत्तेजित करती है और कभी-कभी अधरांग को तंत्रिका प्रदान करती है।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 39139,
+    "eng_query": "average monthly temperature in sonoma ca",
+    "native_query": "सोनोमा सीए में औसत मासिक तापमान",
+    "eng_answer": "Highest monthly average temperature August is 65 degrees, lowest monthly average temperature in December is 45 degrees.",
+    "native_answer": "अगस्त में उच्चतम मासिक औसत तापमान 65 डिग्री है, दिसंबर में निम्नतम मासिक औसत तापमान 45 डिग्री है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 300982,
+    "eng_query": "how many years in college to get an mba",
+    "native_query": "एम.बी.ए. करने के लिए कॉलेज में कितने साल लगेंगे।",
+    "eng_answer": "2",
+    "native_answer": "I can't fulfill that request.",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 139806,
+    "eng_query": "definition reparations",
+    "native_query": "परिभाषा प्रतिपूर्ति",
+    "eng_answer": "A principle of law that has existed for centuries, referring to the obligation of a wrongdoing party to redress the damage caused to the injured party.",
+    "native_answer": "एक कानून का सिद्धांत जो सदियों से मौजूद है, जो घायल पक्ष को हुए नुकसान की भरपाई करने के लिए गलत काम करने वाले पक्ष के दायित्व को संदर्भित करता है।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 322391,
+    "eng_query": "how much is johnny manziel worth",
+    "native_query": "जॉनी मैनज़िल का कितना मूल्य है",
+    "eng_answer": "5 million using the mixture of his salary and endorsement deals.",
+    "native_answer": "उनके वेतन और समर्थन सौदों के मिश्रण का उपयोग करके 50 लाख डॉलर।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 260474,
+    "eng_query": "how long does your hair grow in a month",
+    "native_query": "एक महीने में आपके बाल कितने लंबे बढ़ते हैं",
+    "eng_answer": "Most people’s hair grows about 1 to 2 inch a Month.",
+    "native_answer": "अधिकांश लोगों के बाल हर महीने लगभग 1 से 2 इंच बढ़ते हैं।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1090323,
+    "eng_query": "supermarket meaning",
+    "native_query": "सुपरमार्केट का अर्थ है",
+    "eng_answer": "Supermarket is a large self service retail market that sells food and household goods.",
+    "native_answer": "सुपरमार्केट एक बड़ा स्व-सेवा खुदरा बाजार है जो खाद्य और घरेलू सामान बेचता है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 70250,
+    "eng_query": "can identical twins be different sexes?",
+    "native_query": "क्या समान जुड़वाँ भिन्न लिंग के हो सकते हैं?",
+    "eng_answer": "No, Unless there has been a mutation during development.",
+    "native_answer": "नहीं, जब तक कि विकास के दौरान उत्परिवर्तन नहीं हुआ हो।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 10486,
+    "eng_query": "accuracy definition math term",
+    "native_query": "सटीकता परिभाषा गणितीय शब्दावली",
+    "eng_answer": "The number of significant figures given in a number.",
+    "native_answer": "एक संख्या में दिए गए महत्वपूर्ण आंकड़ों की संख्या।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 91231,
+    "eng_query": "chemical formula for cuprous oxide",
+    "native_query": "कप्रोस ऑक्साइड के लिए रासायनिक सूत्र",
+    "eng_answer": "A chemical formula for cuprous oxide is Cu2O.",
+    "native_answer": "कप्रोस ऑक्साइड का रासायनिक सूत्र Cu2O है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 44559,
+    "eng_query": "average teacher salary in usa 2013",
+    "native_query": "2013 में यू.एस.ए. में औसत शिक्षक का वेतन",
+    "eng_answer": "High school teachers was $55,360.",
+    "native_answer": "हाई स्कूल के शिक्षकों का वेतन 55,360 डॉलर था।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 328672,
+    "eng_query": "how much time should you cook smoked turkey wings",
+    "native_query": "आपको धुएं में पके हुए टर्की के पंख कितने समय तक पकाने चाहिए।",
+    "eng_answer": "About 1 1/2 -2 hours",
+    "native_answer": "लगभग 1 1/2 - 2 घंटे",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 88831,
+    "eng_query": "causes of trigger finger in children",
+    "native_query": "बच्चों में उंगली का कारण",
+    "eng_answer": "This causes the bone to move.",
+    "native_answer": "इससे हड्डी हिलती है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 1090322,
+    "eng_query": "superseded general decision number",
+    "native_query": "सामान्य निर्णय संख्या के स्थान पर अतिरिक्त निर्णय संख्या आ गई।",
+    "eng_answer": "Superseded General Decision Number is TX20160303.",
+    "native_answer": "अतिव्यापी सामान्य निर्णय संख्या TX20160303 है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 330143,
+    "eng_query": "how much water does it take to make pecan",
+    "native_query": "पेकान बनाने में कितना पानी लगता है।",
+    "eng_answer": "100 to 200 gallons of water per day from April through October.",
+    "native_answer": "अप्रैल से अक्टूबर तक प्रतिदिन 100 से 200 गैलन पानी।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 51022,
+    "eng_query": "benefits of moringa ginger tea",
+    "native_query": "मोरिंगा अदरक चाय के लाभ",
+    "eng_answer": "It helps to soothe and calm your stomach and digestion.",
+    "native_answer": "यह आपके पेट और पाचन को शांत करने में मदद करता है।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 1060075,
+    "eng_query": "what is betaine plus hp for",
+    "native_query": "बीटेन प्लस एच.पी. के लिए क्या है",
+    "eng_answer": "Betaine Plus HP helps to increase stomach acid and pepsin levels, and improve digestion.",
+    "native_answer": "बीटेन प्लस एच.पी. पेट के अम्ल और पेप्सिन के स्तर को बढ़ाने और पाचन में सुधार करने में मदद करता है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 40535,
+    "eng_query": "average price for dental implants",
+    "native_query": "दंत प्रत्यारोपण की औसत कीमत",
+    "eng_answer": "Single-tooth dental implant can range from $1,000 to $3,000 and full dental implant can fall between $1,500 and $6,000.",
+    "native_answer": "एकल-दांत वाले दंत प्रत्यारोपण की कीमत $1,000 से $3,000 तक हो सकती है और पूर्ण दंत प्रत्यारोपण की कीमत $1,500 से $6,000 के बीच हो सकती है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 1090321,
+    "eng_query": "superstore cast and crew",
+    "native_query": "सुपरस्टोर कास्ट और क्रू",
+    "eng_answer": "Superstore cast of season 2 are America Ferrera, Ben Feldman, Lauren Ash, Colton Dunn, Nico Santos.",
+    "native_answer": "सीज़न 2 के सुपरस्टोर कलाकारों में अमेरिका फेरेरा, बेन फेल्डमैन, लॉरेन एश, कोल्टन डन, निको सैंटोस शामिल हैं।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 171906,
+    "eng_query": "does sugarless gum cause diarrhea",
+    "native_query": "क्या चीनी रहित गम दस्त का कारण बनता है?",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 338016,
+    "eng_query": "how popular is hillary clinton",
+    "native_query": "कितना लोकप्रिय हिलेरी क्लिंटन है",
+    "eng_answer": "She won a total of 65,844,610 votes ― 48.2 percent ― compared with Trump’s 62,979,636 votes ― 46.1 percent.",
+    "native_answer": "उन्होंने ट्रम्प के 62,979,636 मतों की तुलना में कुल 65,844,610 मत प्राप्त किए - जो 48.2 प्रतिशत था।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 1060054,
+    "eng_query": "age of mac davis",
+    "native_query": "मैक डेविस का युग",
+    "eng_answer": "Mac Davis is 76 years old.",
+    "native_answer": "मैक डेविस 76 वर्ष के हैं।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 189359,
+    "eng_query": "foods that enhance appetite",
+    "native_query": "खाद्य पदार्थ जो भूख बढ़ाते हैं",
+    "eng_answer": "Eat nutrient-rich healthy foods, macaroni and cheese, mashed potatoes, green bean casserole, roast chicken, or a big slice of chocolate cake.",
+    "native_answer": "पोषक तत्वों से भरपूर स्वस्थ खाद्य पदार्थ, मक्खन और चीज़, आलू का मिश्रण, हरी बीन कैसरोल, भुना हुआ चिकन, या चॉकलेट केक का एक बड़ा टुकड़ा खाएँ।",
+    "gold_passage_idxs": [
+      1,
+      9
+    ]
+  },
+  {
+    "query_id": 183727,
+    "eng_query": "explain how volcanoes causes pollution",
+    "native_query": "समझाएं कि ज्वालामुखी प्रदूषण कैसे करते हैं",
+    "eng_answer": "Volcanoes release sulfur dioxide and carbon dioxide into the atmosphere, which causes air pollution.",
+    "native_answer": "ज्वालामुखी वायुमंडल में सल्फर डाइऑक्साइड और कार्बन डाइऑक्साइड छोड़ते हैं, जिससे वायु प्रदूषण होता है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 238254,
+    "eng_query": "how large is the bob marshall wilderness area",
+    "native_query": "बॉब मार्शल वन्यजीव क्षेत्र कितना बड़ा है",
+    "eng_answer": "4,000 feet to more than 9,000 feet",
+    "native_answer": "४,००० फीट से ९,००० फीट से अधिक",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 205809,
+    "eng_query": "hot to transfer music to my samsung s6",
+    "native_query": "संगीत को मेरे सैमसंग एस6 में स्थानांतरित करने के लिए गर्मजोशी है!",
+    "eng_answer": "PC or Windows laptop to your Samsung Galaxy S6. Simply connect the Galaxy S6 to your PC or laptop using the bundled micro USB cable and then open a Windows Explorer window.You can do this by hitting the Windows key and ‘E’ at the same time.",
+    "native_answer": "अपने सैमसंग गैलेक्सी एस6 के लिए पीसी या विंडोज़ लैपटॉप। बस गैलेक्सी एस6 को अपने पीसी या लैपटॉप से जोड़ें और फिर विंडोज़ एक्सप्लोरर विंडो खोलें। आप एक ही समय में विंडोज़ की कुंजी और 'ई' दबाकर ऐसा कर सकते हैं।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 144815,
+    "eng_query": "did president clinton impeached",
+    "native_query": "क्या राष्ट्रपति क्लिंटन ने महाभियोग चलाया?",
+    "eng_answer": "Yes, President Bill Clinton’s personal indiscretions led to the second impeachment trial in our history.",
+    "native_answer": "हाँ, राष्ट्रपति बिल क्लिंटन की व्यक्तिगत लापरवाही के कारण हमारे इतिहास में दूसरा महाभियोग परीक्षण हुआ।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 125498,
+    "eng_query": "define political neophyte.",
+    "native_query": "राजनीतिक नवजात को परिभाषित करें।",
+    "eng_answer": "A person just starting in politics.",
+    "native_answer": "एक व्यक्ति जो अभी-अभी राजनीति में शुरुआत कर रहा है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 1090319,
+    "eng_query": "suppressed meaning",
+    "native_query": "अनुवाद: दबा दिया गया अर्थ",
+    "eng_answer": "Suppressed means to put an end to the activities of a person, body of persons, etc.",
+    "native_answer": "दमन का अर्थ है किसी व्यक्ति, व्यक्तियों के शरीर आदि की गतिविधियों को समाप्त करना।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 1060040,
+    "eng_query": "what is betts",
+    "native_query": "बेट्स क्या है",
+    "eng_answer": "Dickey Betts is an American songwriter, guitarist, singer and composer.",
+    "native_answer": "डिकी बेट्स एक अमेरिकी गीतकार, गिटारवादक, गायक और संगीतकार हैं।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 24674,
+    "eng_query": "are retinal vein occlusions caused by diabetes?",
+    "native_query": "क्या मधुमेह के कारण होने वाले अंतर्वाहिका शिरा अवरोध हैं?",
+    "eng_answer": "Yes, retinal vein occlusions caused by diabetes.",
+    "native_answer": "हाँ, मधुमेह के कारण होने वाले रेटिना शिरा अवरोध।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 263891,
+    "eng_query": "how long is implantation after ovulation",
+    "native_query": "अंडोत्सर्ग के बाद कितने समय तक प्रत्यारोपण किया जाता है",
+    "eng_answer": "6 to 12 days.",
+    "native_answer": "6 से 12 दिनों तक।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 38973,
+    "eng_query": "average monthly cost nursing home",
+    "native_query": "औसत मासिक लागत नर्सिंग होम",
+    "eng_answer": "$6,235 per month for a semi-private room.",
+    "native_answer": "एक अर्ध-निजी कमरे के लिए प्रति माह 6,235 डॉलर।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 189467,
+    "eng_query": "foods that help cramps",
+    "native_query": "ऐसे खाद्य पदार्थ जो मरोड़ों में मदद करते हैं",
+    "eng_answer": "Rice and Potatoes.",
+    "native_answer": "चावल और आलू।",
+    "gold_passage_idxs": [
+      3,
+      7
+    ]
+  },
+  {
+    "query_id": 149686,
+    "eng_query": "different brands of adderall",
+    "native_query": "विभिन्न ब्रांड के एडरल",
+    "eng_answer": "Generic Adderall,Adderall XR",
+    "native_answer": "जेनेरिक एडरल, एडरल एक्स.आर.",
+    "gold_passage_idxs": [
+      6,
+      9
+    ]
+  },
+  {
+    "query_id": 99375,
+    "eng_query": "cooking temperature turkey breast tenderloin",
+    "native_query": "खाना पकाने के दौरान टर्की की छाती को कोमल करना",
+    "eng_answer": "325°F",
+    "native_answer": "325°F",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1060039,
+    "eng_query": "what is beverly hills md",
+    "native_query": "क्या बेवर्ली पहाड़ियाँ मीडिया डाट कॉम पर हैं।",
+    "eng_answer": "Beverly Hills MD is a line of cosmoceuticals that are claimed to treat and prevent some of the most difficult skin problems, and to provide real, accessible solutions that can help you look and feel your very best.",
+    "native_answer": "बेवर्ली हिल्स एम.डी. कॉस्मोस्यूटिकल्स की एक श्रृंखला है जिसका दावा है कि यह कुछ सबसे कठिन त्वचा समस्याओं का इलाज और रोकथाम करती है, और वास्तविक, सुलभ समाधान प्रदान करती है जो आपको अपने सर्वश्रेष्ठ दिखने और महसूस करने में मदद कर सकती है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 262841,
+    "eng_query": "how long is a schedule 2 prescription valid",
+    "native_query": "पर्चे पर दी गई अनुसूची 2 कब तक वैध है",
+    "eng_answer": "Controlled Substance (Schedule II) prescriptions are valid for only 60 days from the date written and may not be refilled.",
+    "native_answer": "नियंत्रित पदार्थ (अनुसूची II) के नुस्खे लिखे जाने की तारीख से केवल 60 दिनों के लिए मान्य हैं और उन्हें फिर से भरा नहीं जा सकता है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 131554,
+    "eng_query": "definition of a   parabola",
+    "native_query": "परवलय की परिभाषा",
+    "eng_answer": "Conic section formed by the intersection of a cone with a plane parallel to a tangent plane.",
+    "native_answer": "एक शंकु और एक समतल के परस्पर काटने पर बना शंकु भाग।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 235926,
+    "eng_query": "how involved did america get during operation rolling thunder",
+    "native_query": "ऑपरेशन रोलिंग थंडर के दौरान अमेरिका कितना शामिल था।",
+    "eng_answer": "During the Operation Rolling Thunder, U.S. aircraft had flown more than 300,000 sorties and dropped about 643,000 tons of bombs on North Vietnam.",
+    "native_answer": "ऑपरेशन रोलिंग थंडर के दौरान, अमेरिकी विमानों ने 300,000 से अधिक लड़ाकू हमले किए और उत्तरी वियतनाम पर लगभग 643,000 टन बम गिराए।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 9956,
+    "eng_query": "about how much do youtubers make",
+    "native_query": "यूट्यूबर्स कितना कमाते हैं",
+    "eng_answer": "YouTubers typically charge around $10,000 per 100,000 views.",
+    "native_answer": "यूट्यूबर आम तौर पर प्रति 100,000 बार देखने के लिए लगभग 10,000 डॉलर लेते हैं।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 129145,
+    "eng_query": "define whined",
+    "native_query": "शराब को परिभाषित करें",
+    "eng_answer": "A high pitched sound.",
+    "native_answer": "एक तेज आवाज़।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 374799,
+    "eng_query": "how to read latitude and longitude with minutes",
+    "native_query": "अक्षांश और देशांतर को मिनटों के साथ कैसे पढ़ें",
+    "eng_answer": "Latitude of the top of the map is 40° 30' and the latitude of the bottom of the map is 40° 15'. The difference between these two is also 15'. This map, which covers an area that is 15' x 15' would be referred to as a 15 minute map.",
+    "native_answer": "मानचित्र के शीर्ष का अक्षांश 40° 30' और मानचित्र के निचले भाग का अक्षांश 40° 15' है। इन दोनों के बीच का अंतर भी 15' है। इस मानचित्र को, जो 15' x 15' के क्षेत्र को कवर करता है, 15 मिनट का मानचित्र कहा जाएगा।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 274282,
+    "eng_query": "how many acres in a pivot circle",
+    "native_query": "एक पिवट सर्कल में कितनी एकड़ है",
+    "eng_answer": "Only 133 acres of that quarter.",
+    "native_answer": "सिर्फ 133 एकड़ उस चतुर्थांश में है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 53217,
+    "eng_query": "biggest life insurance company in asia",
+    "native_query": "एशिया की सबसे बड़ी जीवन बीमा कंपनी",
+    "eng_answer": "Japan Post Insurance company is the leading company in Asia.",
+    "native_answer": "जापान पोस्ट बीमा कंपनी एशिया की अग्रणी कंपनी है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 71393,
+    "eng_query": "can migraines cause bloating",
+    "native_query": "क्या माइग्रेन सूजन का कारण बन सकता है?",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 158925,
+    "eng_query": "do shingles vaccines work",
+    "native_query": "क्या दाद के टीके काम करते हैं?",
+    "eng_answer": "Yes, it reduced the risk of shingles by 51% and the risk of post-herpetic neuralgia by 67% for people aged 60 years or older.",
+    "native_answer": "हाँ, इसने 60 वर्ष या उससे अधिक आयु के लोगों में दाद के 51 प्रतिशत और पश्च-आत्मक तंत्रिकाशोथ के जोखिम को 67 प्रतिशत तक कम कर दिया।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 157068,
+    "eng_query": "do i need to go to collage to become a rn nurse",
+    "native_query": "क्या आपको नर्स बनने के लिए कोलाज में जाना है?",
+    "eng_answer": "To become a registered nurse, you need to enroll in an accredited nursing school. The criterion for enrollment in a nursing school is a high school diploma or GED, good grades in science subjects like chemistry and biology and a high percentage in SAT or ACT exam.: To become a registered nurse online, you have the option of three education paths.",
+    "native_answer": "पंजीकृत नर्स बनने के लिए आपको एक मान्यता प्राप्त नर्सिंग स्कूल में नामांकन करना होगा। नर्सिंग स्कूल में नामांकन के लिए मानदंड हाई स्कूल डिप्लोमा या जी.ई.डी., रसायन विज्ञान और जीव विज्ञान जैसे विज्ञान विषयों में अच्छे ग्रेड और एस.ए.टी. या ए.सी.टी. परीक्षा में उच्च प्रतिशत होना है।",
+    "gold_passage_idxs": [
+      2,
+      7
+    ]
+  },
+  {
+    "query_id": 172056,
+    "eng_query": "does tapeworm ointment work on cats",
+    "native_query": "क्या टेपवर्म मलहम बिल्लियों पर काम करता है?",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 307227,
+    "eng_query": "how much do school lunchroom workers get paid?",
+    "native_query": "स्कूल के लंचरूम कर्मचारियों को कितना भुगतान मिलता है?",
+    "eng_answer": "$9 to $16 per hour.",
+    "native_answer": "9 से 16 डॉलर प्रति घंटा।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1090312,
+    "eng_query": "susan sarandon cup size",
+    "native_query": "सुसान सारंडन कप का आकार",
+    "eng_answer": "Susan Sarandon has a bra size of 34D.",
+    "native_answer": "सूज़न सारंडन का ब्रा आकार 34डी है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 253510,
+    "eng_query": "how long does it take for azithromycin to work sinusitis",
+    "native_query": "एज़िथ्रोमाइसिन को साइनसाइटिस काम करने में कितना समय लगता है",
+    "eng_answer": "3 days or less.",
+    "native_answer": "3 दिन या उससे कम।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1060015,
+    "eng_query": "what is beyond the pale mean",
+    "native_query": "कुछ जो औसत से परे है",
+    "eng_answer": "Beyond the pale mean that you are doing something that is not acceptable.",
+    "native_answer": "इस बात के परे कि आप कुछ ऐसा कर रहे हैं जो स्वीकार्य नहीं है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 131840,
+    "eng_query": "definition of a semicolon",
+    "native_query": "अर्धविराम की परिभाषा",
+    "eng_answer": "It is a punctuation mark.",
+    "native_answer": "यह एक विराम चिह्न है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 272481,
+    "eng_query": "how long to wait before running after eating",
+    "native_query": "खाने के बाद दौड़ने से पहले कितना इंतजार करना पड़ता है।",
+    "eng_answer": "Three to four hours",
+    "native_answer": "तीन से चार घंटे",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 75497,
+    "eng_query": "can waterpik cause gum recession",
+    "native_query": "क्या पानी की बूंदों के कारण मसूड़ों में गिरावट आ सकती है?",
+    "eng_answer": "No,waterpik can not cause gum recession.",
+    "native_answer": "नहीं, वॉटरपिक मसूड़ों के पीछे की ओर मांसपेशियों के कारण मसूड़ों का कम होना नहीं कर सकता है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 274753,
+    "eng_query": "how many amps come out of the wall",
+    "native_query": "दीवार से कितने ऐम्प निकलते हैं",
+    "eng_answer": "15 or 20 Amp.",
+    "native_answer": "15 या 20 एम्पीयर।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 15636,
+    "eng_query": "allah akbar definition",
+    "native_query": "अल्लाह अकबर की परिभाषा",
+    "eng_answer": "It is known as the takbir and is used by Muslims to express a wide range of emotions.",
+    "native_answer": "इसे तकबीर के रूप में जाना जाता है और मुसलमानों द्वारा विभिन्न प्रकार की भावनाओं को व्यक्त करने के लिए उपयोग किया जाता है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1090311,
+    "eng_query": "sustained definition law",
+    "native_query": "निरंतर परिभाषा कानून",
+    "eng_answer": "In Law, sustain refers to a judge agreeing that an attorney's objection is valid.",
+    "native_answer": "कानून में, सस्टेन का अर्थ है कि एक न्यायाधीश सहमत है कि एक वकील का आपत्ति वैध है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 1060013,
+    "eng_query": "what is bga in",
+    "native_query": "बी.जी.ए. में क्या है",
+    "eng_answer": "A ball grid array is a type of surface-mount packaging used for integrated circuits.",
+    "native_answer": "बॉल ग्रिड ऐरे एक प्रकार की सतह-माउंट पैकेजिंग है जिसका उपयोग एकीकृत सर्किट के लिए किया जाता है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 369007,
+    "eng_query": "how to make hat on graduation cake pops",
+    "native_query": "ग्रैजुएशन केक पॉप्स पर टोपी कैसे बनाएं",
+    "eng_answer": "You will need 1. 12 prepared round cake pops. 2. White, chocolate, red, and yellow candy wafers (or customize using your own school colors) 3. Square candy mold. Piping bags or sandwich 1 bags. Parchment paper. Cake pop stand.",
+    "native_answer": "आपको 1.12 तैयार किए हुए गोल केक पॉप्स, 2. सफेद, चॉकलेट, लाल और पीले रंग के कैंडी वेफर (या अपने स्कूल के रंगों का उपयोग करके अनुकूलित करें), 3. वर्गाकार कैंडी मोल्ड, पाइपिंग बैग या सैंडविच 1 बैग, पार्चमेंट पेपर, केक पॉप स्टैंड की आवश्यकता होगी।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 56353,
+    "eng_query": "bright light in eyes symptoms",
+    "native_query": "आँखों में चमकदार प्रकाश के लक्षण",
+    "eng_answer": "Ocular Migraine and minor irritation.",
+    "native_answer": "नेत्र माइग्रेन और मामूली जलन।",
+    "gold_passage_idxs": [
+      2,
+      4
+    ]
+  },
+  {
+    "query_id": 151712,
+    "eng_query": "direct cause definition",
+    "native_query": "सीधे कारण की परिभाषा",
+    "eng_answer": "It is when you can determine beforehand the result: for example a car accident makes a dent on the car, or injures the passengers.",
+    "native_answer": "उदाहरण के लिए, जब आप पहले से ही परिणाम निर्धारित कर लेते हैं तभी कोई कार दुर्घटना कार पर चोट पहुँचाती है या यात्रियों को घायल कर देती है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 54625,
+    "eng_query": "blood sugar is 240",
+    "native_query": "रक्त शर्करा 240 है।",
+    "eng_answer": "This number is usually a warning that your body is getting ready to switch its fuel source to fat and your blood may become polluted from ketones.",
+    "native_answer": "यह संख्या आम तौर पर एक चेतावनी है कि आपका शरीर ईंधन के स्रोत को वसा में बदलने के लिए तैयार हो रहा है और आपका रक्त कीटोन से प्रदूषित हो सकता है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 161758,
+    "eng_query": "does 2005 pontiac vibe have anti lock brakes",
+    "native_query": "2005 के पोंटिएक वाइब में एंटी लॉक ब्रेक हैं",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 204175,
+    "eng_query": "holism meaning",
+    "native_query": "होलिस्म का अर्थ है",
+    "eng_answer": "Holism is the idea that things can have properties as a whole that are not explainable from the sum of their parts.",
+    "native_answer": "होलिज्म यह विचार है कि चीज़ों में पूरे के रूप में ऐसे गुण हो सकते हैं जो उनके भागों के योग से समझाए जा सकते नहीं हैं।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 366999,
+    "eng_query": "how to look after a dog with arthritis",
+    "native_query": "गठिया से पीड़ित कुत्ते की देखभाल कैसे करें",
+    "eng_answer": "Maintaining your dog at his ideal body condition can be useful in controlling the level of pain experienced with arthritis.Avoid overfeeding your arthritic dog and encourage exercise.",
+    "native_answer": "अपने कुत्ते को उसकी आदर्श शारीरिक स्थिति में बनाए रखना गठिया से होने वाले दर्द के स्तर को नियंत्रित करने में उपयोगी हो सकता है। अपने गठिया से पीड़ित कुत्ते को अधिक खाना खिलाने से बचें और व्यायाम को प्रोत्साहित करें।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 1060012,
+    "eng_query": "what is bhuno",
+    "native_query": "भूनो क्या है",
+    "eng_answer": "Bhuna is a technique in cooking that is popular in many parts of India.",
+    "native_answer": "भुना खाना पकाने की एक तकनीक है जो भारत के कई हिस्सों में लोकप्रिय है।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 136380,
+    "eng_query": "definition of moral authority",
+    "native_query": "नैतिक अधिकार की परिभाषा",
+    "eng_answer": "It is authority premised on principles, or fundamental truths, which are independent of written, or positive, laws. As such, moral authority necessitates the existence of and adherence to truth.",
+    "native_answer": "यह सिद्धांतों या मौलिक सत्यों पर आधारित प्राधिकरण है, जो लिखित या सकारात्मक कानूनों से स्वतंत्र हैं। इस प्रकार, नैतिक प्राधिकरण सत्य के अस्तित्व और पालन की आवश्यकता को जन्म देता है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 124035,
+    "eng_query": "define militia",
+    "native_query": "सैनिक श्रेणी को परिभाषित करें",
+    "eng_answer": "It is an army made up of regular citizens called to respond during an emergency.",
+    "native_answer": "यह एक ऐसी सेना है जो आपातकालीन स्थिति में प्रतिक्रिया देने के लिए नियमित नागरिकों से बनी होती है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 220241,
+    "eng_query": "how do shareholders vote",
+    "native_query": "शेयरधारक कैसे वोट करते हैं",
+    "eng_answer": "Shareholders may vote through a proxy, an agent authorized by a shareholder to cast the shareholder’s votes.",
+    "native_answer": "शेयरधारक एक प्रॉक्सी के माध्यम से मतदान कर सकते हैं, जो एक शेयरधारक द्वारा शेयरधारक के मतपत्र डालने के लिए अधिकृत एक एजेंट होता है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 304119,
+    "eng_query": "how much daycare can you claim on your taxes",
+    "native_query": "आप अपने करों में कितना डेकेयर का दावा कर सकते हैं",
+    "eng_answer": "You can claim only up to $3,000 for the care of 1 person and $6,000 for 2 or more.",
+    "native_answer": "आप 1 व्यक्ति की देखभाल के लिए केवल 3,000 डॉलर और 2 या उससे अधिक लोगों के लिए 6,000 डॉलर तक का दावा कर सकते हैं।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 1060011,
+    "eng_query": "what is bib lettuce wrap",
+    "native_query": "बिब लेट्यूस रैप क्या है",
+    "eng_answer": "Bibb lettuce is a slightly darker and smaller version of the variety.",
+    "native_answer": "बिब लेट्यूस इस किस्म का थोड़ा गहरा और छोटा संस्करण है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 1090309,
+    "eng_query": "boston celtics number of nba championships",
+    "native_query": "बोस्टन सेल्टिक्स की एन.बी.ए. चैंपियनशिप की संख्या।",
+    "eng_answer": "The Boston Celtics won 17 NBA championships.",
+    "native_answer": "बोस्टन सेल्टिक्स ने 17 एन.बी.ए. चैंपियनशिप जीतीं।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 69194,
+    "eng_query": "can i issue a loan policy on an existing mortgage",
+    "native_query": "क्या मैं किसी मौजूदा बंधक पर ऋण नीति जारी कर सकता हूँ?",
+    "eng_answer": "Yes,Homeowners can also use both programs to refinance their existing mortgage plus the renovation costs into one loan.",
+    "native_answer": "हाँ, मकान मालिक अपने मौजूदा बंधक और नवीनीकरण की लागत को एक ऋण में पुनर्वित्त करने के लिए दोनों कार्यक्रमों का उपयोग कर सकते हैं।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 304990,
+    "eng_query": "how much do canadians pay in taxes for health care",
+    "native_query": "कनाडाई लोग स्वास्थ्य देखभाल के लिए करों में कितना भुगतान कर सकते हैं?",
+    "eng_answer": "The average single individual earning roughly $42,000 will pay $4,381 for public health care insurance.",
+    "native_answer": "औसतन 42,000 डॉलर कमाने वाला एक व्यक्ति सार्वजनिक स्वास्थ्य देखभाल बीमा के लिए 4,381 डॉलर का भुगतान करेगा।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 68083,
+    "eng_query": "can hip problems cause leg pain",
+    "native_query": "कूल्हे की समस्याएं पैर में दर्द का कारण बन सकती हैं।",
+    "eng_answer": "Yes, hip problems can cause leg pain.",
+    "native_answer": "हाँ, कूल्हे की समस्याएँ पैर में दर्द का कारण बन सकती हैं।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 67534,
+    "eng_query": "can gabapentin treat neuropathy",
+    "native_query": "कैन गैबापेंटिन न्यूरोपैथी का इलाज कर सकता है",
+    "eng_answer": "Yes, gabapentin remains off-label when used to treat diabetic neuropathy.",
+    "native_answer": "हाँ, मधुमेह संबंधी तंत्रिकाविकृति के इलाज के लिए गैबापेंटिन का उपयोग करते समय यह दवा लेबल से हट कर बनी रहती है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 1060010,
+    "eng_query": "company tax rates for mississippi",
+    "native_query": "मिसिसिपी के लिए कंपनी कर की दरें",
+    "eng_answer": "Mississippi has state sales tax of 7.00%, and allows local governments to collect a local option sales tax of up to 1.00%.",
+    "native_answer": "मिसिसिपी में राज्य की बिक्री कर 7.00% है और स्थानीय सरकारों को 1.00% तक का स्थानीय विकल्प बिक्री कर एकत्र करने की अनुमति है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 1090308,
+    "eng_query": "sutton bank phone number",
+    "native_query": "सटन बैंक फोन नंबर",
+    "eng_answer": "The main phone number for Sutton Bank is 419-426-3641.",
+    "native_answer": "सटन बैंक का मुख्य फोन नंबर 419-426-3641 है।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 106923,
+    "eng_query": "cost of seattle sutton meals",
+    "native_query": "सिएटल सटन भोजन की लागत",
+    "eng_answer": "$153",
+    "native_answer": "153 डॉलर",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 232024,
+    "eng_query": "how far is phoenix az from galveston tx?",
+    "native_query": "फीनिक्स एज़ गैल्वेस्टन टेक्सस से कितनी दूर है?",
+    "eng_answer": "1,232 miles or 1 983 kilometers",
+    "native_answer": "1,232 मील या 1,983 किलोमीटर",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 1059982,
+    "eng_query": "what is bigger a bushel and a peck",
+    "native_query": "बुशेल और पेक क्या होते हैं बड़े",
+    "eng_answer": "A bushel is bigger then a peck.",
+    "native_answer": "एक बुशेल एक चोटी से बड़ा होता है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 117582,
+    "eng_query": "define amortization costs",
+    "native_query": "अमूर्तिकरण लागत को परिभाषित करें",
+    "eng_answer": "The total cost a business has reported to date for a given purchase.",
+    "native_answer": "एक व्यवसाय द्वारा एक निश्चित खरीद के लिए अब तक की गई कुल लागत।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 1090306,
+    "eng_query": "suture meaning",
+    "native_query": "सीवने का मतलब है",
+    "eng_answer": "Suture means a strand or fiber used to sew parts of the living body.",
+    "native_answer": "सीवन का अर्थ है एक धागा या रेशा जिसका उपयोग जीवित शरीर के अंगों को सिलने के लिए किया जाता है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 163487,
+    "eng_query": "does atheroma occur in veins",
+    "native_query": "क्या धमनियों में धमनीविस्फार होता है?",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 229732,
+    "eng_query": "how far away is jupiter",
+    "native_query": "बृहस्पति कितना दूर है",
+    "eng_answer": "365 million miles to 601 million miles",
+    "native_answer": "365 मिलियन मील से 601 मिलियन मील",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 20520,
+    "eng_query": "arbitrage definition",
+    "native_query": "सुलझाव की परिभाषा",
+    "eng_answer": "1. : the nearly simultaneous purchase and sale of securities or foreign exchange in different markets in order to profit from price discrepancies. 2. : the purchase of the stock of a takeover target especially with a view to selling it profitably to the raider.See arbitrage defined for English-language learners.",
+    "native_answer": "1. : अलग-अलग बाजारों में प्रतिभूतियों या विदेशी मुद्रा की लगभग एक साथ खरीद और बिक्री करना ताकि मूल्य विसंगतियों से लाभ उठाया जा सके।\n\n2. : टेकओवर लक्ष्य के स्टॉक की खरीद, विशेष रूप से इसे लाभप्रद तरीके से रेडर को बेचने के उद्देश्य से। अंग्रेजी भाषा के शिक्षार्थियों के लिए परिभाषित सीआरएज।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 135030,
+    "eng_query": "definition of gross salary verus basic salary",
+    "native_query": "सकल वेतन बनाम मूल वेतन की परिभाषा",
+    "eng_answer": "Gross salary is the term used to describe all of the money you’ve made while working at your job, figured before any deductions are taken for state and federal taxes, Social Security and health insurance. Whereas, Basic salary is the fixed salary, invariable, minimum wages, mandatory pay, fixed by the company to pay the employees.",
+    "native_answer": "सकल वेतन वह शब्द है जिसका उपयोग आपके नौकरी पर काम करते हुए आपके द्वारा अर्जित सभी धन का वर्णन करने के लिए किया जाता है, जिसे राज्य और संघीय कर, सामाजिक सुरक्षा और स्वास्थ्य बीमा के लिए किसी भी कटौती के लिए पहले से गणना की जाती है। जबकि, बुनियादी वेतन वह निश्चित वेतन, अपरिवर्तनीय, न्यूनतम मजदूरी, अनिवार्य भुगतान है, जो कंपनी द्वारा कर्मचारियों को भुगतान करने के लिए निर्धारित किया जाता है।",
+    "gold_passage_idxs": [
+      1,
+      7
+    ]
+  },
+  {
+    "query_id": 21171,
+    "eng_query": "are beignets the most famous product in new orleans",
+    "native_query": "बेगनेट्स न्यू ऑरलियन्स का सबसे प्रसिद्ध उत्पाद है।",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 1059961,
+    "eng_query": "what is bigger a mega",
+    "native_query": "क्या है मेगा से बड़ा",
+    "eng_answer": "The unit prefix mega is a multiplier of 1 000 000 (10 6) in the International System of Units.",
+    "native_answer": "इकाई उपसर्ग मेगा अंतर्राष्ट्रीय इकाई प्रणाली में 1,000,000 (10^6) का गुणक है।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 68450,
+    "eng_query": "can i broil cod fillets",
+    "native_query": "क्या मैं कॉड फिल्लेट्स को भून सकता हूँ?",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1090304,
+    "eng_query": "swabhiman cast",
+    "native_query": "स्वभिमान कास्ट",
+    "eng_answer": "1 Samridh Bawa. 2 Ankita Sharma. 3 Newbie Sangeeta Chauhan. 4 Prachee Shah. 5 Paintal. 6 Vinay Jain. 7 Sahil Uppal. are the cast of Swabhiman.",
+    "native_answer": "1. समृद्ध बावा। 2. अंकिता शर्मा। 3. नवीन संगीता चौहान। 4. प्राची शाह। 5. पैंटल। 6. विनय जैन। 7. साहिल उप्पल स्वभीमन के कलाकार हैं।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 368889,
+    "eng_query": "how to make fried dumplings",
+    "native_query": "तले हुए मोमोज़ कैसे बनाएं",
+    "eng_answer": "1 Mix dry ingredients together. 2 Add water a little at a time and knead dough. 3 Dough should be soft but not sticky. 4 Pinch off pieces (golf ball size), roll into a ball and flatten slightly.5 Heat oil in pan. 6 Put each dumpling in pan and fry on each side.7 Remove from pan when each side is golden brown.",
+    "native_answer": "1 सूखे सामग्री को मिलाएं। 2 थोड़ा-थोड़ा पानी मिलाएं और आटा गूंथें। 3 आटा नरम होना चाहिए लेकिन चिपचिपा नहीं। 4 टुकड़ों को (गोल्फ बॉल के आकार के समान) चुटकी मारें, गोलाकार बनाएं और थोड़ा सपाट करें। 5 पैन में तेल गरम करें। 6 प्रत्येक डंपलिंग को पैन में डालें और दोनों तरफ तलें। 7 जब प्रत्येक तरफ सुनहरा भूरा हो जाए तो पैन से निकालें।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 47542,
+    "eng_query": "average words for a woman each day",
+    "native_query": "हर दिन एक महिला के लिए औसत शब्द",
+    "eng_answer": "20,000",
+    "native_answer": "२०,०००",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 292225,
+    "eng_query": "how many people died in the molasses flood",
+    "native_query": "कितने लोगों की मौत मोलासेस बाढ़ में हुई",
+    "eng_answer": "21",
+    "native_answer": "I can't fulfill that request.",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 272983,
+    "eng_query": "how long until xanax shows in your system",
+    "native_query": "आपके शरीर में जैनेक्स के दिखने तक कितना समय लगेगा।",
+    "eng_answer": "Half life of Xanax from 6-20 hours.",
+    "native_answer": "6-20 घंटे का ज़ेनेक्स का आधा जीवन।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 192980,
+    "eng_query": "gabapentin long term effects",
+    "native_query": "गैबापेंटिन के दीर्घकालिक प्रभाव",
+    "eng_answer": "Gabapentin Side Effects: 1 Dizziness, vertigo. 2 Fatigue and or tiredness. 3 Unsteadiness or incoordination. 4 Abnormal thinking, anxiety, hostility, confusion, amnesia, 5 Depression, suicidal thoughts, mood changes. 6 Fluid accumulation in feet, edema of face or extremities. 7 Digestive distress, indigestion, loss of appetite, gas, nausea, vomiting, diarrhea.",
+    "native_answer": "गैबापेंटिन दुष्प्रभाव: 1 चक्कर आना, मतली। 2 थकान और थकान। 3 अस्थिरता या असंयोजन। 4 असामान्य सोच, चिंता, शत्रुता, भ्रम, भूलना, 5 अवसाद, आत्महत्या के विचार, मनोदशा में परिवर्तन। 6 पैरों में तरल पदार्थ का जमाव, चेहरे या अंगों का शोफ। 7 पाचन संबंधी परेशानी, अपच, भूख न लगना, गैस, मतली, उल्टी, दस्त।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 331994,
+    "eng_query": "how often health screenings",
+    "native_query": "कितनी बार स्वास्थ्य जांच की जाती है",
+    "eng_answer": "For women between the ages of 20 and 39.",
+    "native_answer": "20 से 39 वर्ष की आयु की महिलाओं के लिए।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 1090303,
+    "eng_query": "boston celtics phone number",
+    "native_query": "बोस्टन सेल्टिक फोन नंबर",
+    "eng_answer": "Boston Celtics phone number is +1 617-854-8000, 1-866-423-5849.",
+    "native_answer": "बोस्टन सेल्टिक्स का फोन नंबर +1 617-854-8000, 1-866-423-5849 है।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 290091,
+    "eng_query": "how many movements in beethoven's moonlight sonata",
+    "native_query": "बीथोवेन की चंद्रमा के प्रकाश वाली सोनाटा में कितने आंदोलन हैं",
+    "eng_answer": "Three",
+    "native_answer": "तीन",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 335086,
+    "eng_query": "how old is harriet tubman today",
+    "native_query": "आज हैरियट टबमैन की उम्र क्या है?",
+    "eng_answer": "Harriet tubman were alive today, in 2011, she would be 191 years old.",
+    "native_answer": "हैरियट टबमैन आज, 2011 में, 191 साल की हो जाएंगी।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1059909,
+    "eng_query": "what is bilateral hoffman sign",
+    "native_query": "बाइलेटरल हॉफमैन साइन क्या है",
+    "eng_answer": "Low back pain is a sign of bilateral Hoffmann, strongly linked with unknown compression of the cervical cord.",
+    "native_answer": "कम पीठ दर्द द्विपक्षीय हॉफमैन का संकेत है, जो ग्रीवा के अज्ञात संपीड़न के साथ दृढ़ता से जुड़ा हुआ है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 22530,
+    "eng_query": "are franchise fees negotiable?",
+    "native_query": "क्या फ्रेंचाइजी शुल्क पर बातचीत हो सकती है?",
+    "eng_answer": "No, Franchise fees are usually not negotiable but that fact has as much to do with the government's disclosure requirements than it does with a company's unwillingness to bargain.",
+    "native_answer": "नहीं, फ्रेंचाइजी शुल्क आम तौर पर बातचीत करने योग्य नहीं होते हैं, लेकिन यह तथ्य सरकार की प्रकटीकरण आवश्यकताओं के साथ उतना ही जुड़ा हुआ है जितना कि किसी कंपनी की सौदेबाजी करने की अनिच्छा के साथ।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 375184,
+    "eng_query": "how to reduce belly fat?",
+    "native_query": "पेट की चर्बी को कम करने का तरीका क्या है?",
+    "eng_answer": "The side plank exercise,By Zero Belly Diet,an hour of exercise in your daily routine,focus on green leafy vegetables and high fiber foods and Avoid Junk And Fatty Foods.",
+    "native_answer": "साइड प्लैंक एक्सरसाइज, बाय जीरो बेली डाइट, आपकी दैनिक दिनचर्या में एक घंटे का व्यायाम,हरी पत्तेदार सब्जियों और उच्च फाइबर वाले खाद्य पदार्थों पर ध्यान केंद्रित करें और जंक और वसायुक्त खाद्य पदार्थों से बचें।",
+    "gold_passage_idxs": [
+      3,
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  {
+    "query_id": 1101282,
+    "eng_query": "do male jaguar cubs grow faster than females?",
+    "native_query": "क्या नर जगुआर शावक महिलाओं की तुलना में तेजी से बढ़ते हैं?",
+    "eng_answer": "Yes, male jaguar cubs grow faster than females.",
+    "native_answer": "हाँ, नर जगुआर शावक महिलाओं की तुलना में तेजी से बढ़ते हैं।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1090302,
+    "eng_query": "swansea police address",
+    "native_query": "स्वानसी पुलिस का पता",
+    "eng_answer": "Swansea Police Department is in the PoliceOne Law Enforcement Directory.",
+    "native_answer": "स्वानसी पुलिस विभाग पुलिस वन कानून प्रवर्तन निर्देशिका में है।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 321,
+    "eng_query": "+where is your siatic nerve located",
+    "native_query": "आपकी साइटिक तंत्रिका कहाँ स्थित है",
+    "eng_answer": "It runs all the way down from the lower spine over the buttock to both feet to provide movement, feeling, and strength in both legs",
+    "native_answer": "यह निचले मेरु से नितंब के ऊपर से दोनों पैरों तक चलने के लिए नीचे की ओर जाता है ताकि दोनों पैरों में गति, संवेदना और ताकत प्रदान की जा सके।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 1100330,
+    "eng_query": "game of thrones cast members",
+    "native_query": "सिंहासन के खिलाड़ी सदस्यों का खेल",
+    "eng_answer": "Game of Thrones cast members are: Peter Dinklage, Nikolaj Coster-Waldau, Lena Headey, Emilia Clarke, Kit Harington, Max von Sydow, Pilou Asbaek, and Essie Davis.",
+    "native_answer": "गेम ऑफ थ्रोन के कलाकार सदस्य हैंः पीटर डिंकलेज, निकोलाज कोस्टर-वाल्डौ, लीना हीडे, एमिलिया क्लार्क, किट हैरिंगटन, मैक्स वॉन सिडो, पिलो अस्बेक और एसी डेविस।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 335943,
+    "eng_query": "how old is max burkholder right now",
+    "native_query": "अभी अधिकतम बुरखोल्डर कितना पुराना है",
+    "eng_answer": "Max Burkholder is 20 years old right now.",
+    "native_answer": "मैक्स बर्खोल्डर की उम्र इस समय 20 वर्ष है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 85449,
+    "eng_query": "causes of back left shoulder blade pain",
+    "native_query": "पीठ के बाएं कंधे की ब्लेड दर्द के कारण",
+    "eng_answer": "A scapula fracture and subscapularis muscle strain.",
+    "native_answer": "एक स्कैपुला फ्रैक्चर और सबस्कैपुलरिस मांसपेशी का तनाव।",
+    "gold_passage_idxs": [
+      1,
+      7
+    ]
+  },
+  {
+    "query_id": 301100,
+    "eng_query": "how many years of college do you have to do to be a dentist",
+    "native_query": "आपको दंत चिकित्सक बनने के लिए कितने साल कॉलेज जाना होगा।",
+    "eng_answer": "4 years.",
+    "native_answer": "4 साल की उम्र में 4 साल के बच्चे को देख कर मुझे बहुत खुशी होती है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 1090301,
+    "eng_query": "swazi language",
+    "native_query": "स्वाज़ी भाषा",
+    "eng_answer": "Swazi is the national language of Swaziland, and is spoken by approximately 95 percent of Swazis.",
+    "native_answer": "स्वाज़ी स्वाज़ीलैंड की राष्ट्रीय भाषा है और लगभग 95 प्रतिशत स्वाज़ी लोगों द्वारा बोली जाती है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 92014,
+    "eng_query": "chocolate pudding fudge",
+    "native_query": "चॉकलेट पुडिंग फज",
+    "eng_answer": "Chocolate Pudding Fudge. 8 oz semi sweet baking chocolate 6 tablespoons butter 1/3 cup water 3.9 oz package instant chocolate pudding 3 cups powdered sugar. In a medium bowl, place chocolate, butter, and water. Microwave for 2 minutes or until butter is completely melted. Stir until chocolate is melted. Add dry instant chocolate pudding. Stir in powdered sugar one cup at a time until fully incorporated. Press into a square baking dish that has been lined with wax paper or foil.",
+    "native_answer": "चॉकलेट पुडिंग फज। 8 औंस सेमी मीठा बेकिंग चॉकलेट 6 बड़े चम्मच मक्खन 1/3 कप पानी 3.9 औंस पैकेज इंस्टेंट चॉकलेट पुडिंग 3 कप पाउडर चीनी। एक मध्यम बाउल में, चॉकलेट, मक्खन और पानी रखें। 2 मिनट या तब तक माइक्रोवेव पर रखें जब तक कि मक्खन पूरी तरह से पिघल न जाए। चॉकलेट को पिघलने तक हिलाएं। एक कप में पाउडर चीनी मिलाएं और अच्छी तरह से मिलाएं। एक वर्गाकार बेकिंग डिश में डालें जिसे मोम कागज या फॉइल से ढका हुआ हो।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 1059905,
+    "eng_query": "comparative negligence define",
+    "native_query": "तुलनात्मक लापरवाही को परिभाषित करता है",
+    "eng_answer": "Comparative Negligence is define as the doctrine in the law of negligence by which the negligence of the parties is compared, in the degrees of slight, ordinary, and gross negligence.",
+    "native_answer": "तुलनात्मक लापरवाही को लापरवाही के नियम में एक सिद्धांत के रूप में परिभाषित किया गया है जिसके द्वारा पक्षों की लापरवाही की तुलना की जाती है, हल्की, सामान्य और गंभीर लापरवाही की डिग्री में।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 165172,
+    "eng_query": "does ct still have a gift tax",
+    "native_query": "क्या इसके बाद भी उपहार कर देना है?",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 222322,
+    "eng_query": "how do you get a zip code extension",
+    "native_query": "आपको ज़िप कोड एक्सटेंशन कैसे मिलता है?",
+    "eng_answer": "The USPS provides a free online lookup tool for ZIP codes.",
+    "native_answer": "यू.एस.पी.एस. ज़िप कोड के लिए एक मुफ्त ऑनलाइन लुकअप उपकरण प्रदान करता है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 103240,
+    "eng_query": "cost of closet organizers",
+    "native_query": "कोठरी आयोजकों की लागत",
+    "eng_answer": "$500-$1500.",
+    "native_answer": "500-1500 डॉलर।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 70739,
+    "eng_query": "can lemon juice cause heartburn",
+    "native_query": "नींबू का रस हृदयशोथ का कारण बन सकता है",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 144317,
+    "eng_query": "did kate's law pass congress",
+    "native_query": "क्या केट का कानून कांग्रेस में पारित हुआ?",
+    "eng_answer": "Yes, THE FACTOR has taken the lead in trying to convince Congress and President Obama to pass Kate's Law after 32-year-old Kate Steinle was shot dead by an illegal alien felon who had been deported five times.",
+    "native_answer": "हाँ, द फैक्टर ने कांग्रेस और राष्ट्रपति ओबामा को केट के कानून को पारित करने के लिए मनाने की कोशिश में बढ़त बना ली है, जब 32 वर्षीय केट स्टेनले को एक अवैध विदेशी अपराधी ने गोली मार दी थी, जिसे पाँच बार निर्वासित कर दिया गया था।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 137982,
+    "eng_query": "definition of sappy",
+    "native_query": "सैपी की परिभाषा",
+    "eng_answer": "Sappy means dramatic and emotional.",
+    "native_answer": "सैप्पी का अर्थ है नाटकीय और भावनात्मक।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 1090300,
+    "eng_query": "sweden average tax rate",
+    "native_query": "स्वीडन की औसत कर दर",
+    "eng_answer": "Personal Income Tax Rate in Sweden averaged 56.31 percent.",
+    "native_answer": "स्वीडन में व्यक्तिगत आयकर की दर औसतन 56.31 प्रतिशत थी।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 265096,
+    "eng_query": "how long is the movie shack",
+    "native_query": "फिल्म कितनी देर तक चलती है",
+    "eng_answer": "Two hours and 12 minutes.",
+    "native_answer": "दो घंटे और 12 मिनट।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 308972,
+    "eng_query": "how much does a clinical research associate earn in south africa",
+    "native_query": "दक्षिण अफ्रीका में एक नैदानिक ​​अनुसंधान सहयोगी कितना कमाता है",
+    "eng_answer": "R515,181 per year.",
+    "native_answer": "आर 515,181 प्रति वर्ष।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 74160,
+    "eng_query": "can sutures prevent dry socket",
+    "native_query": "सूखे सॉकेट को टांके कैसे रोक सकते हैं",
+    "eng_answer": "Yes, silk or gut sutures are effective in preventing dry socket.",
+    "native_answer": "हाँ, रेशम या आंत के टांके सूखे रस्ते को रोकने में प्रभावी होते हैं।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 25196,
+    "eng_query": "are sunflower seeds bad for your heart",
+    "native_query": "सूरजमुखी के बीज तुम्हारे दिल के लिए बुरे होते हैं।",
+    "eng_answer": "Yes, unflower seeds are very low in cholesterol and sodium, thereby protect your heart.",
+    "native_answer": "हाँ, फूलों के बीजों में कोलेस्ट्रॉल और सोडियम की मात्रा बहुत कम होती है, जिससे आपका हृदय सुरक्षित रहता है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 37657,
+    "eng_query": "average income for citrus county fl",
+    "native_query": "औसत आय सिट्रस काउंटी के लिए",
+    "eng_answer": "The per capita income of Citrus County is $23,495, Citrus County median household income is $38,109.",
+    "native_answer": "साइट्रस काउंटी की प्रति व्यक्ति आय 23,495 डॉलर है, साइट्रस काउंटी की औसत घरेलू आय 38,109 डॉलर है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 293271,
+    "eng_query": "how many places does homeaway offer",
+    "native_query": "कितने स्थानों पर घर की सुविधा उपलब्ध है",
+    "eng_answer": "More than 1 million in 190 countries",
+    "native_answer": "190 देशों में 10 लाख से अधिक",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 131137,
+    "eng_query": "definition gross wages",
+    "native_query": "परिभाषित सकल मजदूरी",
+    "eng_answer": "The total amount an employee is paid before any taxes, deductions, insurance premiums, and other withholdings.",
+    "native_answer": "किसी भी कर, कटौती, बीमा प्रीमियम और अन्य रोक लगाने से पहले कर्मचारी को दी जाने वाली कुल राशि।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 158001,
+    "eng_query": "do natural mosquito barriers work",
+    "native_query": "क्या प्राकृतिक मच्छर अवरोधक काम करते हैं?",
+    "eng_answer": "Yes, natural mosquito barriers can work.",
+    "native_answer": "हाँ, प्राकृतिक मच्छर अवरोध काम कर सकते हैं।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 1059890,
+    "eng_query": "what is bim bop",
+    "native_query": "बिम बॉप क्या है?",
+    "eng_answer": "Bee-bim bop is a traditional Korean dish of rice topped, and then mixed, with meat and vegetables.",
+    "native_answer": "बी-बिम बॉप चावल का एक पारंपरिक कोरियाई व्यंजन है जिसमें मांस और सब्जियों के साथ ऊपर से मिश्रित किया जाता है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 98136,
+    "eng_query": "convert a string to char c#",
+    "native_query": "स्ट्रिंग को चार से बदलें",
+    "eng_answer": "MyString = myChar",
+    "native_answer": "माईस्ट्रिंग = माईचार",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 178066,
+    "eng_query": "education is key to success",
+    "native_query": "शिक्षा ही सफलता की कुंजी है",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1090298,
+    "eng_query": "sweetest foods in the world",
+    "native_query": "दुनिया के सबसे मीठे खाद्य पदार्थ",
+    "eng_answer": "The sweetest food on earth meaning the one that is most delicious, most satisfying, most appreciated is anything you eat after going without food for a few days.",
+    "native_answer": "पृथ्वी पर सबसे मीठा भोजन, जिसका अर्थ है वह जो सबसे स्वादिष्ट, सबसे संतोषजनक, सबसे सराहनीय है, वह कुछ दिनों के लिए भोजन के बिना खाने के बाद आप जो कुछ भी खाते हैं।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 51663,
+    "eng_query": "best clp for gun cleaning",
+    "native_query": "बंदूक की सफाई के लिए सर्वोत्तम क्लिप",
+    "eng_answer": "Oil,Ace Silicone Grease,Archoil AR4200,ATF – Automatic Transmission Fluid,Atsko Silicone Spray,Ballistol,Barricade.",
+    "native_answer": "ऑयल, एसी सिलिकॉन ग्रीस, आर्कोयल ए.आर. 4200, ए.टी.एफ.-ऑटोमैटिक ट्रांसमिशन फ्लूइड, एट्स्को सिलिकॉन स्प्रे, बैलिस्टल, बैरिकेड।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 1059840,
+    "eng_query": "what is binary search",
+    "native_query": "क्या है बाइनरी सर्च",
+    "eng_answer": "A binary search, also called a dichotomizing search, is a digital scheme for locating a specific object in a large set.",
+    "native_answer": "एक द्विआधारी खोज, जिसे द्विभाजन खोज भी कहा जाता है, एक बड़े सेट में किसी विशिष्ट वस्तु का पता लगाने के लिए एक डिजिटल योजना है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 148708,
+    "eng_query": "difference between simple regression and multiple regression",
+    "native_query": "सरल प्रतिगमन और बहु प्रतिगमन के बीच अंतर",
+    "eng_answer": "In simple linear regression a single independent variable is used to predict the value of a dependent variable. In multiple linear regression two or more independent variables are used to predict the value of a dependent variable.",
+    "native_answer": "सरल रैखिक प्रतिगमन में एक निर्भर चर के मान की भविष्यवाणी करने के लिए एक एकल स्वतंत्र चर का उपयोग किया जाता है। एकाधिक रैखिक प्रतिगमन में एक निर्भर चर के मान की भविष्यवाणी करने के लिए दो या दो से अधिक स्वतंत्र चरों का उपयोग किया जाता है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 216749,
+    "eng_query": "how do construction loans work?",
+    "native_query": "निर्माण ऋण कैसे काम करते हैं?",
+    "eng_answer": "When you apply for a loan, the lender will need a copy of the building contract/tender and the plans. They’ll ask their valuer to estimate the on-completion value of the property and will assess your loan on the lesser of the land price plus cost of construction or the on-completion value.",
+    "native_answer": "जब आप ऋण के लिए आवेदन करते हैं, तो ऋणदाता को भवन अनुबंध/टेंडर और योजनाओं की एक प्रति की आवश्यकता होगी। वे अपने मूल्यांकनकर्ता से संपत्ति के पूरा होने के मूल्य का अनुमान लगाने के लिए कहेंगे और जमीन की कीमत के अलावा निर्माण की लागत या संपत्ति के पूरा होने के मूल्य के आधार पर आपके ऋण का मूल्यांकन करेंगे।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 63801,
+    "eng_query": "can alka seltzer cause upset stomach",
+    "native_query": "क्या अल्का सेल्ट्ज़र पेट खराब कर सकता है?",
+    "eng_answer": "No, when you get heartburn, acid indigestion or upset stomach with pain, turn to Alka-Seltzer Extra Strength for fast relief.",
+    "native_answer": "नहीं, जब आपको जी में जलन, अम्ल अपच या दर्द से पेट खराब हो जाए, तो तेज राहत के लिए अल्का-सेल्ट्ज़र एक्स्ट्रा स्ट्रेंथ का सहारा लें।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 260122,
+    "eng_query": "how long does things stay on your credit report",
+    "native_query": "आपकी क्रेडिट रिपोर्ट में चीजें कितने समय तक रहती हैं",
+    "eng_answer": "Seven years",
+    "native_answer": "सात वर्ष",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 1059838,
+    "eng_query": "what is biodiversity describe the levels",
+    "native_query": "जैव विविधता के स्तर का वर्णन क्या है",
+    "eng_answer": "Biodiversity typically measures variation at the genetic, the species, and the ecosystem level. Species diversity is a measure of how many different species are present in a given area. Genetic diversity measures the amount of inherited genetic variability contained within a populations of species.",
+    "native_answer": "जैव विविधता आमतौर पर आनुवंशिक, प्रजाति और पारिस्थितिकी तंत्र के स्तर पर भिन्नता को मापती है। प्रजाति विविधता एक माप है कि किसी दिए गए क्षेत्र में कितनी अलग-अलग प्रजातियाँ मौजूद हैं। आनुवंशिक विविधता प्रजातियों की आबादी के भीतर विरासत में मिली आनुवंशिक परिवर्तनशीलता की मात्रा को मापती है।",
+    "gold_passage_idxs": [
+      4,
+      8
+    ]
+  },
+  {
+    "query_id": 147826,
+    "eng_query": "difference between longitudinal waves and transverse wave",
+    "native_query": "दीर्घवृत्तीय तरंगों और अनुप्रस्थ तरंगों के बीच अंतर",
+    "eng_answer": "The difference between transverse and longitudinal waves is the direction the medium of the wave moves in relation to the direction of wave propagation while in transverse waves, the medium is displaced perpendicular to the direction of the wave. In longitudinal waves, the medium is displaced parallel to the direction of the wave.",
+    "native_answer": "अनुप्रस्थ और अनुदैर्ध्य तरंगों के बीच का अंतर वह दिशा है जिसमें तरंग का माध्यम तरंग प्रसार की दिशा के संबंध में चलता है, जबकि अनुप्रस्थ तरंगों में माध्यम तरंग की दिशा के लंबवत विस्थापित होता है। अनुदैर्ध्य तरंगों में माध्यम तरंग की दिशा के समानांतर विस्थापित होता है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 299736,
+    "eng_query": "how many weeks can unemployment benefits in texas",
+    "native_query": "टेक्सास में बेरोजगारी के लाभ कितने सप्ताह हो सकते हैं",
+    "eng_answer": "Upto 20 weeks of additional compensation after all federal unemployment extension payments have been received.",
+    "native_answer": "सभी संघीय बेरोजगारी विस्तार भुगतान प्राप्त करने के बाद 20 सप्ताह का अतिरिक्त मुआवजा मिला है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 17746,
+    "eng_query": "analects of confucius",
+    "native_query": "अनालेक्ट्स ऑफ कन्फ्यूशियस",
+    "eng_answer": "A collection of sayings and ideas attributed to the Chinese philosopher Confucius and his contemporaries, traditionally believed to have been compiled and written by Confucius' followers.",
+    "native_answer": "चीनी दार्शनिक कन्फ्यूशियस और उनके समकालीनों के मौलिक विचारों और कहावतों का एक संग्रह, जिसे पारंपरिक रूप से कन्फ्यूशियस के अनुयायियों द्वारा संकलित और लिखा गया माना जाता है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 42761,
+    "eng_query": "average salary in dallas tx for RN",
+    "native_query": "आर.एन. के लिए डैलस टेक्सस में औसत वेतन",
+    "eng_answer": "$13,000",
+    "native_answer": "13,000 डॉलर",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 124613,
+    "eng_query": "define nuclear option",
+    "native_query": "परमाणु विकल्प को परिभाषित करें",
+    "eng_answer": "It is a parliamentary procedure that allows the U.S. Senate to override a rule or precedent by a simple majority of 51 votes, instead of by a supermajority of 60 votes.",
+    "native_answer": "यह एक संसदीय प्रक्रिया है जो अमेरिकी सीनेट को 60 मतों के सुपरमेजॉरिटी के बजाय 51 मतों के सरल बहुमत से किसी नियम या पूर्ववर्ती को पारित करने की अनुमति देती है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1090296,
+    "eng_query": "boston proper customer service phone number",
+    "native_query": "बोस्टन के लिए ग्राहक सेवा फोन नंबर",
+    "eng_answer": "The customer service phone number of Boston Proper is 1-800-243-4300.",
+    "native_answer": "बोस्टन प्रॉपर का ग्राहक सेवा फोन नंबर 1-800-243-4300 है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1059831,
+    "eng_query": "what is biomass energy normally used for",
+    "native_query": "जैव ऊर्जा का उपयोग आमतौर पर किस लिए किया जाता है",
+    "eng_answer": "The most common biomass materials used for energy are plants, wood, and waste. Using Biomass Energy Usually we burn wood and use its energy for heating.",
+    "native_answer": "ऊर्जा के लिए उपयोग की जाने वाली सबसे आम जैव सामग्री पौधे, लकड़ी और कचरा हैं। आमतौर पर हम लकड़ी जलाते हैं और इसकी ऊर्जा का उपयोग तापन के लिए करते हैं।",
+    "gold_passage_idxs": [
+      2,
+      4
+    ]
+  },
+  {
+    "query_id": 309535,
+    "eng_query": "how much does a food scientist earn",
+    "native_query": "एक खाद्य वैज्ञानिक कितना कमाता है",
+    "eng_answer": "$59,538 per year.",
+    "native_answer": "प्रति वर्ष 59,538 डॉलर।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 178253,
+    "eng_query": "effect of environmental monitoring on health",
+    "native_query": "स्वास्थ्य पर पर्यावरणीय निगरानी का प्रभाव",
+    "eng_answer": "It sustain health, and promoting them is preventive medicine.",
+    "native_answer": "यह स्वास्थ्य को बनाए रखता है और उनको बढ़ावा देने वाली दवा है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 59558,
+    "eng_query": "calories in 100g raw lentils",
+    "native_query": "100 ग्राम कच्ची दाल में कैलोरी",
+    "eng_answer": "Raw lentils contains 353 kcal of Calories per 100.",
+    "native_answer": "कच्ची दाल में प्रति 100 कैलोरी में 353 किलोकैलोरी होती है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 222051,
+    "eng_query": "how do you file for social security",
+    "native_query": "आप सामाजिक सुरक्षा के लिए कैसे आवेदन करते हैं",
+    "eng_answer": "1 Applying Online for Retirement Benefits. \n2 By phone-Call us at 1-800-772-1213 (TTY 1-800-325-0778), 3 In person-Visit your local Social Security Office.",
+    "native_answer": "1 सेवानिवृत्ति लाभों के लिए ऑनलाइन आवेदन करना। \n2 हमें 1-800-772-1213 (TTY 1-800-325-0778) पर फोन करके या व्यक्तिगत रूप से अपने स्थानीय सामाजिक सुरक्षा कार्यालय पर जाएँ।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 185015,
+    "eng_query": "famous people's birthdays 17th june",
+    "native_query": "17 जून को प्रसिद्ध लोगों के जन्मदिन",
+    "eng_answer": "Ralph Bellamy,King Charles XII,King Edward I,Thomas Hayden Church,Charles Coburn,Will Forte,Newt Gingrich,M.C. Escher, Greg Kinnear,Mark Linn-Baker,Joshua Leonard, Joe Piscopo, Barry Manilow,Venus Williams,Igor Strvinsky.",
+    "native_answer": "राल्फ बेलामी, किंग चार्ल्स द्वादश, किंग एडवर्ड प्रथम, थॉमस हेडन चर्च, चार्ल्स कोबर्न, विल फोर्टे, न्यूट गिंगरिच, एम.सी. एस्चर, ग्रेग किनियर, मार्क लिन-बेकर, जोशुआ लियोनार्ड, जो पिस्कोपो, बैरी मैनिलो, वीनस विलियम्स, इगोर स्ट्राविंस्की।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 294909,
+    "eng_query": "how many scotus justices' are there?",
+    "native_query": "कितने स्कॉटस न्यायाधीश हैं?",
+    "eng_answer": "Nine justices: a chief justice and eight associate justices.",
+    "native_answer": "नौ न्यायाधीशः एक मुख्य न्यायाधीश और आठ सहायक न्यायाधीश।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 1059816,
+    "eng_query": "what is bioplastic",
+    "native_query": "क्या बायोप्लास्टिक है",
+    "eng_answer": "The definition of a bioplastic is a biodegradable plastic that is made or derived from biological materials.",
+    "native_answer": "बायोप्लास्टिक की परिभाषा एक जैव-अपघटनशील प्लास्टिक है जो जैविक सामग्री से बनाया जाता है या प्राप्त किया जाता है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 174228,
+    "eng_query": "does xanax have opiates in it",
+    "native_query": "क्या जैनेक्स में अफीम जैसी दवाएं होती हैं?",
+    "eng_answer": "No, Xanax is a benzodiazepine.",
+    "native_answer": "नहीं, ज़ेनेक्स एक बेंज़ोडायज़ेपाइन है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 272688,
+    "eng_query": "how long to wear compression socks for edema",
+    "native_query": "शोफ के लिए संपीड़न मोजे कितने समय तक पहनने चाहिए",
+    "eng_answer": "Couple hours",
+    "native_answer": "कुछ घंटों के लिए कुछ न कुछ करो।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 158129,
+    "eng_query": "do okra have fiber",
+    "native_query": "क्या डूख में फाइबर होता है?",
+    "eng_answer": "Yes, okra is a very good source of fiber.",
+    "native_answer": "हाँ, तरबूजी फाइबर का एक बहुत अच्छा स्रोत है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 300463,
+    "eng_query": "how many yards of fabric for a quilt",
+    "native_query": "एक कंबल के लिए कितने गज का कपड़ा",
+    "eng_answer": "A standard queen size quilt that is 88 inches wide and 96 inches long takes about 8 yards of fabric.",
+    "native_answer": "एक मानक रानी आकार की कंबल जो 88 इंच चौड़ी और 96 इंच लंबी है, उसमें लगभग 8 गज का कपड़ा लगता है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 1059782,
+    "eng_query": "what is biscuit in spanish",
+    "native_query": "स्पेनिश में बिस्कुट क्या होता है",
+    "eng_answer": "Biscuits in Spanish is galletas.",
+    "native_answer": "स्पेनी में बिस्कुट गैलेटा है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 1090293,
+    "eng_query": "sykesville population",
+    "native_query": "साइक्सविले की आबादी",
+    "eng_answer": "Sykesville has a population of 371,267.",
+    "native_answer": "साइक्सविल की आबादी 371,267 है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 194908,
+    "eng_query": "giants net worth",
+    "native_query": "विशाल नेट वर्थ",
+    "eng_answer": "$2 million",
+    "native_answer": "2 मिलियन डॉलर",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 1059771,
+    "eng_query": "what is bitcoin computer",
+    "native_query": "बिटकॉइन कंप्यूटर क्या है",
+    "eng_answer": "Bitcoin is a mobile app or computer program that provides a personal Bitcoin wallet and allows a user to send and receive bitcoins with them.",
+    "native_answer": "बिटकॉइन एक मोबाइल ऐप या कंप्यूटर प्रोग्राम है जो एक व्यक्तिगत बिटकॉइन वॉलेट प्रदान करता है और उपयोगकर्ता को उनके साथ बिटकॉइन भेजने और प्राप्त करने की अनुमति देता है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1101281,
+    "eng_query": "do mealworms need to be in the fridge?",
+    "native_query": "क्या डिंभक को फ्रिज में रखने की आवश्यकता है?",
+    "eng_answer": "Yes, mealworms purchased in cups need to be in the fridge.",
+    "native_answer": "हाँ, कप में खरीदे गए मीलवर्म को फ्रिज में रखना जरूरी है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 95786,
+    "eng_query": "common signs and symptoms of dehydration",
+    "native_query": "निर्जलीकरण के सामान्य संकेत और लक्षण",
+    "eng_answer": "Dry mouth, Eyes stop making tears, Sweating may stop and Concentrated, dark, yellow urine.",
+    "native_answer": "शुष्क मुँह, आँखें आँसू बनाना बंद कर देती हैं, पसीना बंद हो सकता है और गाढ़ा, काला, पीला मूत्र निकल सकता है।",
+    "gold_passage_idxs": [
+      2,
+      5
+    ]
+  },
+  {
+    "query_id": 70378,
+    "eng_query": "can insurance premiums be paid from hsa",
+    "native_query": "क्या बीमा प्रीमियम एच.एस.ए. से चुकाया जा सकता है?",
+    "eng_answer": "Yes, there are only a few situations in which you can use Health Savings Accounts money to pay insurance premiums.",
+    "native_answer": "हाँ, केवल कुछ ही ऐसी स्थितियाँ हैं जिनमें आप बीमा प्रीमियम का भुगतान करने के लिए स्वास्थ्य बचत खाते के पैसे का उपयोग कर सकते हैं।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 1100329,
+    "eng_query": "gamefly contact number",
+    "native_query": "गेमफ्लाई संपर्क नंबर",
+    "eng_answer": "The contact number of Gamefly is +1-310-664-6400.",
+    "native_answer": "गेमफ्लाई का संपर्क नंबर +1-310-664-6400 है।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 244841,
+    "eng_query": "how long do dogs sleep daily",
+    "native_query": "कुत्ते दैनिक कितनी देर सोते हैं",
+    "eng_answer": "12 to 14 hours per day.",
+    "native_answer": "12 से 14 घंटे प्रतिदिन।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 1090291,
+    "eng_query": "symeon of emesa",
+    "native_query": "सिमोन ऑफ एमेसा",
+    "eng_answer": "Symeon of Emesa and the ‘Pedagogics of Liminality’ 265 aims. Though he is called ‘Symeon of Emesa’, Symeon is a permanent stran- ger and foreigner in the city and is even buried in the cemetery for strangers.",
+    "native_answer": "एमेसा के सिमोन और 'पेडागोजिक्स ऑफ लिमिनेलिटी' के 265 उद्देश्यों के बारे में बताते हैं कि उन्हें 'एमेसा का सिमोन' कहा जाता है, सिमोन शहर में एक स्थायी अजनबी है और अजनबियों के लिए कब्रिस्तान में भी दफनाया गया है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 339729,
+    "eng_query": "how soon do you start basic training after enlistment in the army",
+    "native_query": "सेना में भर्ती होने के बाद आप कितनी जल्दी बुनियादी प्रशिक्षण शुरू कर देते हैं",
+    "eng_answer": "10 and 30 days after your induction.",
+    "native_answer": "आपके प्रेरण के 10 और 30 दिनों के बाद।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 1059751,
+    "eng_query": "what is bitmeter os",
+    "native_query": "क्या बिटमीटर ओ.एस. है",
+    "eng_answer": "BitMeter OS is a free, open-source, bandwidth monitor that works on Windows, Linux and Mac OSX.",
+    "native_answer": "बिटमीटर ओ.एस. एक मुफ्त, ओपन-सोर्स, बैंडविड्थ मॉनिटर है जो विंडोज, लिनक्स और मैक ओ.एस. पर काम करता है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 14603,
+    "eng_query": "agilent phone number",
+    "native_query": "शांत फोन नंबर",
+    "eng_answer": "United States : 800–227–9770, Canada : 800–227–9770.",
+    "native_answer": "संयुक्त राज्य अमेरिका : 800-227-9770, कनाडा : 800-227-9770।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 93584,
+    "eng_query": "cloud atlas movie cast",
+    "native_query": "क्लाउड एटलस मूवी कास्ट",
+    "eng_answer": "Cloud Atlas Starring Tom Hanks Halle Berry Jim Broadbent Hugo Weaving Jim Sturgess Bae Doona Ben Whishaw James D'Arcy Zhou Xun Keith David David Gyasi Susan Sarandon and Hugh Grant.",
+    "native_answer": "क्लाउड एटलस स्टारिंग टॉम हैंक्स हैले बेरी जिम ब्रॉडबेंट ह्यूगो वीविंग जिम स्टर्जेस बे डूना बेन व्हिशॉ जेम्स डी आर्सी झोउ एक्सुन कीथ डेविड डेविड ज्यासी सुसान सारंडन और ह्यू ग्रांट।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 189674,
+    "eng_query": "foods that make you feel good",
+    "native_query": "ऐसे खाद्य पदार्थ जो आपको अच्छा महसूस कराते हैं",
+    "eng_answer": "Salmon and sardines.",
+    "native_answer": "सैल्मन और सार्डिन।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 122709,
+    "eng_query": "define infanticide.",
+    "native_query": "नरबध को परिभाषित करें।",
+    "eng_answer": "Infanticide is the murder of a new born infant.",
+    "native_answer": "नवजात शिशु की हत्या को नृशंसता कहा जाता है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 147073,
+    "eng_query": "difference between discrete and process manufacturing",
+    "native_query": "विवेकपूर्ण और प्रक्रिया निर्माण के बीच अंतर",
+    "eng_answer": "Discrete manufacturing uses Complex Multilevel BOMs while process manufacturing uses Multiple Recipes and Formulas.",
+    "native_answer": "विवेकपूर्ण विनिर्माण में जटिल बहुस्तरीय बी.ओ.एम. का उपयोग किया जाता है जबकि प्रक्रिया विनिर्माण में कई व्यंजन विधियों और सूत्रों का उपयोग किया जाता है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1059747,
+    "eng_query": "what is bitter orange used for",
+    "native_query": "कौन से लिए जाते हैं कठोर नारंगी रंग के",
+    "eng_answer": "Uses of bitter orange: 1. Used for the essential oi. 2. Used in the production of marmalade. 3. Used as a flavoring or as a solvent. 4. Used in ephedra-free products.",
+    "native_answer": "कड़वे संतरे के उपयोग: 1. आवश्यक तेल के लिए उपयोग किया जाता है। 2. मार्मलेड के उत्पादन में उपयोग किया जाता है। 3. स्वाद के रूप में या विलायक के रूप में उपयोग किया जाता है। 4. एफेड्रा-मुक्त उत्पादों में उपयोग किया जाता है।",
+    "gold_passage_idxs": [
+      5,
+      7
+    ]
+  },
+  {
+    "query_id": 243761,
+    "eng_query": "how long did abraham lincoln serve",
+    "native_query": "अब्राहम लिंकन ने कितने समय तक सेवा की",
+    "eng_answer": "Abraham Lincoln served as a president would be four years, one month, and about 12 days.",
+    "native_answer": "अब्राहम लिंकन ने चार साल, एक महीने और लगभग 12 दिनों तक राष्ट्रपति के रूप में कार्य किया।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 143743,
+    "eng_query": "did disney world ever have a dixie land resort",
+    "native_query": "क्या डिज्नी वर्ल्ड में कभी डिक्सी लैंड रिसॉर्ट था?",
+    "eng_answer": "Yes, Disney's Dixie Landings Resort opened February 2, 1992.",
+    "native_answer": "हाँ, डिज़्नी का डिक्सी लैंडिंग्स रिज़ॉर्ट 2 फरवरी 1992 को खुला।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 142127,
+    "eng_query": "desert eagle location in ghost recon",
+    "native_query": "भूत पुनर्ख्याल में रेगिस्तानी बाज़ का स्थान",
+    "eng_answer": "The D-50 Desert Eagle, the best pistol in Ghost Recon Wildlands, is located in the Libertad province in the F.O.B. Oso Hormiguero base.",
+    "native_answer": "डी-50 डेजर्ट ईगल, जो कि घोस्ट रिकॉन वाइल्डलैंड्स में सबसे अच्छी पिस्तौल है, एफ.ओ.बी. ओसो होर्मिगुएरो बेस में लिबर्टाड प्रांत में स्थित है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 164814,
+    "eng_query": "does coconut oil treat yeast",
+    "native_query": "नारियल का तेल खमीर का इलाज करता है",
+    "eng_answer": "Yes, coconut oil treats yeast.",
+    "native_answer": "हाँ, नारियल का तेल खमीर को ठीक करता है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 285214,
+    "eng_query": "how many grams of sugar in one sugar packet",
+    "native_query": "एक चीनी के पैकेट में कितनी चीनी होती है",
+    "eng_answer": "4",
+    "native_answer": "I can't fulfill that request.",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 43997,
+    "eng_query": "average size of an enzyme",
+    "native_query": "किसी एंजाइम का औसत आकार",
+    "eng_answer": "4 bp.",
+    "native_answer": "4 बी.पी.",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 1021,
+    "eng_query": "2015 mississippi state football schedule",
+    "native_query": "2015 मिसिसिपी राज्य फुटबॉल अनुसूची",
+    "eng_answer": "7 home games and 5 away games in the regular season",
+    "native_answer": "नियमित सत्र में ७ घरेलू खेल और ५ बाहरी खेल",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1059736,
+    "eng_query": "what is bitumen upgrading",
+    "native_query": "क्या है अपग्रेडिंग बिटमेन",
+    "eng_answer": "Bitumen upgrading is the chemical treatment of bitumen that is used in an attempt to increase its value by creating a high quality crude oil substitute known as a synthetic crude oil.",
+    "native_answer": "बिटुमेन अपग्रेडिंग बिटुमेन का रासायनिक उपचार है जिसका उपयोग सिंथेटिक कच्चे तेल के रूप में जाने जाने वाले उच्च गुणवत्ता वाले कच्चे तेल का निर्माण करके इसके मूल्य को बढ़ाने के प्रयास में किया जाता है।",
+    "gold_passage_idxs": [
+      6
+    ]
+  },
+  {
+    "query_id": 130641,
+    "eng_query": "definition entranced",
+    "native_query": "परिभाषा मोहित",
+    "eng_answer": "The act or an instance of entering.",
+    "native_answer": "प्रवेश करने का कार्य या उदाहरण।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 314458,
+    "eng_query": "how much does it cost for dog to be tested for heartworms",
+    "native_query": "कुत्ते को दिल के कृमि के लिए परीक्षण कराने की कितनी कीमत आती है",
+    "eng_answer": "$48.00",
+    "native_answer": "48.00 डॉलर",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 42212,
+    "eng_query": "average salary for college grad",
+    "native_query": "महाविद्यालय स्नातक के लिए औसत वेतन",
+    "eng_answer": "$52,000",
+    "native_answer": "52,000 डॉलर",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1090288,
+    "eng_query": "symptoms ancylostomiasis",
+    "native_query": "संलक्षण एनसाइक्लोस्टोमियासिस",
+    "eng_answer": "The symptoms of Ancylostomiasis include rash at the site of larval entry and sometimes abdominal pain or other GI symptoms during early infection, iron deficiency.",
+    "native_answer": "लार्वा प्रवेश के स्थान पर चकत्ता और कभी-कभी प्रारंभिक संक्रमण के दौरान पेट में दर्द या अन्य जी.आई. लक्षण एंसीलोपेगालीस्मिया के लक्षणों में शामिल हैं।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 373938,
+    "eng_query": "how to properly water your grass",
+    "native_query": "अपनी घास को ठीक से कैसे पानी देना है",
+    "eng_answer": "Moisture should penetrate to about 6 to 8 inches deep,Allow the lawn to partially dry out between watering.",
+    "native_answer": "नमी लगभग 6 से 8 इंच गहराई तक प्रवेश कर जानी चाहिए, जिससे घास के मैदान को सिंचाई के बीच आंशिक रूप से सूखने दिया जा सके।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 89573,
+    "eng_query": "cell organelles definition",
+    "native_query": "कोशिका के अंगिका की परिभाषा",
+    "eng_answer": "A membrane-bound compartment or structure in a cell that performs a special function.",
+    "native_answer": "कोशिका में एक झिल्ली-बद्ध डिब्बा या संरचना जो एक विशेष कार्य करती है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 1059718,
+    "eng_query": "what is biztech",
+    "native_query": "क्या बिज़टेक है",
+    "eng_answer": "BizTech Fusion is a global, trusted IT Solutions and Professional Services Provider, specializing in Microsoft and other unified communications solutions, custom application development, and talent acquisition.",
+    "native_answer": "बिज़टेक फ्यूज़न एक वैश्विक, विश्वसनीय आई.टी. समाधान और पेशेवर सेवा प्रदाता है, जो माइक्रोसॉफ्ट और अन्य एकीकृत संचार समाधानों, अनुकूलित अनुप्रयोग विकास और प्रतिभा अधिग्रहण में विशेषज्ञता रखता है।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 163622,
+    "eng_query": "does bactrim work to treat diverticulitis",
+    "native_query": "क्या बैक्टीरिया डायवर्टीकुलाइटिस के इलाज के लिए काम करता है?",
+    "eng_answer": "Yes, bactrim work to treat diverticulitis.",
+    "native_answer": "हाँ, बैक्टीरिया वाहिकाशोथ के इलाज के लिए बैक्टीरिया काम करता है।",
+    "gold_passage_idxs": [
+      3
+    ]
+  },
+  {
+    "query_id": 162662,
+    "eng_query": "does adult acne rosacea give you blepharitis",
+    "native_query": "क्या वयस्क मुँहासों के कारण आपको ब्लेफराइटिस होता है?",
+    "eng_answer": "Yes,Rosacea is a facial skin condition that can cause adult acne and blepharitis.",
+    "native_answer": "हाँ, रोसेसिया एक चेहरे की त्वचा की स्थिति है जो वयस्क मुँहासे और नेत्रश्लेष्मलाशोथ का कारण बन सकती है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 156436,
+    "eng_query": "do gemstones have thermal properties",
+    "native_query": "क्या रत्नों में तापीय गुण होते हैं",
+    "eng_answer": "Yes",
+    "native_answer": "सहमत हैं तो",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 1090287,
+    "eng_query": "symptoms and signs of massive hemothorax",
+    "native_query": "विशाल वक्षरेखा के लक्षण और संकेत",
+    "eng_answer": "Symptoms of hemothorax include: chest pain, especially when breathing; cold, pale, or clammy skin; rapid heart rate; low blood pressure; tense, rapid, or shallow breathing; difficulty breathing.",
+    "native_answer": "हेमथोरैक्स के लक्षणों में शामिल हैं: सीने में दर्द, विशेष रूप से सांस लेते समय; ठंड, पीला, या चिकनी त्वचा; तेज हृदय गति; निम्न रक्तचाप; तनावपूर्ण, तेज, या उथली सांस लेना; सांस लेने में कठिनाई।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 289301,
+    "eng_query": "how many milliliters are in a meter?",
+    "native_query": "एक मीटर में कितने मिलीलीटर होते हैं?",
+    "eng_answer": "One-thousanth",
+    "native_answer": "एक हजार एक सौ सी",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 1059698,
+    "eng_query": "compare cost of dental implants",
+    "native_query": "दंत प्रत्यारोपण की लागत की तुलना करें।",
+    "eng_answer": "A single implant typically costs $2,400 to $3,000, but can be $4,000 to $10,000or more if additional procedures like extractions, bone grafts, tissue grafts or a sinus lift are needed.",
+    "native_answer": "एक एकल प्रत्यारोपण की लागत आम तौर पर 2,400 डॉलर से 3,000 डॉलर होती है, लेकिन यदि अतिरिक्त प्रक्रियाओं जैसे निष्कर्षण, अस्थि प्रत्यारोपण, ऊतक प्रत्यारोपण या साइनस लिफ्ट की आवश्यकता होती है तो यह 4,000 डॉलर से 10,000 डॉलर या अधिक हो सकती है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 192540,
+    "eng_query": "function of tongue",
+    "native_query": "भाषा की बोलचाल",
+    "eng_answer": "Mastication, taste, deglutition, articulation, and oral cleansing.",
+    "native_answer": "चबाना, स्वाद, निगलना, उच्चारण और मौखिक शुद्धिकरण।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 289922,
+    "eng_query": "how many months in a university academic year",
+    "native_query": "एक विश्वविद्यालय शैक्षणिक वर्ष में कितने महीने होते हैं",
+    "eng_answer": "Generally 10 months",
+    "native_answer": "सामान्यतः 10 महीने",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 98729,
+    "eng_query": "convert microns to millimeters",
+    "native_query": "माइक्रॉन को मिलीमीटर में बदलना",
+    "eng_answer": "One millimeter of length converted to micron equals to 1,000.00 µ.",
+    "native_answer": "एक मिलीमीटर लंबाई का माइक्रोन में परिवर्तित होना 1,000.00 माइक्रो के बराबर होता है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 114698,
+    "eng_query": "cyber harassment definition",
+    "native_query": "साइबर उत्पीड़न की परिभाषा",
+    "eng_answer": "It refers to electronic harassment or bullying among minors within a school context.",
+    "native_answer": "यह स्कूल के संदर्भ में नाबालिगों के बीच इलेक्ट्रॉनिक उत्पीड़न या धमकाने को संदर्भित करता है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 366060,
+    "eng_query": "how to keep a dog from getting motion sickness",
+    "native_query": "कुत्ते को गति-रोग से बचाने के तरीके",
+    "eng_answer": "Ginger has long been used in Asia to treat motion sickness symptoms such as nausea and upset stomach. If your dog suffers from car sickness, keep some ginger cookies in the car and feed her some when she gets on the car. 2 Peppermint: Another herb that is effective is peppermint.",
+    "native_answer": "एशिया में लंबे समय से हलचल की बीमारी के लक्षणों जैसे मतली और पेट खराब होने के इलाज के लिए अदरक का उपयोग किया जाता रहा है। यदि आपका कुत्ता कार से चलने की बीमारी से पीड़ित है, तो कार में कुछ अदरक की कुकीज़ रखें और जब वह कार में चढ़े तो उसे कुछ खिलाएं। 2 पुदीना: एक अन्य प्रभावी जड़ी-बूटी पुदीना है।",
+    "gold_passage_idxs": [
+      4,
+      7
+    ]
+  },
+  {
+    "query_id": 1059678,
+    "eng_query": "what is blackberry",
+    "native_query": "काला बेरी क्या है?",
+    "eng_answer": "A BlackBerry is a smartphone manufactured by Research in Motion.",
+    "native_answer": "ब्लैकबेरी रिसर्च इन मोशन द्वारा निर्मित एक स्मार्टफोन है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 247441,
+    "eng_query": "how long do you cook a hard boiled egg",
+    "native_query": "आप एक सख्त उबला हुआ अंडा कितने समय तक पकाते हैं",
+    "eng_answer": "About 12 minutes.",
+    "native_answer": "लगभग 12 मिनट।",
+    "gold_passage_idxs": [
+      7
+    ]
+  },
+  {
+    "query_id": 345237,
+    "eng_query": "how to become a notary oklahoma",
+    "native_query": "नोटरी बनने के लिए कैसे जाएं, ओक्लाहोमा",
+    "eng_answer": "It is recommended that you take a practice notary exam and notary class to ensure you fully understand your role and are ready to perform the official duties of a public notary.",
+    "native_answer": "यह अनुशंसा की जाती है कि आप अभ्यास लेखा परीक्षा और लेखा परीक्षक वर्ग लें ताकि यह सुनिश्चित किया जा सके कि आप अपनी भूमिका को पूरी तरह से समझते हैं और एक सार्वजनिक लेखा परीक्षक के आधिकारिक कर्तव्यों को निभाने के लिए तैयार हैं।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1090284,
+    "eng_query": "symptoms gallbladder attack",
+    "native_query": "पित्ताशय पर हमला",
+    "eng_answer": "The symptoms of gallbladder attack include right upper abdominal pain, nausea, vomiting, and occasionally fever.",
+    "native_answer": "पित्ताशय पर हमले के लक्षणों में दाहिना ऊपरी पेट दर्द, मतली, उल्टी और कभी-कभी बुखार शामिल हैं।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 247194,
+    "eng_query": "how long do you bake muffins",
+    "native_query": "आप कितने समय तक मफिन बेक करते हैं?",
+    "eng_answer": "25-26 minutes.",
+    "native_answer": "25-26 मिनट।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 108172,
+    "eng_query": "cost per foot on hardy plank installation",
+    "native_query": "कठोर तख्त स्थापना पर प्रति पैर लागत",
+    "eng_answer": "$2 to $5 per square foot.",
+    "native_answer": "प्रति वर्ग फुट 2 डॉलर से 5 डॉलर तक।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 310713,
+    "eng_query": "how much does a pap smear cost",
+    "native_query": "पैप स्मीयर की कीमत कितनी होती है",
+    "eng_answer": "$ 50 to $ 200",
+    "native_answer": "50 डॉलर से 200 डॉलर तक",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 257688,
+    "eng_query": "how long does it take to mail a card usps",
+    "native_query": "कार्ड भेजने में कितना समय लगता है",
+    "eng_answer": "1 to 2 days.",
+    "native_answer": "1 से 2 दिन तक।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 195199,
+    "eng_query": "glioma meaning",
+    "native_query": "ग्लियोमा का अर्थ है",
+    "eng_answer": "The meaning of glioma is a tumor springing from the neuroglia or connective tissue of the brain, spinal cord, or other portions of the nervous system.",
+    "native_answer": "ग्लियोमा का अर्थ है मस्तिष्क, रीढ़ की हड्डी या तंत्रिका तंत्र के अन्य हिस्सों के न्यूरोग्लिया या संयोजी ऊतक से निकलने वाला ट्यूमर।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1090283,
+    "eng_query": "symptoms of a bad main seal",
+    "native_query": "एक खराब मुख्य सील के लक्षण",
+    "eng_answer": "The symptoms of a bad rear main seal are slipping or grabbing of clutch if equipped, dripping of engine oil from between the engine and the transmission.",
+    "native_answer": "यदि आप इसे ठीक से बंद कर रहे हैं तो पिछली मुख्य सील के खराब होने के लक्षण हैं: फिसलता हुआ क्लच, या इंजन और ट्रांसमिशन के बीच से इंजन के तेल का टपकना।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 150337,
+    "eng_query": "different types of cuisines",
+    "native_query": "विभिन्न प्रकार के व्यंजन",
+    "eng_answer": "Pizza, pasta and ice cream.",
+    "native_answer": "पिज़्ज़ा, पास्ता और आइसक्रीम।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 1059656,
+    "eng_query": "what is blanchard ground",
+    "native_query": "क्या ब्लैंचर्ड ग्राउंड है",
+    "eng_answer": "Blanchard ground plate is a method of high speed surface grinding to ensure smooth and flat surfaces for specific projects.",
+    "native_answer": "ब्लैंचर्ड ग्राउंड प्लेट विशिष्ट परियोजनाओं के लिए चिकनी और सपाट सतहों को सुनिश्चित करने के लिए उच्च गति वाली सतह पीसने का एक तरीका है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 22241,
+    "eng_query": "are electric cleansers safe?",
+    "native_query": "क्या इलेक्ट्रिक क्लीन्ज़र सुरक्षित हैं?",
+    "eng_answer": "Yes, electric cleansers are safe.",
+    "native_answer": "हाँ, इलेक्ट्रिक क्लीन्ज़र सुरक्षित हैं।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 129177,
+    "eng_query": "define width",
+    "native_query": "परिभाषित चौड़ाई",
+    "eng_answer": "It is defined as the quality of being wide, or the measurement of distance from side to side.",
+    "native_answer": "इसे चौड़ा होने की गुणवत्ता या एक तरफ से दूसरी तरफ की दूरी के माप के रूप में परिभाषित किया जाता है।",
+    "gold_passage_idxs": [
+      5
+    ]
+  },
+  {
+    "query_id": 190655,
+    "eng_query": "forbes definition of human resource management",
+    "native_query": "फोर्ब्स की परिभाषा मानव संसाधन प्रबंधन के लिए",
+    "eng_answer": "Human Resource Management is the term used to describe formal systems devised for the management of people within an organization.",
+    "native_answer": "मानव संसाधन प्रबंधन वह शब्द है जिसका उपयोग किसी संगठन के भीतर लोगों के प्रबंधन के लिए तैयार की गई औपचारिक प्रणालियों का वर्णन करने के लिए किया जाता है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 49275,
+    "eng_query": "bbq pork chops on the grill",
+    "native_query": "ग्रिल पर बबके के मांस के चॉप्स",
+    "eng_answer": "Reduce grill to medium low with a gas grill or move chops to a cooler portion of the charcoal grill.Brush a liberal amount of barbecue sauce on the chop and flip.",
+    "native_answer": "ग्रिल को गैस ग्रिल से मध्यम कम करें या चॉप को चारकोल ग्रिल के ठंडे हिस्से में ले जाएं और चॉप और फ्लिप पर उदार मात्रा में बारबेक्यू सॉस लगाएं।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 1100328,
+    "eng_query": "gandha hindi meaning",
+    "native_query": "गांधा हिंदी का अर्थ है",
+    "eng_answer": "Gandha name meanings is Fragrant.",
+    "native_answer": "गंधा नाम का अर्थ सुगंधित है।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 1059606,
+    "eng_query": "what is blind spot about",
+    "native_query": "क्या अंधे धब्बे के बारे में है",
+    "eng_answer": "Blind spot is a small region in the visual field that cannot be seen and they corresponds to an area in the eye where the optic nerve enters the retina.",
+    "native_answer": "दृष्टि क्षेत्र में एक छोटा सा क्षेत्र होता है जिसे देखा नहीं जा सकता है और यह आँख में उस क्षेत्र से मेल खाता है जहाँ दृष्टि तंत्रिका दृष्टिपटल में प्रवेश करती है।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 1059605,
+    "eng_query": "what is blob:https",
+    "native_query": "ब्लॉब क्या है?",
+    "eng_answer": "Blob URL is a pseudo protocol to allow Blob and File objects to be used as URL source for things like images, download links for binary data and so forth.",
+    "native_answer": "ब्लॉब यू.आर.एल. ब्लॉब और फ़ाइल वस्तुओं को छवियों, बाइनरी डेटा के लिए डाउनलोड लिंक आदि के लिए यू.आर.एल. स्रोत के रूप में उपयोग करने की अनुमति देने के लिए एक छद्म प्रोटोकॉल है।",
+    "gold_passage_idxs": [
+      4
+    ]
+  },
+  {
+    "query_id": 1059601,
+    "eng_query": "what is block paintings",
+    "native_query": "क्या ब्लॉक पेंटिंग है",
+    "eng_answer": "Block printing is using a carved piece of wood or other type of block to imprint an image on fabric or paper.",
+    "native_answer": "ब्लॉक मुद्रण में लकड़ी या अन्य प्रकार के ब्लॉक के नक्काशीदार टुकड़े का उपयोग करके कपड़े या कागज़ पर एक छवि छापी जाती है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1059592,
+    "eng_query": "what is blocked tax",
+    "native_query": "क्या कर ब्लॉक है",
+    "eng_answer": "Blocked Input Tax is non-claimable input tax.",
+    "native_answer": "अवरुद्ध इनपुट कर गैर-दावेदार इनपुट कर है।",
+    "gold_passage_idxs": [
+      2
+    ]
+  },
+  {
+    "query_id": 1059571,
+    "eng_query": "what is blood work ptt",
+    "native_query": "रक्त कार्य क्या है पी.टी.टी.",
+    "eng_answer": "Partial thromboplastin time is a blood test that measures the time it takes your blood to clot.",
+    "native_answer": "आंशिक थ्रोम्बोप्लास्टिन समय एक रक्त परीक्षण है जो आपके रक्त के स्कंदन में लगने वाले समय को मापता है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 1059570,
+    "eng_query": "what is bloodborne pathogens definition",
+    "native_query": "रक्तजनित रोगजनकों की परिभाषा क्या है",
+    "eng_answer": "Bloodborne Pathogens means pathogenic microorganisms that are present in human blood and can cause disease in humans.",
+    "native_answer": "रक्तजनित रोगाणु का अर्थ है रोगजनक सूक्ष्मजीव जो मानव रक्त में मौजूद होते हैं और मनुष्यों में बीमारी का कारण बन सकते हैं।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 1059569,
+    "eng_query": "what is bloomington in zip code",
+    "native_query": "ज़िप कोड में ब्लूमिंगटन क्या है",
+    "eng_answer": "47401 is zip code for Bloomington, Indiana.",
+    "native_answer": "47401 ब्लूमिंगटन, इंडियाना का ज़िप कोड है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1059538,
+    "eng_query": "what is blotting",
+    "native_query": "क्या है ब्लॉटिंग?",
+    "eng_answer": "The term blotting refers to the transfer of biological samples from a gel to a membrane and their subsequent detection on the surface of the membrane.",
+    "native_answer": "ब्लॉटिंग शब्द एक जेल से एक झिल्ली में जैविक नमूनों के स्थानांतरण और झिल्ली की सतह पर उनका बाद का पता लगाने को संदर्भित करता है।",
+    "gold_passage_idxs": [
+      9
+    ]
+  },
+  {
+    "query_id": 1100327,
+    "eng_query": "are blanket mortgages used by developers",
+    "native_query": "विकासकर्ताओं द्वारा उपयोग किए जाने वाले कंबल बंधक",
+    "eng_answer": "Yes, Developers use blanket mortgages to develop large tracts of land into many residential or commercial properties.",
+    "native_answer": "हाँ, डेवलपर्स बड़े पैमाने पर भूमि को कई आवासीय या वाणिज्यिक संपत्तियों में विकसित करने के लिए कंबल बंधक का उपयोग करते हैं।",
+    "gold_passage_idxs": [
+      1
+    ]
+  },
+  {
+    "query_id": 1059496,
+    "eng_query": "what is blue ice in a lake",
+    "native_query": "झील में नीली बर्फ क्या होती है",
+    "eng_answer": "Blue ice in a lake is a result of an overtone of an oxygen–hydrogen or O−H bond stretch in water, which absorbs light at the red end of the visible spectrum.",
+    "native_answer": "झील में नीली बर्फ पानी में ऑक्सीजन-हाइड्रोजन या ओ-एच बॉन्ड के फैलाव के परिणामस्वरूप होती है, जो दृश्यमान वर्णक्रम के लाल छोर पर प्रकाश को अवशोषित करती है।",
+    "gold_passage_idxs": [
+      0
+    ]
+  },
+  {
+    "query_id": 1059466,
+    "eng_query": "what is blue opalite",
+    "native_query": "नीला ओपलाइट क्या है",
+    "eng_answer": "Blue opalite refers to man-made glass that an iridescent surface that many times is a blue color.",
+    "native_answer": "नीला ओपलाइट मानव निर्मित कांच को संदर्भित करता है जो एक इंद्रधनुष सतह है जो कई बार नीले रंग की होती है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  },
+  {
+    "query_id": 1059465,
+    "eng_query": "what is blue plate special",
+    "native_query": "क्या नीली प्लेट खास है",
+    "eng_answer": "A blue plate special is a meal at a restaurants that is a special item for the day.",
+    "native_answer": "रेस्तरां में ब्लू प्लेट स्पेशल भोजन का एक विशेष व्यंजन होता है जो उस दिन के लिए एक विशेष व्यंजन होता है।",
+    "gold_passage_idxs": [
+      8
+    ]
+  }
+]

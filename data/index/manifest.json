@@ -1,0 +1,11 @@
+{
+  "lang": "hi",
+  "n_docs": 400,
+  "n_chunks": 3140,
+  "strategy": "fixed",
+  "embed_model": "BAAI/bge-small-en-v1.5",
+  "dim": 384,
+  "embed_seconds": 607.9,
+  "embed_rate_per_s": 5.2,
+  "total_seconds": 608.4
+}

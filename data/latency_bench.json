@@ -1,0 +1,339 @@
+{
+  "summary": {
+    "mode": "text",
+    "n_total": 25,
+    "n_ok": 25,
+    "n_failed": 0,
+    "n_refused": 4,
+    "speculation_hit_rate": 0.0,
+    "stats": {
+      "t1_ms": {
+        "n": 25,
+        "p50": 316.4,
+        "p70": 341.4,
+        "p100": 609.2,
+        "mean": 309.4
+      },
+      "t2_ms": {
+        "n": 25,
+        "p50": 318.7,
+        "p70": 342.8,
+        "p100": 613.2,
+        "mean": 311.8
+      },
+      "t_retrieval_ms": {
+        "n": 25,
+        "p50": 62.4,
+        "p70": 70.7,
+        "p100": 104.7,
+        "mean": 67.1
+      },
+      "provider_rtt_ms": {
+        "n": 22,
+        "p50": 135.9,
+        "p70": 135.9,
+        "p100": 135.9,
+        "mean": 135.9
+      }
+    }
+  },
+  "records": [
+    {
+      "query": ". what is a corporation?",
+      "ok": true,
+      "wall_ms": 595.7,
+      "top_score": 0.8352,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 74.5615000005273,
+      "t1_ms": 326.10879999992903,
+      "t2_ms": 328.1157000001258,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "why did rachel carson write an obligation to endure",
+      "ok": true,
+      "wall_ms": 614.8,
+      "top_score": 0.8386,
+      "cache_hit": false,
+      "refused": "not_grounded",
+      "t_retrieval_ms": 59.12549999993644,
+      "t1_ms": 340.1770000000397,
+      "t2_ms": 341.61279999989347,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "honesty or integrity definition",
+      "ok": true,
+      "wall_ms": 634.8,
+      "top_score": 0.8786,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 62.04470000011497,
+      "t1_ms": 361.4959999995335,
+      "t2_ms": 362.64829999981885,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "how many women did frank gifford marry",
+      "ok": true,
+      "wall_ms": 584.6,
+      "top_score": 0.7505,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 63.3122999997795,
+      "t1_ms": 315.3658999999607,
+      "t2_ms": 316.60310000006575,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "how fast does an eagle travel",
+      "ok": true,
+      "wall_ms": 548.1,
+      "top_score": 0.8269,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 55.143600000519655,
+      "t1_ms": 277.02060000046913,
+      "t2_ms": 278.20040000005974,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "stubhub toll free number",
+      "ok": true,
+      "wall_ms": 582.9,
+      "top_score": 0.8766,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 61.663899999985006,
+      "t1_ms": 311.21079999957146,
+      "t2_ms": 313.6218999998164,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "does delta fly to bangalore",
+      "ok": true,
+      "wall_ms": 551.0,
+      "top_score": 0.7976,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 62.41979999958858,
+      "t1_ms": 280.4361999997127,
+      "t2_ms": 281.4201999999568,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "how long for cantaloupe to mature",
+      "ok": true,
+      "wall_ms": 636.6,
+      "top_score": 0.8286,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 61.88130000009551,
+      "t1_ms": 362.3431999994864,
+      "t2_ms": 363.5227999993731,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "defination arbitrary",
+      "ok": true,
+      "wall_ms": 555.8,
+      "top_score": 0.7759,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 52.148299999316805,
+      "t1_ms": 294.97859999992215,
+      "t2_ms": 297.61560000042664,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "what is barter system and its problems",
+      "ok": true,
+      "wall_ms": 628.4,
+      "top_score": 0.8828,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 70.94260000030772,
+      "t1_ms": 353.77040000003035,
+      "t2_ms": 357.04530000020895,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "study of climate weather",
+      "ok": true,
+      "wall_ms": 585.9,
+      "top_score": 0.8091,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 77.21779999974387,
+      "t1_ms": 309.7759000002043,
+      "t2_ms": 317.96329999997397,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "culture of sociology definition",
+      "ok": true,
+      "wall_ms": 606.5,
+      "top_score": 0.8253,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 81.98249999986729,
+      "t1_ms": 332.1440999998231,
+      "t2_ms": 335.263699999814,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "define radical neck",
+      "ok": true,
+      "wall_ms": 604.9,
+      "top_score": 0.7673,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 78.2997999995132,
+      "t1_ms": 330.866899999819,
+      "t2_ms": 333.1269999998767,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "how much xbox games cost",
+      "ok": true,
+      "wall_ms": 606.5,
+      "top_score": 0.8404,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 61.60050000016781,
+      "t1_ms": 343.5226000001421,
+      "t2_ms": 347.2323000005417,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "what is basal in dna",
+      "ok": true,
+      "wall_ms": 572.9,
+      "top_score": 0.7927,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 53.5727999995288,
+      "t1_ms": 299.2191000003004,
+      "t2_ms": 302.01930000021093,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "how long should you carb cycle",
+      "ok": true,
+      "wall_ms": 558.3,
+      "top_score": 0.8651,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 57.77670000043145,
+      "t1_ms": 287.083100000018,
+      "t2_ms": 288.8763000000836,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "sty causes",
+      "ok": true,
+      "wall_ms": 321.1,
+      "top_score": 0.707,
+      "cache_hit": false,
+      "refused": "retrieval_low_confidence",
+      "t_retrieval_ms": 51.96879999948578,
+      "t1_ms": 52.59120000027906,
+      "t2_ms": 52.59120000027906
+    },
+    {
+      "query": "highest record temperature for redding ca",
+      "ok": true,
+      "wall_ms": 871.9,
+      "top_score": 0.8861,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 104.68029999992723,
+      "t1_ms": 609.175900000082,
+      "t2_ms": 613.2193000003099,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "how much does matt lauer make a year",
+      "ok": true,
+      "wall_ms": 561.0,
+      "top_score": 0.7441,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 60.88939999972354,
+      "t1_ms": 286.409299999832,
+      "t2_ms": 291.19919999993726,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "how to print an excel sheet",
+      "ok": true,
+      "wall_ms": 341.2,
+      "top_score": 0.8259,
+      "cache_hit": false,
+      "refused": "retrieval_low_confidence",
+      "t_retrieval_ms": 72.50289999956294,
+      "t1_ms": 72.98369999989518,
+      "t2_ms": 72.98369999989518
+    },
+    {
+      "query": "death head units definition",
+      "ok": true,
+      "wall_ms": 591.3,
+      "top_score": 0.7005,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 57.72810000053141,
+      "t1_ms": 316.430599999876,
+      "t2_ms": 318.7082000004011,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "are corn meal and corn flour the same",
+      "ok": true,
+      "wall_ms": 611.8,
+      "top_score": 0.8195,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 95.62610000011773,
+      "t1_ms": 341.68080000017653,
+      "t2_ms": 343.09659999962605,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "what is basic? uni",
+      "ok": true,
+      "wall_ms": 717.7,
+      "top_score": 0.7472,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 69.33220000064466,
+      "t1_ms": 462.8837999998723,
+      "t2_ms": 464.21860000009474,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "do red delicious apples make good applesauce",
+      "ok": true,
+      "wall_ms": 674.0,
+      "top_score": 0.826,
+      "cache_hit": false,
+      "grounded": true,
+      "t_retrieval_ms": 62.66739999955462,
+      "t1_ms": 398.2120999999097,
+      "t2_ms": 403.41780000017025,
+      "provider_rtt_ms": 135.91180000003078
+    },
+    {
+      "query": "how much weight does a stamp cover",
+      "ok": true,
+      "wall_ms": 341.7,
+      "top_score": 0.7464,
+      "cache_hit": false,
+      "refused": "retrieval_low_confidence",
+      "t_retrieval_ms": 69.59350000033737,
+      "t1_ms": 70.1123999997435,
+      "t2_ms": 70.1123999997435
+    }
+  ]
+}
