@@ -1,0 +1,8 @@
+.venv/
+.git/
+__pycache__/
+*.pyc
+.env
+data/hf_cache/
+data/*.log
+bench/audio/
