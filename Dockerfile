@@ -34,4 +34,9 @@ RUN python -c "from fastembed import TextEmbedding; \
     && python -c "import hnswlib, fastembed, fastapi; print('imports ok')"
 
 EXPOSE 8000
-CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
+
+# Must stay in shell form: Railway injects PORT at runtime and an exec-form CMD
+# would pass "$PORT" through literally, which uvicorn rejects with
+# "invalid int value: '$PORT'". Do not add a startCommand override in
+# railway.json either -- that is run without a shell and reintroduces the bug.
+CMD uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000} --log-level info
