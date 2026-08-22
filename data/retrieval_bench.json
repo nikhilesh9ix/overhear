@@ -1,0 +1,61 @@
+{
+  "lang": "hi",
+  "n_docs": 120,
+  "n_passages": 1196,
+  "embed_model": "BAAI/bge-small-en-v1.5",
+  "ks": [
+    1,
+    5
+  ],
+  "winner": "semantic",
+  "results": [
+    {
+      "strategy": "semantic",
+      "n_chunks": 655,
+      "chunks_per_doc": 5.46,
+      "chunk_chars_mean": 567,
+      "chunk_chars_p50": 590,
+      "chunk_chars_p95": 866,
+      "recall@1": 0.4833,
+      "recall@5": 1.0,
+      "mrr@10": 0.6935,
+      "search_ms_p50": 0.059,
+      "search_ms_p95": 0.082,
+      "chunk_wall_s": 147.3,
+      "embed_wall_s": 186.7,
+      "index_build_s": 0.0
+    },
+    {
+      "strategy": "fixed",
+      "n_chunks": 929,
+      "chunks_per_doc": 7.74,
+      "chunk_chars_mean": 484,
+      "chunk_chars_p50": 512,
+      "chunk_chars_p95": 512,
+      "recall@1": 0.5167,
+      "recall@5": 0.975,
+      "mrr@10": 0.6924,
+      "search_ms_p50": 0.067,
+      "search_ms_p95": 0.113,
+      "chunk_wall_s": 0.0,
+      "embed_wall_s": 164.8,
+      "index_build_s": 0.0
+    },
+    {
+      "strategy": "recursive",
+      "n_chunks": 1098,
+      "chunks_per_doc": 9.15,
+      "chunk_chars_mean": 338,
+      "chunk_chars_p50": 311,
+      "chunk_chars_p95": 530,
+      "recall@1": 0.4167,
+      "recall@5": 0.95,
+      "mrr@10": 0.6289,
+      "search_ms_p50": 0.069,
+      "search_ms_p95": 0.082,
+      "chunk_wall_s": 0.0,
+      "embed_wall_s": 182.4,
+      "index_build_s": 0.0
+    }
+  ]
+}

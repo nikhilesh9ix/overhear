@@ -2,9 +2,11 @@
 __pycache__/
 *.pyc
 .env
-data/*.bin
 data/*.npy
-data/*.jsonl
+data/ingest.log
+# the built index is small (~5MB) and is committed so the
+# deployed container does not have to re-embed on boot
+!data/index/
 data/hf_cache/
 frontend/node_modules/
 frontend/.next/

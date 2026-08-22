@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Overhear — speculative voice RAG</title>
+<style>
+  :root {
+    --bg: #0d0f14; --panel: #151922; --line: #232a37; --fg: #e7ecf3;
+    --dim: #8b97ab; --accent: #5eead4; --warn: #fbbf24; --bad: #f87171;
+    --good: #4ade80;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.55 system-ui, sans-serif;
+    display: flex; flex-direction: column; min-height: 100vh;
+  }
+  header { padding: 20px 24px 12px; border-bottom: 1px solid var(--line); }
+  h1 { margin: 0; font-size: 19px; letter-spacing: -0.01em; }
+  h1 span { color: var(--accent); }
+  .sub { color: var(--dim); font-size: 13px; margin-top: 4px; }
+  main { flex: 1; display: grid; grid-template-columns: 1fr 380px; gap: 0; }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+  .left { padding: 24px; display: flex; flex-direction: column; gap: 18px; }
+  .right { border-left: 1px solid var(--line); padding: 20px; background: #10141c; overflow-y: auto; max-height: 100vh; }
+  @media (max-width: 900px) { .right { border-left: none; border-top: 1px solid var(--line); } }
+
+  button {
+    font: 600 15px system-ui; padding: 13px 22px; border-radius: 10px; cursor: pointer;
+    border: 1px solid var(--line); background: var(--panel); color: var(--fg);
+  }
+  button.rec { background: var(--accent); color: #06231f; border-color: transparent; }
+  button.stop { background: var(--bad); color: #2a0b0b; border-color: transparent; }
+  button:disabled { opacity: .45; cursor: not-allowed; }
+  .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+  .label { font-size: 11px; text-transform: uppercase; letter-spacing: .09em; color: var(--dim); margin-bottom: 7px; }
+  #transcript { font-size: 21px; min-height: 34px; }
+  #transcript .interim { color: var(--dim); font-style: italic; }
+  #answer { font-size: 17px; min-height: 26px; white-space: pre-wrap; }
+  .refusal { color: var(--warn); }
+  .err { color: var(--bad); font-family: var(--mono); font-size: 13px; }
+
+  .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .metric { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+  .metric .v { font: 700 24px var(--mono); }
+  .metric .k { font-size: 11px; color: var(--dim); text-transform: uppercase; letter-spacing: .07em; }
+  .metric .n { font-size: 11px; color: var(--dim); margin-top: 3px; }
+  .ok { color: var(--good); } .over { color: var(--warn); }
+
+  .chunk { border-left: 2px solid var(--line); padding: 7px 0 7px 10px; margin-bottom: 9px; font-size: 12.5px; color: var(--dim); }
+  .chunk b { color: var(--fg); font-family: var(--mono); font-size: 11.5px; }
+  #log { font: 11.5px/1.5 var(--mono); color: var(--dim); }
+  #log div { padding: 1.5px 0; border-bottom: 1px solid #1a1f29; }
+  .t { color: #4b5costs; }
+  .badge { display: inline-block; font: 600 10.5px var(--mono); padding: 2px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--dim); }
+  .badge.hit { color: var(--good); border-color: #1e3d2b; }
+  .badge.miss { color: var(--warn); border-color: #3d331e; }
+  input[type=text] { flex:1; min-width: 200px; padding: 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); font: 15px system-ui; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Overhear <span>— speculative voice RAG</span></h1>
+  <div class="sub">Retrieval runs on interim transcripts while you are still talking, so only generation is left when you stop.</div>
+</header>
+
+<main>
+  <div class="left">
+    <div class="row">
+      <button id="rec" class="rec">Hold to ask — click to start</button>
+      <span id="status" class="badge">idle</span>
+      <span id="spec" class="badge"></span>
+    </div>
+
+    <div class="row">
+      <input type="text" id="textq" placeholder="…or type a question (same pipeline, no mic)" />
+      <button id="ask">Ask</button>
+    </div>
+
+    <div class="card">
+      <div class="label">Transcript</div>
+      <div id="transcript"><span class="interim">—</span></div>
+    </div>
+
+    <div class="card">
+      <div class="label">Answer</div>
+      <div id="answer">—</div>
+      <div id="cites" class="sub" style="margin-top:8px"></div>
+    </div>
+
+    <div class="metrics">
+      <div class="metric"><div class="k">T1 · first token</div><div class="v" id="t1">—</div><div class="n">end of speech → first token · target &lt;200ms</div></div>
+      <div class="metric"><div class="k">T2 · full answer</div><div class="v" id="t2">—</div><div class="n">end of speech → last token</div></div>
+      <div class="metric"><div class="k">T-STT</div><div class="v" id="tstt">—</div><div class="n">Sarvam transcription, reported separately</div></div>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="label">Retrieved chunks</div>
+    <div id="chunks" class="sub">—</div>
+    <div class="label" style="margin-top:20px">Event trace</div>
+    <div id="log"></div>
+  </div>
+</main>
+
+<script>
+const SR = 16000;
+const $ = id => document.getElementById(id);
+let ws = null, ctx = null, node = null, stream = null, recording = false;
+let t0 = performance.now();
+
+function log(msg, cls) {
+  const d = document.createElement('div');
+  const t = ((performance.now() - t0)).toFixed(0).padStart(6);
+  d.innerHTML = `<span class="t">${t}ms</span>  ${msg}`;
+  if (cls) d.className = cls;
+  $('log').prepend(d);
+}
+function setStatus(s, cls) { const e = $('status'); e.textContent = s; e.className = 'badge ' + (cls||''); }
+function fmtMs(v) { return v == null ? '—' : (v < 1000 ? v.toFixed(0) + 'ms' : (v/1000).toFixed(2) + 's'); }
+
+function wsUrl() {
+  const p = location.protocol === 'https:' ? 'wss:' : 'ws:';
+  return `${p}//${location.host}/ws`;
+}
+
+function connect() {
+  return new Promise((resolve, reject) => {
+    ws = new WebSocket(wsUrl());
+    ws.binaryType = 'arraybuffer';
+    ws.onopen = () => { log('websocket open'); resolve(); };
+    ws.onerror = e => { log('websocket error', 'err'); reject(e); };
+    ws.onclose = () => { log('websocket closed'); setStatus('idle'); };
+    ws.onmessage = ev => handle(JSON.parse(ev.data));
+  });
+}
+
+let answerBuf = '';
+function handle(m) {
+  switch (m.type) {
+    case 'session':
+      log(`session ready · index ${m.index_size} chunks`); setStatus('listening', 'hit'); break;
+    case 'speech_start': log('VAD speech_start'); setStatus('speaking', 'hit'); break;
+    case 'speech_end':
+      log('VAD speech_end — T1/T2 clock starts here'); setStatus('thinking', 'miss'); break;
+    case 'partial':
+      $('transcript').innerHTML = `<span class="interim">${escapeHtml(m.text)}</span>`;
+      log(`partial: "${escapeHtml(m.text)}" → speculating`); break;
+    case 'final':
+      $('transcript').textContent = m.text;
+      $('tstt').textContent = fmtMs(m.t_stt_ms);
+      log(`FINAL: "${escapeHtml(m.text)}" (lang ${m.language||'?'})`);
+      if (!m.vad_anchored) log('note: VAD never fired, T1/T2 anchored at final instead', 'err');
+      answerBuf = ''; $('answer').textContent = ''; break;
+    case 'retrieval': {
+      const b = m.cache_hit ? '<span class="badge hit">speculation HIT</span>'
+                            : '<span class="badge miss">MISS — retrieved on critical path</span>';
+      $('spec').outerHTML = `<span id="spec">${b}</span>`;
+      log(`retrieval ${m.cache_hit ? 'HIT (0ms on critical path)' : 'MISS ('+m.elapsed_ms+'ms)'} · top=${m.top_score} gap=${m.score_gap}`);
+      $('chunks').innerHTML = m.chunks.map(c =>
+        `<div class="chunk"><b>#${c.chunk_id} · doc ${c.doc_id} · ${c.score.toFixed(3)}</b><br>${escapeHtml(c.preview)}…</div>`).join('');
+      break;
+    }
+    case 'first_token': $('t1').innerHTML = `<span class="${m.t1_ms<200?'ok':'over'}">${fmtMs(m.t1_ms)}</span>`;
+      log(`first token at T1=${m.t1_ms}ms`); break;
+    case 'token': answerBuf += m.text; $('answer').textContent = answerBuf; break;
+    case 'answer':
+      $('answer').textContent = m.answer.answer;
+      $('cites').textContent = m.answer.citations.length
+        ? `grounded · cites chunk ${m.answer.citations.map(c=>c.chunk_id).join(', ')} · ${m.answer.provider}/${m.answer.model}`
+        : '';
+      log(`answer grounded=${m.answer.grounded} via ${m.answer.provider}`); setStatus('done', 'hit'); break;
+    case 'refusal':
+      $('answer').innerHTML = `<span class="refusal">${escapeHtml(m.message)}</span>`;
+      $('cites').textContent = `refused at ${m.gate} gate · ${m.code}`;
+      log(`REFUSED at ${m.gate}: ${m.code}`, 'err'); setStatus('refused', 'miss'); break;
+    case 'timings':
+      $('t2').innerHTML = m.timings.t2_ms == null ? '—'
+        : `<span class="${m.timings.t2_ms<200?'ok':'over'}">${fmtMs(m.timings.t2_ms)}</span>`;
+      if (m.timings.t_stt_ms) $('tstt').textContent = fmtMs(m.timings.t_stt_ms);
+      log(`timings ${JSON.stringify(m.timings)}`); break;
+    case 'error':
+      $('answer').innerHTML = `<span class="err">${escapeHtml(m.code||'error')}: ${escapeHtml(m.message||'')}</span>`;
+      log(`ERROR ${m.code}: ${m.message}`, 'err'); setStatus('error', 'miss'); break;
+    case 'stt_end': log('sarvam session ended'); break;
+  }
+}
+function escapeHtml(s) { return String(s??'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+// --- mic capture: browser gives Float32 at device rate; we downsample to 16k PCM16 ---
+const WORKLET = `
+class PCM extends AudioWorkletProcessor {
+  constructor() { super(); this.buf = []; this.ratio = sampleRate / ${SR}; this.pos = 0; }
+  process(inputs) {
+    const ch = inputs[0][0];
+    if (!ch) return true;
+    // linear-interpolation resample down to 16k
+    const out = [];
+    while (this.pos < ch.length) {
+      const i = Math.floor(this.pos);
+      const frac = this.pos - i;
+      const a = ch[i], b = ch[i+1] !== undefined ? ch[i+1] : ch[i];
+      out.push(a + (b - a) * frac);
+      this.pos += this.ratio;
+    }
+    this.pos -= ch.length;
+    const pcm = new Int16Array(out.length);
+    for (let i = 0; i < out.length; i++) {
+      const s = Math.max(-1, Math.min(1, out[i]));
+      pcm[i] = s < 0 ? s * 0x8000 : s * 0x7fff;
+    }
+    this.port.postMessage(pcm.buffer, [pcm.buffer]);
+    return true;
+  }
+}
+registerProcessor('pcm', PCM);
+`;
+
+async function start() {
+  t0 = performance.now();
+  $('log').innerHTML = ''; $('answer').textContent = '—'; $('cites').textContent = '';
+  $('t1').textContent = $('t2').textContent = $('tstt').textContent = '—';
+  $('chunks').textContent = '—';
+
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({
+      audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true }
+    });
+  } catch (e) { log('mic permission denied: ' + e.message, 'err'); return; }
+
+  await connect();
+
+  ctx = new AudioContext();
+  const blob = new Blob([WORKLET], { type: 'application/javascript' });
+  await ctx.audioWorklet.addModule(URL.createObjectURL(blob));
+  const src = ctx.createMediaStreamSource(stream);
+  node = new AudioWorkletNode(ctx, 'pcm');
+  node.port.onmessage = e => { if (ws && ws.readyState === 1) ws.send(e.data); };
+  src.connect(node);
+  log(`mic open at ${ctx.sampleRate}Hz → resampling to ${SR}Hz`);
+
+  recording = true;
+  $('rec').textContent = 'Stop';
+  $('rec').className = 'stop';
+}
+
+async function stop() {
+  recording = false;
+  $('rec').textContent = 'Hold to ask — click to start';
+  $('rec').className = 'rec';
+  if (ws && ws.readyState === 1) ws.send(JSON.stringify({ event: 'stop' }));
+  if (node) node.disconnect();
+  if (stream) stream.getTracks().forEach(t => t.stop());
+  if (ctx) await ctx.close();
+  log('mic closed, flushing to Sarvam');
+}
+
+$('rec').onclick = () => recording ? stop() : start();
+
+$('ask').onclick = async () => {
+  const q = $('textq').value.trim();
+  if (!q) return;
+  t0 = performance.now(); $('log').innerHTML = '';
+  $('transcript').textContent = q; $('answer').textContent = ''; $('cites').textContent = '';
+  $('t1').textContent = $('t2').textContent = '—'; $('tstt').textContent = 'n/a (typed)';
+  log('POST /ask (text path, same pipeline)');
+  const r = await fetch('/ask', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ query: q })
+  });
+  const d = await r.json();
+  if (d.error) { log(d.error, 'err'); return; }
+  answerBuf = '';
+  for (const ev of d.events) handle(ev);
+};
+$('textq').addEventListener('keydown', e => { if (e.key === 'Enter') $('ask').click(); });
+</script>
+</body>
+</html>

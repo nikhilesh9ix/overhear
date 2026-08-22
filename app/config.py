@@ -17,8 +17,8 @@ class Settings(BaseSettings):
     hf_token: str = ""
 
     embed_model: str = "BAAI/bge-small-en-v1.5"
-    groq_model: str = "llama-3.1-8b-instant"
-    cerebras_model: str = "llama3.1-8b"
+    groq_model: str = "qwen/qwen3.6-27b"
+    cerebras_model: str = "gpt-oss-120b"
 
     speculation_debounce_ms: int = 120
     top_k: int = 5
