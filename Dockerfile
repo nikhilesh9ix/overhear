@@ -13,11 +13,22 @@ COPY pyproject.toml ./
 # hnswlib 0.8.0 is published as an sdist only -- there is no manylinux wheel -- so
 # it is compiled here. The toolchain is installed and removed inside one layer so
 # it does not end up in the shipped image.
+#
+# HNSWLIB_NO_NATIVE and the explicit -march matter: hnswlib's setup.py compiles
+# with -march=native, baking in whatever instruction set the *build* machine has.
+# On Render that produced a binary the *runtime* instance could not execute --
+# "Illegal instruction (core dumped)", exit 132, immediately on import. Targeting
+# a portable baseline costs a little search throughput; HNSW query time was
+# 0.067ms, so there is room.
+ENV HNSWLIB_NO_NATIVE=1 \
+    CFLAGS="-march=x86-64 -mtune=generic" \
+    CXXFLAGS="-march=x86-64 -mtune=generic"
+
 RUN set -eux; \
     apt-get update; \
     apt-get install -y --no-install-recommends build-essential g++; \
     pip install --no-cache-dir uv; \
-    uv pip install --system --no-cache -r pyproject.toml; \
+    uv pip install --system --no-cache --no-binary hnswlib -r pyproject.toml; \
     apt-get purge -y --auto-remove build-essential g++; \
     rm -rf /var/lib/apt/lists/*
 
